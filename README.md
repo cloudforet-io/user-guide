@@ -16,15 +16,15 @@ Space One is a cloud management platform that enables integrated management of M
 
 #### 1. Multi Cloud Management
 
-* **IaaS 인프라 통합 :** 다양한 Cloud 에 흩어진 인프라 정보를 자동 탐색 및 정렬
-* **Resource 조회 :** 리소스간 연관성 중심의 빠른 조회
-* **Resource 모니터링 :** 인프라와 연결된 리소스 현황 즉시 연결
+* **IaaS Infra-integration :** Auto-discovery and sorting infrastructure information that scattered across various platform
+* **Resource Search :** Quick search that reflected on relevance over resources
+* **Resource Monitoring :** Instant connection for resources status that connected to infrastructure
 
 #### 2. Cloud Orchestration
 
-* **Infrastructure as Code :** Code 기반의 인프라 형상 관리 
-* **Remote Command :** 다수의 원격 서버에 대한 일괄 명령 실행 
-* **Application Catalog :** Database, Middleware 등의 다양한 어플리케이션을 쉽게 설치하도록 지원 
+* **Infrastructure as Code :** Code-based infrastructure configuration management
+* **Remote Command :** Batch command execution over multiple remote servers 
+* **Application Catalog :** Supports installation of various applications such as Database and Middleware, etc.
 
 #### **3. Infra. Analysis**
 
