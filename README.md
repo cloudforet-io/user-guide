@@ -15,7 +15,7 @@ description: One cloud management platform for any cloud
 
 #### 1. Multi Cloud Management
 
-* 「IaaS」インフラの統合: 多様なCloudに散らばったインフラ情報を自動探索·整列
+* **「IaaS」インフラの統合**: 多様なCloudに散らばったインフラ情報を自動探索·整列
 * **Resource Search :** Quick search that reflected on relevance over resources
 * **Resource Monitoring :** Instant connection for resources status that connected to infrastructure
 
