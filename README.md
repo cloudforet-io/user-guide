@@ -6,9 +6,8 @@ description: One cloud management platform for any cloud
 
 ## SpaceONE
 
-Space One is a cloud management platform that enables integrated management of Multi-Cloud.
-
- We boost and maximize your operational efficiency in managements as following features
+スペースワンは、Multi-Cloudを統合管理できるようにするCloud管理プラットフォームです。   
+管理と運営を便利にするために、以下のような機能を提供します。
 
 
 
