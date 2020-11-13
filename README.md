@@ -6,7 +6,7 @@ description: One cloud management platform for any cloud
 
 ## SpaceONE
 
-스페이스원은 Multi-Cloud 를 통합 관리 할 수 있도록 하는 Cloud 관리 플랫폼 입니다. 
+스페이스원은 Multi-Cloud 를 통합 관리 할 수 있도록 하는 클라우 관리 플랫폼 입니다. 
 
 관리와 운영을 편리하게 하기 위해 아래와 같은 기능을 제공 합니다. 
 
