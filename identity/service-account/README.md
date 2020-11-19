@@ -4,22 +4,22 @@ description: 각 Cloud Provider의 Credential 정보를 관리 합니다.
 
 # Service Account
 
-## 둘러보기
+## 概要
 
-Service Account 페이지를 통해 사용자는 다양한 Provider에서 제공하는 Credential을 편리하게 관리할 수 있습니다. 이 정보를 바탕으로 Multi Cloud Resource 정보를 수집 합니다. 
+Service Accountページからユーザーは様々なProviderが提供するCredentialを楽に管理することができます。この情報をベースにしてMulti Cloud Resource 情報を収集します。
 
 ![Service Account &#xAD00;&#xB9AC; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-4.34.53-2%20%281%29.png)
 
-페이지 내에서 사용자는 아래의 작업이 가능 합니다. 
+ページでユーザーは次の作業ができます。
 
-* Service Account 추가
-* Service Account 삭제/Project 변경
-* AWS Console로 링크
-* 상세 조회 및 관리
+* Service Account追加
+* Service Account削除/Project変更
+* AWS Consoleとリンク
+* 詳細照会及び管理
 
 
 
-현재 SpaceONE에서 지원하는 service provider는 다음과 같습니다. 
+現在SpaceONEが支援するservice providerは次の通りです。
 
 * AWS
 * Google Cloud
@@ -27,105 +27,105 @@ Service Account 페이지를 통해 사용자는 다양한 Provider에서 제공
 * MEGAZONE
 * SpaceONE
 
-## Service Account 추가
+## Service Account追加
 
-Cloud Provider를 선택한 후 _**+ Add**_ 버튼을 클릭하여 Service Account를 새로 추가할 수 있습니다. 
+Cloud Providerを選択した後、_**+ Add**_ をクリックしてService Accountが新しく追加できます。
 
-사용자 가이드 에서는 AWS의 IAM을 중심으로 살펴 봅니다. 
+ユーザーガイドではAWSのIAMを例としています。
 
-Service Account 입력 페이지에서는 \* 로 표기된 항목을 입력하면 간단히 추가가 가능합니다. 
+Service Account入力ページは\* で表記されている項目を入力すれば簡単に追加できます。
 
 ### Base Information
 
 ![Ser](../../.gitbook/assets/2020-08-07-5.44.58.png)
 
-* Name : Service Account의 이름을 입력 합니다. 
-* Account ID : AWS의 Account ID 정보를 입력 합니다.\(12자리의 숫자로 표시됩니다.\)
-* Tag : Service Account의 Tag 정보를 편집 합니다.
+* Name : Service Account名を入力します。
+* Account ID : AWSのAccount ID情報を入力します。\(12桁の数字で表示されます。\)
+* Tag : Service AccountのTag情報を編集します。
 
 ### Credentials
 
-SpaceONE에서는 두가지 타입의 Service Account를 지원 합니다. \(aws\_access\_key, aws\_assume\_role\)
+SpaceONEでは二つのタイプのService Accountをサポートします。\(aws\_access\_key, aws\_assume\_role\)
 
-각 타입별 입력 항목은 아래와 같습니다.
+各タイプ別入力項目は次のようです。
 
 #### aws\_access\_key  
 
 ![aws access key &#xBC29;&#xC2DD;&#xC758; key &#xC785;&#xB825; &#xD3FC;](../../.gitbook/assets/2020-08-07-5.48.28.png)
 
-* Region\(Option\) : 수집 대상인 Region 정보를 입력 합니다. 입력하지 않을 경우 모든 region으로부터 cloud resource를 스캔 합니다. 
-* AWS Access Key\(Required\) : IAM의 Access Key를 입력 합니다. 주로  Read Only IAM 계정을 별도 생성하여 입력 합니다.  
-* AWS Secret Key\(Required\) : 위에서 입력한 IAM의 Secret key를 입력 합니다. 
+* Region\(Option\) : 収集対象のRegion情報を入力します。入力しない場合、すべてのregionからcloud resourceをスキャンします。
+* AWS Access Key\(Required\) : IAMのAccess Keyを入力します。主にRead Only IAMアカウントを別途作成して入力します。  
+* AWS Secret Key\(Required\) : 上で入力したIAMのSecret keyを入力します。
 
 #### aws\_assume\_role
 
 ![aws\_assume\_role &#xBC29;&#xC2DD;&#xC758; &#xC785;&#xB825; &#xD3FC;](../../.gitbook/assets/2020-08-07-5.53.33.png)
 
-* Region\(Option\) : 수집 대상인 Region 정보를 입력 합니다. 입력하지 않을 경우 모든 region으로부터 cloud resource를 스캔 합니다. 
-* AWS Access Key\(Required\) : Assume 받는 IAM 계정의 Access Key를 입력 합니다. 
-* AWS Secret Key\(Required\) : Assume 받는 IAM 계정의 Secret Key를 입력 합니다. 
-* Role ARN\(Required\) : IAM에서 생성한 Assume Role의 Role ARN 정보를 입력 합니다. 
+* Region\(Option\) : 収集対象のRegion情報を入力します。入力しない場合、すべてのregionからcloud resourceをスキャンします。
+* AWS Access Key\(Required\) : Assumeを受けるIAMアカウントのAccess Keyを入力します。
+* AWS Secret Key\(Required\) : Assumeを受けるIAMアカウントのSecret Keyを入力します。
+* Role ARN\(Required\) : IAMで作成したAssume RoleのRole ARN情報を入力します。
 
-### Project 선택
+### Project選択
 
-Service Account가 속할 Project를 지정합니다. 지정하게 되면, 해당 Service Account에서 수집한 Cloud Resource 정보는 자동으로 Project에 연결되게 됩니다. 
+Service Accountが属されるProjectを指定します。プロジェクトを指定すれば、そのService Accountで収集されたCloud Resource情報は自動的にProjectと連動されます。
 
 ![Project &#xC120;&#xD0DD; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.02.19.png)
 
-* Project 생성이 필요할 경우 _**+ Create Project**_ 버튼을 클릭하여 필요한 Project Group/Project를 생성한 후 진행 합니다. Project 생성에 대한 자세한 링크는 아래 페이지를 참고하세요.
+* Project作成が必要な場合、_**+ Create Project**_ をクリックして必要なProject Group/Projectを作成した後進めます。Project作成に対する詳細内容は下記のリングをご参照ください。
 
 {% page-ref page="../../project/project-group-management.md" %}
 
-* 원하는 Project를 선택한 후 _**Save**_ 버튼을 클릭하여 Service Account의 생성 작업을 완료 합니다. 
-* Project를 지정하지 않고 싶은 경우 _**Select no Project**_를 선택 합니다. Project는 나중에 다시 지정이 가능 합니다. 
+* Projectを選択した後_**Save**_ をクリックすれば、Service Account作成が完了されます。
+* Projectを指定したくない場合、_**Select no Project**_を選択します。Projectは後程指定できます。
 
-## Service Account 삭제/Project 변경
+## Service Account削除/Project変更
 
-Service Account를 삭제 하거나/기존에 지정했던 Project를 변경 합니다. 
+Service Accountを削除若しくは以前指定したProjectを変更します。
 
-대상 Service Account를 선택 후 _**Action**_ 메뉴를 클릭한 후 _**Delete**_ 혹은 _**Change Project**_를 선택 합니다. 
+対象のService Accountを選択した後、_**Action**_メニューをクリックした後、_**Delete**_ 若しくは_**Change Project**_を選択します。
 
 ![Service Account &#xC0AD;&#xC81C;/&#xBCC0;&#xACBD; &#xBA54;&#xB274;](../../.gitbook/assets/2020-08-07-6.17.37.png)
 
-#### Service Account 삭제
+#### Service Account削除
 
-아래와 같이 Service Account 삭제 화면에서 Service Account 이름을 입력한 후 _**Confirm**_ 을 클릭하여 삭제가 가능합니다.   
+下記のようにService Account削除画面でService Account名を入力した後、_**Confirm**_ をクリックして削除できます。
 
 ![Service Account &#xC0AD;&#xC81C; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.21.27.png)
 
-#### Project 변경
+#### Project変更
 
-아래와 같이 Change Project 화면에서 변경하고자 하는 Project를 지정한 후 _**Confirm**_을 클릭하여 삭제가 가능합니다. 
+下記のようにChange Project画面で変更したいProjectを指定した後、_**Confirm**_をクリックして削除できます。
 
 ![Project &#xBCC0;&#xACBD; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.22.47.png)
 
-## AWS Console로 링크 
+## AWS Consoleへリンク
 
-대상 Service Account를 선택 후 _**Action**_ 메뉴를 클릭한 후 _**Console**_을 선택 합니다. 
+対象のService Accountを選択した後、_**Action**_メニューをクリックして_**Console**_を選択します。
 
-AWS의 콘솔 링크로 이동 합니다. 사전에 AWS Console에 로그인이 되어 있거나, 로그인을 해야 해당 IAM Account로 이동할 수 있습니다. 
+AWSのコンソールリンクへ移動します。事前にAWS Consoleへログインするか、ログインしてからそのIAM Accountへ移動できます。
 
 
 
-## 상세 조회 및 관리
+## 詳細照会及び管理
 
-상세 관리 탭을 통해  Service Account의 상세 정보 확인/Tag 관리/Credential 관리/Member 관리가 가능 합니다. 
+詳細管理タグを通して Service Accountの詳細情報の確認/Tag管理/Credential管理/Member管理ができます。
 
 #### Detail 
 
-Service Account의 Meta 정보를 확인할 수 있습니다.
+Service AccountのMeta情報が確認できます。
 
 ![Service Account &#xC0C1;&#xC138;&#xC870;&#xD68C;](../../.gitbook/assets/2020-08-07-6.33.27.png)
 
 #### Tag
 
-_**Edit**_ 버튼을 클릭해서 Service Account의 Tag를 추가/삭제할 수 있습니다. 
+_**Edit**_をクリックしてService AccountのTagが追加/削除できます。
 
 ![Tag &#xCD94;&#xAC00;/&#xC0AD;&#xC81C; ](../../.gitbook/assets/2020-08-07-6.54.13.png)
 
 #### Credentials
 
-Service Account 에서 Key 정보를 보관하고 있는 Credential 을 추가하거나 삭제할 수 있습니다.
+Service AccountではKey情報を保存しているCredentialを追加/削除できます。
 
 ####  
 
