@@ -12,7 +12,7 @@ Serverメニューでは、多様なリージョン及びプロジェクト別�
 
 ![Server &#xAD00;&#xB9AC; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-05-5.50.33-.png)
 
-  Serverメニューは大きく下記のように構成されています。
+Serverメニューは大きく下記のように構成されています。
 
 * サーバリスト : サーバの全体リストが確認できます。
 * 詳細現況タグ : 各サーバ別の詳細情報が照会できます。
@@ -36,13 +36,10 @@ Multi Cloud基盤で収集されたサーバ情報が照会できます。
   <tbody>
     <tr>
       <td style="text-align:left">Name</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>&#xC11C;&#xBC84;&#xC758; &#xC774;&#xB984;&#xC744; &#xC758;&#xBBF8; &#xD569;&#xB2C8;&#xB2E4;.
-          OS &#xB0B4;&#xBD80;&#xC758; hostname&#xC774;&#xC678;&#xC758; &#xAC01; Cloud
-          &#xC0AC;&#xC5D0;&#xC11C; &#xC81C;&#xACF5;&#xD558;&#xB294; &#xC774;&#xB984;
-          &#xAC12;(Name Tag)&#xC744; &#xCC38;&#xC870; &#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
+      <td style="text-align:left">&#xC11C;&#xBC84;&#xC758; &#xC774;&#xB984;&#xC744; &#xC758;&#xBBF8; &#xD569;&#xB2C8;&#xB2E4;.
+        OS &#xB0B4;&#xBD80;&#xC758; hostname&#xC774;&#xC678;&#xC758; &#xAC01; Cloud
+        &#xC0AC;&#xC5D0;&#xC11C; &#xC81C;&#xACF5;&#xD558;&#xB294; &#xC774;&#xB984;
+        &#xAC12;(Name Tag)&#xC744; &#xCC38;&#xC870; &#xD569;&#xB2C8;&#xB2E4;.</td>
     </tr>
     <tr>
       <td style="text-align:left">Instance Type</td>
@@ -70,7 +67,6 @@ Multi Cloud基盤で収集されたサーバ情報が照会できます。
     <tr>
       <td style="text-align:left">Collection State</td>
       <td style="text-align:left">
-        <p></p>
         <p>Collector&#xB97C; &#xD1B5;&#xD55C; &#xC11C;&#xBC84;&#xC758; &#xC218;&#xC9D1;
           &#xC0C1;&#xD0DC;&#xB97C; &#xC758;&#xBBF8; &#xD569;&#xB2C8;&#xB2E4;. ACTIVE/DISCONNECTED
           &#xC0C1;&#xD0DC;&#xAC00; &#xC874;&#xC7AC;&#xD558;&#xBA70;, &#xB300;&#xC0C1;
@@ -137,8 +133,6 @@ Multi Cloud基盤で収集されたサーバ情報が照会できます。
 
 ![Excel Export](../.gitbook/assets/2020-08-06-4.11.27-.png)
 
-
-
 ## 詳細現況タグ
 
 サーバの詳細情報を提供します。下記のようなTabで構成されています。
@@ -165,6 +159,4 @@ SpaceONEでは、Collectorから収集された情報をユーザが便利に検
 提供されるkeywordはServerに定義されたほぼすべての項目を含めます。（合計31項目）
 
 ![&#xAC80;&#xC0C9; keyword list](../.gitbook/assets/2020-08-06-5.16.04.png)
-
-
 

@@ -12,13 +12,9 @@ DashBoardを通してDomainで利用している全サービスの現況が確�
 
 ![SpaceONE Domain Dashboard](../.gitbook/assets/2020-08-03-5.00.05.png)
 
-
-
 画面上部のナビゲーションバーを利用して各ページへ移動できます。
 
 ![](../.gitbook/assets/2020-07-31-3.03.43.png)
-
-
 
 ## Summary
 
@@ -28,15 +24,11 @@ DashBoardを通してDomainで利用している全サービスの現況が確�
 
 各々のSummaryをクリックする場合、そのサービスに移動します。
 
-
-
 ## Top 5 Resource Managing Projects
 
 Server / Cloud Serviceを一番よく利用する上位5つのプロジェクトの現況が確認できます。各Project Group/Projectをクリックする場合、そのサービスに移動します。
 
 ![](../.gitbook/assets/2020-07-31-3.08.33.png)
-
-
 
 ドメインに入力されたService Account数が確認できます。現在、AWS, Azure, GCPのKey Pairが入力できます。
 
@@ -44,9 +36,7 @@ Server / Cloud Serviceを一番よく利用する上位5つのプロジェクト
 
 ![Service Account](../.gitbook/assets/2020-08-03-5.05.53.png)
 
-
-
-##  Service Accounts
+## Service Accounts
 
 日別リソースの増加/減少情報を表示します。0~現在までの変更履歴を表現します。
 
@@ -80,21 +70,15 @@ Collector実行履歴及び現在実行中であるCollectorの状態が照会�
 
 ![](../.gitbook/assets/2020-08-03-5.36.44.png)
 
-### 
-
 ### Recent Collecting Runs
 
 現在実行中であるCollectorリストが確認できます。右側のRefreshボタンをクリックして状態のアップデートができます。
 
 ![](../.gitbook/assets/2020-08-03-5.37.46.png)
 
+## Cloud Services
 
-
-## Cloud Services 
-
-収集されたCloud Resourceの内、12種の数値を表現します。_**MORE**_ をクリックすれば、全体リストが確認できます。 
+収集されたCloud Resourceの内、12種の数値を表現します。_**MORE**_ をクリックすれば、全体リストが確認できます。
 
 ![](../.gitbook/assets/2020-08-03-5.35.13.png)
-
-
 

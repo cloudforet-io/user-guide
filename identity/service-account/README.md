@@ -17,8 +17,6 @@ Service Accountページからユーザーは様々なProviderが提供するCre
 * AWS Consoleとリンク
 * 詳細照会及び管理
 
-
-
 現在SpaceONEが支援するservice providerは次の通りです。
 
 * AWS
@@ -49,7 +47,7 @@ SpaceONEでは二つのタイプのService Accountをサポートします。\(a
 
 各タイプ別入力項目は次のようです。
 
-#### aws\_access\_key  
+#### aws\_access\_key
 
 ![aws access key &#xBC29;&#xC2DD;&#xC758; key &#xC785;&#xB825; &#xD3FC;](../../.gitbook/assets/2020-08-07-5.48.28.png)
 
@@ -105,13 +103,11 @@ Service Accountを削除若しくは以前指定したProjectを変更します�
 
 AWSのコンソールリンクへ移動します。事前にAWS Consoleへログインするか、ログインしてからそのIAM Accountへ移動できます。
 
-
-
 ## 詳細照会及び管理
 
 詳細管理タグを通して Service Accountの詳細情報の確認/Tag管理/Credential管理/Member管理ができます。
 
-#### Detail 
+#### Detail
 
 Service AccountのMeta情報が確認できます。
 
@@ -126,8 +122,4 @@ _**Edit**_をクリックしてService AccountのTagが追加/削除できます
 #### Credentials
 
 Service AccountではKey情報を保存しているCredentialを追加/削除できます。
-
-####  
-
-
 

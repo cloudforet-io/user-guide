@@ -20,8 +20,6 @@ Projectページは下記のように**Project Group管理/Project 管理/検索
 
 初ページでは全体のプロジェクトリストが確認できます。
 
-
-
 ![](../.gitbook/assets/2020-07-31-4.04.20.png)
 
 ## Project Group管理
@@ -30,23 +28,13 @@ Projectページは下記のように**Project Group管理/Project 管理/検索
 
 Project Group Treeを照会し、作成、変更、削除します。
 
-
-
 ### 照会
-
-
 
 _**All Project**_を選択する場合、ユーザーが照会できるすべてのプロジェクトリストが照会されます。 プロジェクトを選択して対象Project Dashboardへ移動できます。
 
-
-
 ![Project Group &amp;gt; All Project](../.gitbook/assets/2020-08-05-10.55.13.png)
 
-
-
 各々のProject Groupを選択した場合、そのProject Groupに属しているProject Listが照会できます。
-
-
 
 ![Project Group&#xC744; &#xC120;&#xD0DD;&#xD55C; &#xACBD;&#xC6B0;](../.gitbook/assets/2020-08-05-10.58.14.png)
 
@@ -74,8 +62,6 @@ Project Groupを削除するためには事前に対象Group内のProjectをす�
 
 ![Project Group &#xC0AD;&#xC81C;&#xD558;&#xAE30;](../.gitbook/assets/2020-08-05-11.18.21.png)
 
-
-
 ## Project照会
 
 Project Groupを選択すれば、所属されているProjectが確認できます。
@@ -86,8 +72,6 @@ Project Groupを選択すれば、所属されているProjectが確認できま
 
 ![](../.gitbook/assets/2020-08-05-11.27.30.png)
 
-
-
 ## 検索
 
 Search Barを通してProject Group/Projectに素早く移動できます。
@@ -97,8 +81,4 @@ Search Barを通してProject Group/Projectに素早く移動できます。
 * Search Barにキーワードを入力すれば、Group/Projectを検索して提案します。
 * Group/Projectをクリックすれば、そのページへ移動します。
 * _**show more**_ をクリックすれば、追加リストが確認できます。
-
-
-
-
 

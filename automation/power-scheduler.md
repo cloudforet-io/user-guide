@@ -8,8 +8,6 @@ description: プロジェクトのリソースを自動的にスケジューリ�
 
 Power scheduler ページではプロジェクトのresourceを自動的にon-offするschedulingを管理します。スケジューラ情報の確認、新しいスケジューラの作成、修正又は削除する機能を提供します。
 
-
-
 ## Prerequisites
 
 SpaceONEのpower schedulerサービスを利用する際に必要なIAM政策を各cloud-providerごとにcredentialに事前に定義しておけば、SpaceONEがユーザーのリソースに対するアクセスを安全に制御でき、他のリソースへのアクセスを防止することができます。
@@ -22,15 +20,15 @@ Power Schedulerを作成する前に、下記のページに明示されてい�
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
-**スケジューラの照会** 
+**スケジューラの照会**
 
-プロジェクトリストと一緒に設定されたスケジューラリストが照会できるページです。 
+プロジェクトリストと一緒に設定されたスケジューラリストが照会できるページです。
 
 **検索**
 
 検索バーからプロジェクト名で検索できます。
 
-**スケジューリングDashboard** 
+**スケジューリングDashboard**
 
 スケジューリングDashboardに表示される情報は下記の様です。
 
@@ -81,12 +79,12 @@ Power Schedulerを作成する前に、下記のページに明示されてい�
   </tbody>
 </table>
 
-> **スケジューリングヒートマップ** 
+> **スケジューリングヒートマップ**
 >
 > スケジューリングヒートマップに表示される色は2つです。色はスケジュールが何時間割り当てられているかを表し、各色が表示する意味は次の通りです。
-
+>
 > ![](../.gitbook/assets/image%20%2858%29.png)スケジューラによりスケジューリングされた時間が0 ~ 12時間
-
+>
 > ![](../.gitbook/assets/image%20%2847%29.png)スケジューラによりスケジューリングされた時間が12 ~ 24時間
 >
 > > Power schedulerの詳細照会
@@ -94,8 +92,6 @@ Power Schedulerを作成する前に、下記のページに明示されてい�
 ### スケジューラの詳細照会
 
 スケジューラの詳細画面からは次のような機能が照会できます。
-
-#### 
 
 #### 時間
 
@@ -123,17 +119,13 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
 
 スケジューラの優先順位が高いほど数字が小さくなります。スケジューラの優先順位を5つ以上指定したい場合、`編集` ボタンをクリックして `+ 優先順位の追加` ボタンをクリックすれば、スケジューラグループが追加されます。
 
-スケジューラにリソースグループが指定されていれば、スケジューラは削除できません。 
-
-
+スケジューラにリソースグループが指定されていれば、スケジューラは削除できません。
 
 **• リソースグループの優先順位**
 
 ![](../.gitbook/assets/image%20%2857%29.png)
 
-一つのスケジューラ内のリソースグループ間の優先順位を設定することができます。リソースグループの優先順位とはBootingの順番を意味します。スケジューラに`N`このリソースグループがあると仮定すると、`1`番から`N`番の順でリソースがオンにされ、`N`番から`1`番の順でリソースが終了されます。 
-
-
+一つのスケジューラ内のリソースグループ間の優先順位を設定することができます。リソースグループの優先順位とはBootingの順番を意味します。スケジューラに`N`このリソースグループがあると仮定すると、`1`番から`N`番の順でリソースがオンにされ、`N`番から`1`番の順でリソースが終了されます。
 
 **• リソースグループ**
 
@@ -147,11 +139,7 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
 | リソースタイプ | スケジューラを作成する際に入力したグループ基準 &gt; リソースタイプ |
 | リソースリスト | そのグループに含まれているリソースリスト |
 
-### 
-
 ### 新しいscheduler作成
-
-
 
 ![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC0DD;&#xC131; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/image%20%2850%29.png)
 
@@ -161,7 +149,7 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
 
 #### 名前
 
-スケジューラ名を設定します。文字と `-` を含む文字列が入力できます。間隔は入れません。スケジューラ名は必須項目で、名前が入ってない場合、スケジューラは作成できません。 
+スケジューラ名を設定します。文字と `-` を含む文字列が入力できます。間隔は入れません。スケジューラ名は必須項目で、名前が入ってない場合、スケジューラは作成できません。
 
 #### 時間
 
@@ -169,60 +157,11 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
 
 グラフの右上の `< >` をクリックしすれば月の移動ができます。
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Scheduled mode</th>
-      <th style="text-align:left">State</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">icon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&#xBC18;&#xBCF5; &#xC2A4;&#xCF00;&#xC904;</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">&#xB9E4;&#xC8FC; &#xBC18;&#xBCF5;&#xB418;&#xB294; &#xD0C0;&#xC774;&#xBA38;&#xB85C;
-        &#xC120;&#xD0DD;&#xB41C; &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xCF1C;&#xC9C0;&#xBA70;,
-        &#xD574;&#xC81C;&#xB41C; &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xAEBC;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/image (8).png" alt/>
-        </p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">1&#xD68C;&#xC131; &#xC2A4;&#xCF00;</td>
-      <td style="text-align:left">&#xCF1C;&#xAE30;</td>
-      <td style="text-align:left">&#xD2B9;&#xC815; &#xB0A0;&#xC9DC;&#xC5D0; &#xC0DD;&#xC131;&#xB418;&#xB294;
-        &#xC77C;&#xD68C;&#xC131; &#xD0C0;&#xC774;&#xBA38;&#xB85C;, &#xC120;&#xD0DD;&#xB41C;
-        &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xCF1C;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <img src="../.gitbook/assets/image (16).png" alt/>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">&#xB044;</td>
-      <td style="text-align:left">&#xD2B9;&#xC815; &#xB0A0;&#xC9DC;&#xC5D0; &#xC0DD;&#xC131;&#xB418;&#xB294;
-        &#xC77C;&#xD68C;&#xC131; &#xD0C0;&#xC774;&#xBA38;&#xB85C;, &#xC120;&#xD0DD;&#xB41C;
-        &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xAEBC;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/image (55).png" alt/>
-        </p>
-        </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
+| Scheduled mode | State | Description | icon |
+| :--- | :--- | :--- | :--- |
+| 반복 스케줄 |  | 매주 반복되는 타이머로 선택된 영역은 resource가 켜지며, 해제된 영역은 resource가 꺼집니다. | ![](../.gitbook/assets/image%20%288%29.png) |
+| 1회성 스케 | 켜기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 켜집니다. | ![](../.gitbook/assets/image%20%2816%29.png) |
+|  | 끄 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 꺼집니다. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 #### リソースグループ
 
@@ -245,7 +184,7 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
         &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC758; &#xB9AC;&#xC18C;&#xC2A4; &#xADF8;&#xB8F9;
         &#xCE74;&#xB4DC;&#xC5D0;&#xB294; 16&#xC790; &#xAE4C;&#xC9C0; &#xD45C;&#xC2DC;&#xB429;&#xB2C8;&#xB2E4;.
         &#xBB38;&#xC790;&#xB85C; &#xC2DC;&#xC791;&#xD574;&#xC57C;&#xD558;&#xACE0;,
-        &#xBB38;&#xC790;/&#xC22B;&#xC790;/ <code>- </code> &#xC744; &#xD3EC;&#xD568;&#xD55C;
+        &#xBB38;&#xC790;/&#xC22B;&#xC790;/ <code>-</code> &#xC744; &#xD3EC;&#xD568;&#xD55C;
         &#xBB38;&#xC790;&#xC5F4;&#xB85C; &#xC785;&#xB825;&#xD574;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;.</td>
     </tr>
     <tr>
@@ -270,8 +209,6 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
 
 設定した情報を確認した後、ページ右下の `保存`をクリックしてセーブします。
 
-
-
 ### スケジュールの削除
 
 ![](../.gitbook/assets/image.png)
@@ -294,7 +231,6 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
         <p>&#xD398;&#xC774;&#xC9C0; &#xC0C1;&#xB2E8;&#xC5D0; &#xC704;&#xCE58;<code>&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xD3B8;&#xC9D1;</code>&#xBC84;&#xD2BC;&#xC73C;&#xB85C;
           &#xC2A4;&#xCF00;&#xC904;&#xB7EC;&#xC758; &#xC774;&#xB984;&#xC744; &#xD3B8;&#xC9D1;&#xD560;
           &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-        <p></p>
         <p>
           <img src="../.gitbook/assets/image (38).png" alt/>
         </p>
@@ -307,11 +243,9 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
           &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC9C0;&#xC815; &#xC2DC;&#xAC04;&#xB300;,
           &#xBC18;&#xBCF5; &#xC2A4;&#xCF00;&#xC904; &#xBC0F; 1&#xD68C;&#xC131; &#xC2A4;&#xCF00;&#xC904;&#xC744;
           &#xAC01;&#xAC01; &#xC218;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p></p>
         <p>
           <img src="../.gitbook/assets/image (66).png" alt/>
         </p>
-        <p></p>
       </td>
     </tr>
     <tr>
@@ -323,13 +257,8 @@ schedulerが適用される時間が一目で把握できます。Calendarの横
         <p>
           <img src="../.gitbook/assets/image (33).png" alt/>
         </p>
-        <p></p>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
 

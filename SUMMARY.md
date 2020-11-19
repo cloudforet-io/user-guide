@@ -4,9 +4,7 @@
 
 ## Getting Started
 
----
-
-* [A Compass To SpaceONE Universe Traveler](getting-started-2.md)
+* [A Compass To SpaceONE Universe Traveler](getting-started/getting-started-2.md)
 
 ## ADVANCED TOPIC
 

@@ -1,5 +1,5 @@
 ---
-description: 'Collectorを作成して、Cloud Resourceを収集します。'
+description: Collectorを作成して、Cloud Resourceを収集します。
 ---
 
 # Collector
@@ -11,8 +11,6 @@ SpaceONEはCollector Pluginを通して様々なサービスのCloud Resourceが
 Pluginは、Official MarketplaceやカスタムPluginが利用できます。
 
 ![Collector &#xAD00;&#xB9AC; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/2020-08-06-7.48.58-.png)
-
-
 
 ## Collector作成
 
@@ -38,21 +36,19 @@ Tagの入力画面です。CollectorにTag入力が必要ン場合追加し、�
 
 ![](../.gitbook/assets/2020-08-07-11.16.29.png)
 
-
-
 ## Collector変更/削除/有効化/非活性化
 
 作成を除くcollector 作業はAction リストメニューを通して確認できます。 Collectorを選択し Action をクリックして下記のような作業可能なリストが照会されます。
 
 ![Collector &#xB9AC;&#xC2A4;&#xD2B8; &#xBA54;&#xB274;](../.gitbook/assets/2020-08-07-11.18.32.png)
 
-#### 変更 
+#### 変更
 
 変更事項を修正した後、 _**Confirm**_ をクリックして完了します。
 
 ![Collector &#xBCC0;&#xACBD; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-11.20.18.png)
 
-#### 削除 
+#### 削除
 
 下記のように削除ページが表示されますが、 _**Confirm**_ をクリックします。
 
@@ -64,19 +60,13 @@ _**DISABLE**_ 状態の Collectorを _**ENABLE**_ に変更します。Cloud Res
 
 ![Collector &#xD65C;&#xC131;&#xD654; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.10.04.png)
 
-
-
 #### 非有効化
 
 Collectorを _**DISABLE**_に変更して Cloud Resource 収集作業が中止できます。
 
 ![Collector &#xBE44;&#xD65C;&#xC131;&#xD654; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.09.45.png)
 
-
-
 ## Collector照会/詳細照会
-
-
 
 ![](../.gitbook/assets/2020-08-07-2.16.13.png)
 
@@ -89,8 +79,6 @@ Collectorリストでは下記の情報が確認できます。
 * Created : Collectorが作成された時間を記録します。
 
 Collectorの詳細動作は下記のタグで管理できます。
-
-
 
 ### Detail
 
@@ -128,9 +116,9 @@ Scheduleを指定した場合、毎日指定された時間にCollectorの Cloud
 
 ![Collector Schedule &#xAD00;&#xB9AC; &#xD0ED;](../.gitbook/assets/2020-08-07-3.39.39.png)
 
-**追加** 
+**追加**
 
-+ Add をクリックすると、スケージュール追加画面が表示されます。
+* Add をクリックすると、スケージュール追加画面が表示されます。
 
 名前/Timezone/収集時間が選択で起案す。
 
@@ -143,8 +131,6 @@ Collecting Timeは24時間基準で指定し、1時間単位で選択できま�
 スケージュールを選択した後、 _**Action**_ **&gt; Update/Delete** を通して既存スケージュールが変更/削除できます。
 
 ![Collector Schedule &#xBCC0;&#xACBD;](../.gitbook/assets/2020-08-07-3.58.22.png)
-
-
 
 ## Cloud Resource収集
 
@@ -171,6 +157,4 @@ Collectが実行されている状況はMain Dashboardから確認できます�
 最終遂行時間はCollector リストから確認できます。
 
 ![Schedule &#xCD5C;&#xC885; &#xC218;&#xD589;&#xC2DC;&#xAC04; &#xD655;&#xC778;](../.gitbook/assets/2020-08-07-4.08.17-.png)
-
- 
 
