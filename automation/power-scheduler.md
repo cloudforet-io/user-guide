@@ -32,7 +32,7 @@ Power Scheduler를 생성하기 전  아래  페이지에 명시된 방법 통�
 
 **스케줄링 Dashboard** 
 
-하나의 스케줄 Dashboard 에 표현되는 정보는 다과 같습니다.  
+하나의 스케줄 Dashboard 에 표현되는 정보는 다음과 같습니다.  
 
 ![&#xC2A4;&#xCF00;&#xC904; Dashboard](../.gitbook/assets/image%20%2863%29.png)
 
