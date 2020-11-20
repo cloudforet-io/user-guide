@@ -15,17 +15,16 @@ You need little steps to follow to get start on
 
 
 
-## 사용자 추가하기 <a id="adding-user"></a>
+## User Registration <a id="adding-user"></a>
 
-### 도메인 관리자로 로그인 하기
+### Log-in as domain administrator
 
-SpaceONE 서비스는 각 회사별로 도메인이 할당되어, 해당 도메인에 접속하여 사용할 수 있습니다. 
+SpaceONE service assigns a domain per company, and you can access through this assigned domain.  
+You will receive log-in ID and password since you applied services.
 
-서비스 사용 신청 후, 관리자에게 할당받은 서비스 URL과 Admin ID/Password를 사용하여 서비스에 접속 합니다.
+\(We guide applying process for spaceONE service on certain channels while CBT period\)
 
-\(현재는 CBT 중으로, 서비스 사용 신청은 별도 채널을 통해 안내 드립니다.\)  
-
-![spaceone console &#xB85C;&#xADF8;&#xC778; &#xD654;&#xBA74;](.gitbook/assets/2020-07-31-3.42.25.png)
+![spaceONE console login screen](.gitbook/assets/2020-07-31-3.42.25.png)
 
 아래와 같이 Sign In box 하단의 _Sign-in using root account credentials_ 버튼을 클릭하여 Domain Administrator 권한으로 로그인 합니다. 
 
