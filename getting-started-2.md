@@ -79,9 +79,9 @@ You will see an empty dashboard if you sign in first time with added user. Becau
 Now let's collect Cloud Resources through SpaceONE.   
 Create a your first project with 'Get Started' button.
 
-## Create Project   <a id="creating-project"></a>
+## Create a Project   <a id="creating-project"></a>
 
-Project 생성은 _Project Group_ 생성 후에 가능합니다. 
+You can create a _project_ after creating a _Project Group_ 생성 후에 가능합니다. 
 
 Project 페이지 좌측의 _Create_ 버튼을 클릭하여 Project Group을 생성합니다. 
 
