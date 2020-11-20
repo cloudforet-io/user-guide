@@ -1,17 +1,17 @@
 ---
-description: SpaceONE을 처음 시작 하는 분을 위한 Quick Guide 입니다.
+description: Quick Guide for first-time users to get started with SpaceONE.
 ---
 
 # A Compass To SpaceONE Universe Traveler
 
-## 전체 순서  <a id="overview"></a>
+## How to Start  <a id="overview"></a>
 
-SpaceONE을 사용하기 위해서는 아래와 같은 순서로 초기 설정이 필요합니다. 
+You need little steps to follow to get start on 
 
-* \*\*\*\*[**사용자 추가하기**](getting-started-2.md#adding-user)\*\*\*\*
-* \*\*\*\*[**프로젝트 생성하기**](getting-started-2.md#creating-project)\*\*\*\*
-* \*\*\*\*[**Service Account 생성하기**](getting-started-2.md#creating-service-account)\*\*\*\*
-* \*\*\*\*[**Cloud Resource 수집하기** ](getting-started-2.md#discovering-cloud-resource)
+* [**User Registr**](getting-started-2.md#adding-user)[**ation**](getting-started-2.md#adding-user)\*\*\*\*
+* [**Create a Project**](getting-started-2.md#creating-project)\*\*\*\*
+* [**Register Service Account**](getting-started-2.md#creating-service-account)\*\*\*\*
+* [**Collect Cloud Resource** ](getting-started-2.md#discovering-cloud-resource)
 
 
 
