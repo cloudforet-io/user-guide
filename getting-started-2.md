@@ -77,33 +77,33 @@ You will see an empty dashboard if you sign in first time with added user. Becau
 Now let's collect Cloud Resources through SpaceONE.   
 Create a your first project with 'Get Started' button.
 
-## Create a Project   <a id="creating-project"></a>
+## Creating a Project   <a id="creating-project"></a>
 
-You can create a _project_ after creating a _Project Group_ 생성 후에 가능합니다. 
+You can create a _project_ after creating a _Project Group_. 
 
-Project 페이지 좌측의 _Create_ 버튼을 클릭하여 Project Group을 생성합니다. 
+Click '_Create_' button at right next to Project Group to create a project group.
 
 ![Project Group &#xC0DD;&#xC131; &#xBC84;&#xD2BC;](.gitbook/assets/2020-08-03-11.18.38.png)
 
-아래와 같이 입력하여 Project Group을 생성합니다.
+Type as below to create a Project Group
 
-![Project Group &#xC0DD;&#xC131; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-11.20.02.png)
+![Project Group creation window screen ](.gitbook/assets/2020-08-03-11.20.02.png)
 
-생성한 Project Group 을 선택한 후 _Create Project_ 버튼을 눌러 Project를 생성합니다. 
+Click '_Create Project'_ button to create a project __after select created Project Group.
 
 ![](.gitbook/assets/2020-08-03-11.31.43.png)
 
-아래와 같이 Project 생성 창이 나오게 됩니다. 프로젝트 명을 입력하여 생성합니다. 
+Project creation window appears as below. Create a project by entering the project name.
 
-![Project &#xC0DD;&#xC131;&#xD654;&#xBA74;](.gitbook/assets/2020-08-03-11.33.06.png)
+![Project creation screen](.gitbook/assets/2020-08-03-11.33.06.png)
 
-아래와 같이 Project 설정이 완료 되었습니다. 
+Project setting is completed as shown below. 
 
 ![Project &#xAD00;&#xB9AC; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-11.37.38.png)
 
-더 자세한 Project 관리 기능을 알아보기 위해서는 IDENTITY &gt; Project 페이지를 참고 해주세요.
+Please refer to the IDENTITY&gt; Project page for more detailed project management functions. 
 
-이제, Service Account를 설정 해보도록 합시다. 
+Now, let's set up a Service Account. 
 
 
 
