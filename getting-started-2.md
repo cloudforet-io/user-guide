@@ -13,8 +13,6 @@ You need little steps to follow to get start on
 * [**Register Service Account**](getting-started-2.md#creating-service-account)\*\*\*\*
 * [**Collect Cloud Resource** ](getting-started-2.md#discovering-cloud-resource)
 
-
-
 ## User Registration <a id="adding-user"></a>
 
 ### Log-in as domain administrator
