@@ -66,7 +66,7 @@ Please, refer to the IDENTITY&gt; USER page for more detailed user management fu
 
 Now, let's sign in as the added user and try SpaceONE service.   
   
-**STEP1:** Click 'Sign in with Google' button and select account that was added previously.
+Click 'Sign in with Google' button and select account that was added previously.
 
 ![](.gitbook/assets/2020-08-03-11.07.25.png)
 
@@ -81,15 +81,15 @@ Create a your first project with 'Get Started' button.
 
 You can create a _project_ after creating a _Project Group_. 
 
-Click '_Create_' button at right next to Project Group to create a project group.
+**STEP1:** Click '_Create_' button at right next to Project Group to create a project group.
 
 ![Project Group &#xC0DD;&#xC131; &#xBC84;&#xD2BC;](.gitbook/assets/2020-08-03-11.18.38.png)
 
-Type as below to create a Project Group
+**STEP2:** Type as below to create a Project Group
 
 ![Project Group creation window screen ](.gitbook/assets/2020-08-03-11.20.02.png)
 
-Click '_Create Project'_ button to create a project __after select created Project Group.
+**STEP3:** Click '_Create Project'_ button to create a project __after select created Project Group.
 
 ![](.gitbook/assets/2020-08-03-11.31.43.png)
 
@@ -112,7 +112,7 @@ Now, let's set up a Service Account.
 Enter Credentials\(APIKey Pair\) to collect Cloud Resource.   
 The example service account registration in the Getting Started Guide is based on AWS.
 
-Click '_+ Add_' button once selected Identity &gt; Service Account &gt; AWS. 
+SClick '_+ Add_' button once selected Identity &gt; Service Account &gt; AWS. 
 
 ![](.gitbook/assets/2020-08-03-3.39.10.png)
 
