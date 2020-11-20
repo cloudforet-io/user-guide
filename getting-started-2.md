@@ -26,13 +26,17 @@ You will receive log-in ID and password since you applied services.
 
 ![spaceONE console login screen](.gitbook/assets/2020-07-31-3.42.25.png)
 
-아래와 같이 Sign In box 하단의 _Sign-in using root account credentials_ 버튼을 클릭하여 Domain Administrator 권한으로 로그인 합니다. 
+
 
 ![](.gitbook/assets/2020-07-31-3.43.11.png)
 
-최초 SpaceONE 서비스 관리자에게 부여 받은 ID/Password 를 사용하여 로그인 합니다. 
+          Click 'Sign in root account credentials' button at the bottom to sign-in as domain administrator.
 
-![Domain Administrator &#xC811;&#xC18D; &#xD654;&#xBA74;](.gitbook/assets/2020-07-31-3.44.00.png)
+![Domain Administrator Sign-in screen](.gitbook/assets/2020-07-31-3.44.00.png)
+
+
+
+                          Sign in with given ID/Password from SpaceONE service administrator. 
 
 
 
