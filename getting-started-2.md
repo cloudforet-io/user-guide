@@ -164,25 +164,25 @@ You can find collectors on the list once you created.
 
 ### 
 
-### Collector 실행하기 
+### Execute Collector 
 
-이제 Cloud Resource를 수집해 봅시다. 
+Now let's collect Cloud Resources.
 
-앞에서 생성한 Collector를 선택 후 _**Action &gt; Collect Data**_를 클릭 하면 아래와 같이 _**Collect Data**_ ****화면을 조회할 수 있습니다. Confirm을 클릭하여 수집을 실행 합시다. 
+**STEP 1:** Select the collector created earlier and click '**Action &gt; Collect Data'** to view the Collect Data screen as shown below. Click Confirm to start collecting.
 
 ![Collect Data &#xC120;&#xD0DD;&#xD654;&#xBA74;](.gitbook/assets/2020-08-03-4.42.48.png)
 
 ![Collector &#xC2E4;&#xD589;&#xD654;&#xBA74;](.gitbook/assets/2020-08-03-4.41.59.png)
 
-실행중인 Collector의 상황은 _**Domain Dashboard &gt; Collection**_ 화면에서 아래와 같이 확인 가능 합니다.  
+You can find current status of the running Collector on the **Domain Dashboard&gt; Collection** screen as follows.
 
-![Collector Running &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-4.46.13.png)
+![Collector Running screen](.gitbook/assets/2020-08-03-4.46.13.png)
 
-수집은 대략 3분 이내에 완료가 됩니다. 수집이 정상적으로 완료된 경우 Inventory &gt; Server, Cloud Service에 수집된 리소스가 조회되는 것을 확인할 수 있습니다. 
+Collecting process takes approximately 3 minutes to complete. You can find the collected resources at Inventory&gt; Server, Cloud Service, if the collection is completed successfully. 
 
-![&#xC218;&#xC9D1;&#xB41C; Cloud Resource &#xC815;&#xBCF4;](.gitbook/assets/2020-08-03-4.51.30.png)
+![Collected Cloud Resource info](.gitbook/assets/2020-08-03-4.51.30.png)
 
-Collector에 대한 자세한 설명은 Plugin &gt; Collector 페이지를 참조 해주세요.
+Please refer to the Plugin&gt; Collector page, for further details on Collector.
 
 {% page-ref page="plugin/collector.md" %}
 
@@ -190,9 +190,9 @@ Collector에 대한 자세한 설명은 Plugin &gt; Collector 페이지를 참�
 
 ## Next 
 
-여기까지 해서 SpaceONE을 사용하기 위한 기본적인 설정 작업을 마쳤습니다.
+So far, you have completed the basic setup to use SpaceONE. 
 
-다음은 위에서 설정한 각 기능들에 대해 세부적으로 살펴 보도록 하겠습니다.
+On next, we will look up each function in details.
 
   
 
