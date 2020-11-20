@@ -107,21 +107,22 @@ Now, let's set up a Service Account.
 
 
 
-## Service Account 생성하기 <a id="creating-service-account"></a>
+## Creating a Service Account <a id="creating-service-account"></a>
 
-Cloud Resource를 수집하기 위한 Credentials\(APIKey Pair\)를 입력 합니다. Getting Started Guide에서는 AWS를 기준으로 생성 합니다. 
+Enter Credentials\(APIKey Pair\) to collect Cloud Resource.   
+The example service account registration in the Getting Started Guide is based on AWS.
 
-Identity &gt; Service Account &gt; AWS 를 선택한 후 _Add_ 버튼을 클릭 합니다. 
+Click '_+ Add_' button once selected Identity &gt; Service Account &gt; AWS. 
 
 ![](.gitbook/assets/2020-08-03-3.39.10.png)
 
-Add Service Account 입력 폼에서 아래와 같이 AWS Service Account를 등록하기 위해 필요한 항목을 입력 합니다. 
+Enter required fields to add an AWS Service Account in the Add Service Account input form as shown below.
 
-붉은색 으로 표기된 항목은 필수 항목입니다. 나머지 항목은 옵션으로 입력하지 않아도 큰 문제가 되지 않습니다. 
+Items marked in red are required fields. The rest of the items aren't mandatory. You can skip optional fields.
 
 ![](.gitbook/assets/2020-08-03-3.50.06.png)
 
- 모든 항목을 입력한 후 Project 항목 에서는 사전에 생성한 Project를 지정 한 후 하단의 _Save_ 버튼을 클릭 합니다. 
+Once you enter all required fields, select a project in the Project item, and then click the 'Save' button at the bottom.
 
 ![Service Account &#xC0DD;&#xC131; &#xD398;&#xC774;&#xC9C0; &#xB0B4;&#xC758; Project &#xC120;&#xD0DD; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-3.47.38.png)
 
