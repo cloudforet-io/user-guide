@@ -26,63 +26,57 @@ You will receive log-in ID and password since you applied services.
 
 ![spaceONE console login screen](.gitbook/assets/2020-07-31-3.42.25.png)
 
-
+               Click 'Sign in root account credentials' button at the bottom to sign-in as domain administrator.
 
 ![](.gitbook/assets/2020-07-31-3.43.11.png)
 
-          Click 'Sign in root account credentials' button at the bottom to sign-in as domain administrator.
+                               Sign in with given ID/Password from SpaceONE service administrator. 
 
 ![Domain Administrator Sign-in screen](.gitbook/assets/2020-07-31-3.44.00.png)
 
+### Add a new common user account
 
+Let's add a user in the domain. You can sign into SpaceONE with created user account to proceed to next.
 
-                          Sign in with given ID/Password from SpaceONE service administrator. 
-
-
-
-### Add Common User
-
-도메인내 사용자를 추가 해보도록 합시다. 이 후에는, 추가된 사용자로 SpaceONE에 로그인하여 각각의 사용자별 작업이 가능 합니다. 
-
- 상단 Global Navation Bar 에서 Identity &gt; User 클릭 
+**Step 1:** Click Identity &gt; User on top of Global Navigation Bar
 
 ![](.gitbook/assets/2020-07-31-3.46.38.png)
 
-아래와 같이 최초 로그인 이므로 사용자가 없는 것을 확인할 수 있습니다. _Create_ 버튼을 클릭 하여 조직 내 사용자를 추가 합니다.
+  
+**Step 2:** Click ' + Create'  button to add user in your group.   
+It's the first time to sign-in as  below, and therefore no user is on list.
 
 ![User &amp;gt; Create &#xD074;&#xB9AD;&#xD558;&#xAE30;](.gitbook/assets/2020-07-31-3.48.11.png)
 
-ID의 경우 반드시 입력이 필요하고, 이메일 형식으로 입력 해야 합니다. 다른 항목의 경우에는 아래의 예제를 참고 합니다. 
+**Step 3:** ID is required fields, and **must** entered in **e-mail** format. For other items, refer to the example below.
 
-사용자 이름 입력 후 _check user id_ 를 클릭하여 중복이름 체크가 필요 합니다. 
+Click 'check user id' to check the duplicate name after entering the user name
 
-![&#xC0AC;&#xC6A9;&#xC790; &#xC0DD;&#xC131; &#xD654;&#xBA74;](.gitbook/assets/2020-07-31-3.50.40.png)
+![User registration screen](.gitbook/assets/2020-07-31-3.50.40.png)
 
-이제 로그 아웃 한 후 추가한 사용자를 통해 다시 로그인 합니다. 
+**STEP 4:** Please, sign in with registered user above after sign out 
 
 ![&#xC0AC;&#xC6A9;&#xC790; Profile &#xD654;&#xBA74;](.gitbook/assets/2020-07-31-3.52.50.png)
 
-더 자세한 사용자 관리 기능을 알아보기 위해서는 IDENTITY &gt; USER 페이지를 참고 해주세요. 
+Please, refer to the IDENTITY&gt; USER page for more detailed user management functions.
 
 {% page-ref page="identity/user.md" %}
 
 
 
- 
+### Sign in as a common user
 
-### 일반 사용자로 로그인 하기
-
-이제 추가한 사용자로 로그인 하여 서비스를 사용해보도록 합시다. 다시 서비스에 로그인 하여 _Sign in with Google_ 버튼을 클릭하여 로그인 합니다. 
+Now, let's sign in as the added user and try SpaceONE service.   
+  
+**STEP1:** Click 'Sign in with Google' button and select account that was added previously.
 
 ![](.gitbook/assets/2020-08-03-11.07.25.png)
 
-로그인시 아래와 같이 휑~ 하니 비어있는 Dashboard를 볼 수 있습니다. 아직 수집한 데이터가 없기 때문이죠. :-\)
-
-이제 SpaceONE을 통해 Cloud Resource를 수집 해보도록 합니다. 먼저 _Get Started_ 버튼을 눌러 Project를 생성해 보도록 합시다. 
+You will see an empty dashboard if you sign in first time with added user. Because you don't have any data yet. :-\)
 
 ![Domain Dashboard &#xCD5C;&#xCD08; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-11.12.14.png)
 
-
+Now let's collect Cloud Resources through SpaceONE. Let's create the Get Started button first
 
 ## 프로젝트 생성하기   <a id="creating-project"></a>
 
