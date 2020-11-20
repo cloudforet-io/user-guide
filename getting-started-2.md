@@ -66,7 +66,7 @@ Please, refer to the IDENTITY&gt; USER page for more detailed user management fu
 
 Now, let's sign in as the added user and try SpaceONE service.   
   
-Click 'Sign in with Google' button and select account that was added previously.
+**STEP 1:** Click 'Sign in with Google' button and select account that was added previously.
 
 ![](.gitbook/assets/2020-08-03-11.07.25.png)
 
@@ -81,15 +81,15 @@ Create a your first project with 'Get Started' button.
 
 You can create a _project_ after creating a _Project Group_. 
 
-**STEP1:** Click '_Create_' button at right next to Project Group to create a project group.
+**STEP 1:** Click '_Create_' button at right next to Project Group to create a project group.
 
 ![Project Group &#xC0DD;&#xC131; &#xBC84;&#xD2BC;](.gitbook/assets/2020-08-03-11.18.38.png)
 
-**STEP2:** Type as below to create a Project Group
+**STEP 2:** Type as below to create a Project Group
 
 ![Project Group creation window screen ](.gitbook/assets/2020-08-03-11.20.02.png)
 
-**STEP3:** Click '_Create Project'_ button to create a project __after select created Project Group.
+**STEP 3:** Click '_Create Project'_ button to create a project __after select created Project Group.
 
 ![](.gitbook/assets/2020-08-03-11.31.43.png)
 
@@ -112,47 +112,53 @@ Now, let's set up a Service Account.
 Enter Credentials\(APIKey Pair\) to collect Cloud Resource.   
 The example service account registration in the Getting Started Guide is based on AWS.
 
-SClick '_+ Add_' button once selected Identity &gt; Service Account &gt; AWS. 
+**STEP 1:** Click '_+ Add_' button once selected Identity &gt; Service Account &gt; AWS. 
 
 ![](.gitbook/assets/2020-08-03-3.39.10.png)
 
-Enter required fields to add an AWS Service Account in the Add Service Account input form as shown below.
+**STEP 2:** Enter all required fields to add an AWS Service Account in the Add Service Account input form as shown below.
 
 Items marked in red are required fields. The rest of the items aren't mandatory. You can skip optional fields.
 
 ![](.gitbook/assets/2020-08-03-3.50.06.png)
 
-Once you enter all required fields, select a project in the Project item, and then click the 'Save' button at the bottom.
+**STEP 3:** Select a project in the Project item, and then click the 'Save' button at the bottom, once you fill out all required fields. 
 
 ![Service Account &#xC0DD;&#xC131; &#xD398;&#xC774;&#xC9C0; &#xB0B4;&#xC758; Project &#xC120;&#xD0DD; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-3.47.38.png)
 
-AWS Service Account가 정상적으로 생성 되었다면, Collector를 생성하여 Cloud Resource를 수집 하는 것이 가능 합니다. Service Account에 대한 자세한 설명은 아래의 링크를 참고해주세요.  
+Now you can collect cloud resources by creating a Collector if AWS service account is successfully registered.   
+  
+Please refer to the link below for more information on Service Account.
 
 {% page-ref page="identity/service-account/" %}
 
+## Collecting Cloud Resources <a id="discovering-cloud-resource"></a>
 
+### Creating Collector
 
-## Cloud Resource 수집하기 <a id="discovering-cloud-resource"></a>
+Drive to Plugin &gt; Collector. It is normal for a blank screen to appear as there is no Collector installed when sign in for the first time
 
-### Collector 생성하기
-
-Plugin &gt; Collector 로 이동합니다. 최초 로그인시 설치된 Collector가 없으므로 비어있는 화면이 나오는 것이 정상 입니다. 
-
-Create 버튼을 클릭하여 필요한 Collector를 선택 합니다. 
+**STEP 1:** Select a Collector with clicking '+ Create' button.  
 
 ![](.gitbook/assets/2020-08-03-4.18.54.png)
 
-아래와 같이 _**Official MarketPlace**_에서 설치 가능한 Collector List를 확인할 수 있습니다. 이번에는 _**aws-ec2**_ Collector를 설치 해 보도록 하겠습니다. aws-ec2 collector의 _**Create**_ 버튼을 클릭 합니다. 
+You can find Collector List that can be installed in _**Official MarketPlace**_ as shown below.  
+We will proceed to install _**aws-ec2**_ Collector at this time. 
+
+**STEP 2:** Click ****_**aws-ec2**_ collector's '+ create' button. 
 
 ![collector &#xC0DD;&#xC131; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-4.19.39.png)
 
-아래와 같이 Collector 생성 Wizard가 화면에 나타납니다. 
+The Collector Creation Wizard appears on the screen as shown below.
 
-선택한 Collector의 이름과 버전을 선택할 수 있습니다. 다른 부분은 크게 변경할 필요 없고, 이름을 입력 하고 _**Confirm**_을 클릭하면 생성됩니다. 
+You can name collector and select its version. Other fields don't need to edit by any chance. It is created by entering the name and clicking Confirm.
 
-![Collector &#xC124;&#xC815; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-4.22.39.png)
+**STEP 3:** Enter name and then click ****collector's 'confirm' button. 
 
-같은 방법으로 AWS-Cloud-Service Collector도 생성 합니다. 아래와 같이 생성된 Collector가 조회 됩니다. 
+![Collector setting screen](.gitbook/assets/2020-08-03-4.22.39.png)
+
+You can create an AWS-Cloud-Service Collector with same process as well. Collector created as below is searched.   
+You can find collectors on the list once you created collectors.
 
 ![](.gitbook/assets/2020-08-03-4.33.11.png)
 
