@@ -157,8 +157,8 @@ You can name collector and select its version. Other fields don't need to edit b
 
 ![Collector setting screen](.gitbook/assets/2020-08-03-4.22.39.png)
 
-You can create an AWS-Cloud-Service Collector with same process as well. Collector created as below is searched.   
-You can find collectors on the list once you created collectors.
+You can also create an AWS-Cloud-Service Collector with same process as well.   
+You can find collectors on the list once you created.
 
 ![](.gitbook/assets/2020-08-03-4.33.11.png)
 
