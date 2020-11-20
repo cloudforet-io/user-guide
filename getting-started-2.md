@@ -76,9 +76,10 @@ You will see an empty dashboard if you sign in first time with added user. Becau
 
 ![Domain Dashboard &#xCD5C;&#xCD08; &#xD654;&#xBA74;](.gitbook/assets/2020-08-03-11.12.14.png)
 
-Now let's collect Cloud Resources through SpaceONE. Let's create the Get Started button first
+Now let's collect Cloud Resources through SpaceONE.   
+Create a your first project with 'Get Started' button.
 
-## 프로젝트 생성하기   <a id="creating-project"></a>
+## Create Project   <a id="creating-project"></a>
 
 Project 생성은 _Project Group_ 생성 후에 가능합니다. 
 
