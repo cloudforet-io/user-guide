@@ -40,7 +40,7 @@ You will receive log-in ID and password since you applied services.
 
 
 
-### 일반 사용자 추가하기
+### Register Common User
 
 도메인내 사용자를 추가 해보도록 합시다. 이 후에는, 추가된 사용자로 SpaceONE에 로그인하여 각각의 사용자별 작업이 가능 합니다. 
 
