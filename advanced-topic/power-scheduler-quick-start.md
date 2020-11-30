@@ -15,7 +15,7 @@ You can start your Power Scheduler after completing following steps:
 
 ## Prerequisites
 
-You can set up your own IAM policy for power scheduler in SpaceONE with pre-defined credentials per cloud-provider to control over resources with safety and prevent other to access resources without permissions.
+You can set up your IAM policy for power scheduler in SpaceONE with pre-defined credentials per cloud-provider to control over resources with safety and prevent other to access resources without permissions.
 
 Please, assign corresponding access policies to SpanceONE from each provider's console as mentioned below, prior to create a Power Scheduler.
 
@@ -23,21 +23,21 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 ## Set up Basic Scheduler Info
 
-상단 바의 `Automation` &gt; `Power Scheduler` 메뉴를 선택합니다. 
+**STEP 1:** Select `Automation` &gt; `Power Scheduler` on top header menu 
 
 ![Select Power Scheduler on menu](../.gitbook/assets/image%20%283%29.png)
 
 
 
-스케줄러를 설정할 프로젝트의 dashboard를 선택합니다. 
+**STEP 2:** Select a project to set up power scheduler on dashboard. 
 
-![&#xD504;&#xB85C;&#xC81D;&#xD2B8; Dashboard &#xC120;&#xD0DD;](../.gitbook/assets/image%20%2871%29.png)
-
-
+![Select a Project on Dashboard](../.gitbook/assets/image%20%2871%29.png)
 
 
 
-상단 왼쪽의 `+ 새 스케줄러 만들기` 버튼을 클릭합니다. 프로젝트에 기존에 생성한 스케줄러가 없는 경우 자동으로 생성모드로 변경됩니다. 
+
+
+**STEP 3:**  Click `+ 새 스케줄러 만들기` button at top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
 
 ![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xB9CC;&#xB4E4;&#xAE30;](../.gitbook/assets/image%20%2822%29.png)
 
@@ -45,7 +45,7 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 
 
-스케줄러 생성을 위해 스케줄러의 이름을 설정합니다. 문자와 `-` 를 포함한 문자열을 입력할 수 있습니다. 띄어쓰기가 불가합니다. 스케줄러 이름은 입력 필수 항목으로, 누락 시 스케줄러가 생성되지 않습니다.  
+**STEP 4:** 스케줄러 생성을 위해 스케줄러의 이름을 설정합니다. 문자와 `-` 를 포함한 문자열을 입력할 수 있습니다. 띄어쓰기가 불가합니다. 스케줄러 이름은 입력 필수 항목으로, 누락 시 스케줄러가 생성되지 않습니다.  
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
