@@ -9,7 +9,7 @@ description: Quick Guide for user easier to set up Power scheduler
 You can start your Power Scheduler after completing following steps: 
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
-* [Set up Basic Scheduler Info](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MNOGD1CFS6pTCMeFFFP/advanced-topic/power-scheduler-quick-start#set-up-basic-scheduler-info)
+* [Set up Basic Scheduler Info](power-scheduler-quick-start.md#set-up-basic-scheduler-info)
 * [스케줄러 작동 시간 설정하기](power-scheduler-quick-start.md#undefined-1)
 * [리소스 그룹 정의하기](power-scheduler-quick-start.md#undefined-2)
 
