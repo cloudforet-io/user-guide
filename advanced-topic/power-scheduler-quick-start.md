@@ -25,7 +25,7 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 상단 바의 `Automation` &gt; `Power Scheduler` 메뉴를 선택합니다. 
 
-![power scheduler &#xB9E4;&#xB274; &#xC120;&#xD0DD;](../.gitbook/assets/image%20%283%29.png)
+![Select Power Scheduler on menu](../.gitbook/assets/image%20%283%29.png)
 
 
 
