@@ -10,7 +10,7 @@ You can start your Power Scheduler after completing following steps:
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
 * [Set up Basic Scheduler Info](power-scheduler-quick-start.md#set-up-basic-scheduler-info)
-* [스케줄러 작동 시간 설정하기](power-scheduler-quick-start.md#undefined-1)
+* [Configure Scheduler Runtime](power-scheduler-quick-start.md#configure-scheduler-runtime)
 * [리소스 그룹 정의하기](power-scheduler-quick-start.md#undefined-2)
 
 ## Prerequisites
@@ -45,7 +45,7 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 
 
-**STEP 4:** 스케줄러 생성을 위해 스케줄러의 이름을 설정합니다. 문자와 `-` 를 포함한 문자열을 입력할 수 있습니다. 띄어쓰기가 불가합니다. 스케줄러 이름은 입력 필수 항목으로, 누락 시 스케줄러가 생성되지 않습니다.  
+**STEP 4:**  Set the scheduler's name to create a scheduler. You can enter a string including letters and  `-` . Scheduler name is required and blank spaces are not allowed.
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
@@ -53,22 +53,23 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 
 
-## 스케줄러 작동 시간 설정하기
+## Configure scheduler runtime
 
-![&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC801;&#xC6A9; &#xC2DC;&#xAC04; &#xC124;&#xC815;](../.gitbook/assets/image%20%2841%29.png)
+![set a time schedule to apply](../.gitbook/assets/image%20%2841%29.png)
 
-스케줄러가 적용되는 시간을 설정합니다. Calendar의 가로축은 날짜, 세로축은 스케줄러가 적용될 시간입니다. `이번주` 버튼을 클릭하면 이번주의 스케줄 시간을 설정할 수 있습니다.  
+Set the time for applying a scheduler.   
+Calendar grid breaks the week down by day on the horizontal axis and has 24 hour basis segments in portrait orientation.  You can click`이번주` button to set the schedule time for this week.  
 
-그래프 오른쪽 상단의 `< >` 를 통해 달을 이동할 수 있습니다. 
+You can move between month through  `< >` at upper right of graph. 
 
 
 
-스케줄에는 3가지의 scheduled mode가 있습니다.
+There are three types of scheduler mode.
 
-| Scheduled mode | State | Description | color |
-| :--- | :--- | :--- | :--- |
-| 반복 스케줄 |  | 매주 반복되는 타이머로 선택된 영역은 resource가 켜지며, 해제된 영역은 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%288%29.png) |
-| 1회성 스케줄 | 켜기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 켜집니다. | ![](../.gitbook/assets/image%20%2816%29.png) |
+|  Mode | State | Description | Color |
+| :---: | :---: | :--- | :---: |
+| 반복  스케줄 |  | 매주 반복되는 타이머로 선택된 영역은 resource가 켜지며, 해제된 영역은 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%288%29.png) |
+| 1회성  스케줄 | 켜기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 켜집니다. | ![](../.gitbook/assets/image%20%2816%29.png) |
 |  | 끄기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역에서 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 
@@ -79,7 +80,7 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 
 > 설정이 없으면 `모두 끄기`로 인식되어 리소스의 작동이 멈추게 되므로 주의해야 합니다.
 
-## 리소스 그룹 정의
+## Define Resource Group
 
 스케줄러를 적용할 리소스 그룹을 정의합니다. 
 
