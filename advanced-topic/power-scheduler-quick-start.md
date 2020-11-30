@@ -9,7 +9,7 @@ description: Quick Guide for user easier to set up Power scheduler
 You can start your Power Scheduler after completing following steps: 
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
-* [스케줄 기본 정보 설정하기](power-scheduler-quick-start.md#scheduler)
+* [Set up Basic Scheduler Info](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MNOGD1CFS6pTCMeFFFP/advanced-topic/power-scheduler-quick-start#set-up-basic-scheduler-info)
 * [스케줄러 작동 시간 설정하기](power-scheduler-quick-start.md#undefined-1)
 * [리소스 그룹 정의하기](power-scheduler-quick-start.md#undefined-2)
 
@@ -17,11 +17,11 @@ You can start your Power Scheduler after completing following steps:
 
 You can set up your own IAM policy for power scheduler in SpaceONE with pre-defined credentials per cloud-provider to control over resources with safety and prevent other to access resources without permissions.
 
-Power Scheduler를 생성하기 전  아래  페이지에 명시된 방법 통해 각 Cloud provider의 콘솔에서 해당 정책을 SpaceONE에 할당해주시기 바랍니다. 
+Please, assign corresponding access policies to SpanceONE from each provider's console as mentioned below, prior to create a Power Scheduler.
 
 {% page-ref page="../identity/service-account/service-account-policy-management.md" %}
 
-## Scheduler 기본 정보 설정하기
+## Set up Basic Scheduler Info
 
 상단 바의 `Automation` &gt; `Power Scheduler` 메뉴를 선택합니다. 
 
