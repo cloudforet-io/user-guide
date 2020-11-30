@@ -58,6 +58,7 @@ Please, assign corresponding access policies to SpanceONE from each provider's c
 ![set a time schedule to apply](../.gitbook/assets/image%20%2841%29.png)
 
 Set the time for applying a scheduler.   
+  
 Calendar grid breaks the week down by day on the horizontal axis and has 24 hour basis segments in portrait orientation.  You can click`이번주` button to set the schedule time for this week.  
 
 You can move between month through  `< >` at upper right of graph. 
@@ -74,11 +75,12 @@ There are three types of scheduler mode.
 
 
 
-마우스를 클릭 / 드래그 해서 스케줄러가 작동할 시간을 설정합니다.
+Click / drag the mouse to set the time for the scheduler to run.
 
-![&#xC2A4;&#xCF00;&#xC904;&#xB7EC; calendar &#xB9C8;&#xC6B0;&#xC2A4; &#xD074;&#xB9AD; / &#xB4DC;&#xB798;&#xADF8;](../.gitbook/assets/image%20%2819%29.png)
+![Scheduler calendar mouse Click / drag](../.gitbook/assets/image%20%2819%29.png)
 
-> 설정이 없으면 `모두 끄기`로 인식되어 리소스의 작동이 멈추게 되므로 주의해야 합니다.
+> Please, be advised,    
+> Without any setting, it recognizes scheduler as `모두 끄기`all off, which causes all resource to stop working.
 
 ## Define Resource Group
 
