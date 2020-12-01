@@ -75,11 +75,11 @@ There are three types of scheduler mode.
 
 
 
-Click / drag the mouse to set the time for the scheduler to run.
+**STEP 1:** Click /drag  to select certain time segments to set time for the scheduler to run.
 
 ![Scheduler calendar mouse Click / drag](../.gitbook/assets/image%20%2819%29.png)
 
-> Please, be advised,    
+> **Please, be advised**   
 > Without any setting, it recognizes scheduler as `모두 끄기`all off, which causes all resource to stop working.
 
 ## Define Resource Group
