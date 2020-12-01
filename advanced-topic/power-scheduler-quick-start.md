@@ -84,7 +84,7 @@ Click / drag the mouse to set the time for the scheduler to run.
 
 ## Define Resource Group
 
-스케줄러를 적용할 리소스 그룹을 정의합니다. 
+Set the resource group for applying defined schedule  
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
