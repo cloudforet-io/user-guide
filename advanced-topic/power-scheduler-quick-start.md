@@ -11,7 +11,7 @@ You can start your Power Scheduler after completing following steps:
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
 * [Set up Basic Scheduler Info](power-scheduler-quick-start.md#set-up-basic-scheduler-info)
 * [Configure Scheduler Runtime](power-scheduler-quick-start.md#configure-scheduler-runtime)
-* [리소스 그룹 정의하기](power-scheduler-quick-start.md#undefined-2)
+* [Define Resource Group](power-scheduler-quick-start.md#define-resource-group)
 
 ## Prerequisites
 
