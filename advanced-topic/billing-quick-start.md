@@ -8,9 +8,10 @@ description: Quick Guide for user easier to set up Billing Service
 
 You can see billing service after completing following steps:
 
-* Prerequisites
-* Get API Key from Billing Service Provider
-* Register Billing Service Account
+* [Prerequisites](power-scheduler-quick-start.md#prerequisites)
+* [Get API Key from Billing Service Provider](billing-quick-start.md#get-api-key-from-billing-service-provider)
+* [Register Billing Service Account](billing-quick-start.md#register-billing-service-account-ex-hyper-billing)
+* [Billing Information](billing-quick-start.md#billing-information)
 
 ## Prerequisites
 
