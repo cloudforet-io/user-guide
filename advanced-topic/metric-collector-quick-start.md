@@ -17,23 +17,12 @@ Collect monitoring configured metric data after completing following steps:
 
 ## Prerequisites
 
-Billing information can be provided by various vendor like AWS, Google Cloud, Azure or Hyperbilling.
+Monitoring Metric Collector requires SpaceOne Service Account to collect various vendor includes AWS, Google Cloud, Azure, etc. 
 
-To enable billing service, contact your domain administrator of SpaceONE. 
+## Get API Key for Monitoring Metric Collector \(SpaceONE\)
 
-{% hint style="info" %}
-In the Version 1.5.3, Hyperbilling backend is enabled by default.
-{% endhint %}
-
-The supported billing backends are
-
-| Version | Backend |
-| :--- | :--- |
-| 1.5.3 | Hyperbilling for AWS |
-
-## Get API Key from Billing Service Provider
-
-Before adding Billing Service Account, you needs API Key. Contact your vendor.
+Before adding  Service Account \(SpaceONE\), you needs API Key.   
+Please, Contact your administrator.
 
 The contact point of billing backends are
 
@@ -41,7 +30,7 @@ The contact point of billing backends are
 | :--- | :--- |
 | Hyperbilling for AWS | MEGAZONE CLOUD \(Innoworks Team\) |
 
-## Register Billing Service Account \(Ex. Hyper Billing\)
+## Register SpaceOne Service Account \(Ex. Hyper Billing\)
 
 To register billing service account, you can do in Identity &gt; Service Account.
 
