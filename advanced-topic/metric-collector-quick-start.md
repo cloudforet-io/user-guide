@@ -77,13 +77,15 @@ Data will be updated as below once collector's job has finished to run.
 
 Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
 
-## Monitoring Metric Type
+## Collecting Monitoring Metric Information 
 
 {% hint style="info" %}
-Monitoring Metric Type will keep updating.   
+Default metric type that collects via **version 1.5.3.**  
+  
+**Note**: Monitoring Metric Type will keep updating. 
 {% endhint %}
 
-#### Default Value for Stat
+#### Default Metric Stat
 
 | Stat for Metric | Key | Description |
 | :---: | :---: | :---: |
