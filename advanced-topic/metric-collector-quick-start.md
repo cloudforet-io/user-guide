@@ -31,18 +31,18 @@ Please, contact your domain administrator of SpaceONE If you don't have a API-Ke
 
 ## Register SpaceOne Service Account \(Ex. Metric Collector\)
 
-To register SpaceONE service account, you can do in Identity &gt; Service Account.
+Register SpaceONE service account, at **Identity** &gt; **Service Account** 
 
-Select **SpaceONE** Service Provider, then click **Add**  
-
+Select **SpaceONE** on Service Provider, and then click +**Add** button.  
+ ****
 
 ![SpaceONE service account Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
 
-Register SpaceONE Service Account like following steps,
+Register SpaceONE Service Account with following steps,
 
 1. Name Service account
 2. Set User ID
-3. Put Credentials \(API Key\)
+3. Put Credentials \(API Key info\)
 
 ![Adding a service account screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
 
