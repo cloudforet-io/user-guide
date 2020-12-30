@@ -69,11 +69,11 @@ You can SKIP this step.
 You can check collected monitoring Metric data information at **Inventory** &gt; **Server** list.  
 **Note:** **Recommend Monitoring-metric-collector schedule is a once in day.** 
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
+![Inventory Server list summary Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
 
 Data will be updated as below once collector's job has finished to run.
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
+![Raw data Tab Screen](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
 Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
 
