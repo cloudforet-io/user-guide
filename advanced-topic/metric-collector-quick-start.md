@@ -35,7 +35,7 @@ To register SpaceONE service account, you can do in Identity &gt; Service Accoun
 Select **SpaceONE** Service Provider, then click **Add**  
 
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
+![SpaceONE service account Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
 
 Register SpaceONE Service Account like following steps,
 
@@ -43,7 +43,7 @@ Register SpaceONE Service Account like following steps,
 2. Set User ID
 3. Put Credentials \(API Key\)
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
+![Adding a service account screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
 
 Configure credentials which has obtained from domain administrator after set service account name and user ID. 
 
@@ -55,7 +55,7 @@ You will get a three following items as credential inputs
 
 All those fields are mandatory. 
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![Register Credentials screen](../.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
 Do NOT assign project for Monitoring Metric collector Service.
@@ -65,7 +65,7 @@ You can SKIP this step.
 
 ## Monitoring Metric Information
 
-You can check information at Inventory &gt; Server list.  
+You can check collected monitoring Metric data information at **Inventory** &gt; **Server** list.  
   
 **Recommend Monitoring-metric-collector schedule is a once in day.** 
 
@@ -75,6 +75,5 @@ Data will be updated as below once collector's job has finished to run.
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
-You can check all collected Monitoring data in **"Row Data"**  tap within path of   
-_**Data -&gt; Monitoring**_ 
+Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
 
