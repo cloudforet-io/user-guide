@@ -10,7 +10,7 @@ description: >-
 
 Collect monitoring configured metric data after completing following steps:
 
-* [Prerequisites](power-scheduler-quick-start.md#prerequisites)
+* [Prerequisites](metric-collector-quick-start.md#prerequisites)
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
 * [Register SpaceONE Service Account](metric-collector-quick-start.md#register-spaceone-service-account-ex-metric-collector)
 * [Monitoring Metric Information](metric-collector-quick-start.md#monitoring-metric-information) 
