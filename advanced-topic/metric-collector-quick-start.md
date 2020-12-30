@@ -8,12 +8,13 @@ description: >-
 
 ## How to Set up
 
-Collect monitoring configured metric data after completing following steps:
+Collect monitoring metric data through following steps:
 
 * [Prerequisites](metric-collector-quick-start.md#prerequisites)
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
 * [Register SpaceONE Service Account](metric-collector-quick-start.md#register-spaceone-service-account-ex-metric-collector)
 * [Monitoring Metric Information](metric-collector-quick-start.md#monitoring-metric-information) 
+* Monitoring Metric Type
 
 ## Prerequisites
 
@@ -66,8 +67,7 @@ You can SKIP this step.
 ## Monitoring Metric Information
 
 You can check collected monitoring Metric data information at **Inventory** &gt; **Server** list.  
-  
-**Recommend Monitoring-metric-collector schedule is a once in day.** 
+**Note:** **Recommend Monitoring-metric-collector schedule is a once in day.** 
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
 
@@ -76,4 +76,74 @@ Data will be updated as below once collector's job has finished to run.
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
 Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
+
+## Monitoring Metric Type
+
+#### Default Value for Stat
+
+| Stat for Metric | Key | Description |
+| :--- | :--- | :--- |
+| MAX | max | Maximum value per day |
+| AVERAGE | avg | Average value per day |
+
+#### Collecting Metrics 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Collecting Metric Type</th>
+      <th style="text-align:left">Metric name / (Unit)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>CPU</b>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>utilization (%)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Memory</b>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>usage (%)</li>
+          <li>total (bytes)</li>
+          <li>used (bytes)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Disk</b>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>write_iops (counts)</li>
+          <li>write_throughput (bytes)</li>
+          <li>read_iops (counts)</li>
+          <li>read_throughput (bytes)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Network</b>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>received_throughput (bytes)</li>
+          <li>received_pps (counts)</li>
+          <li>sent_throughput (bytes)</li>
+          <li>sent_pps (counts)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
