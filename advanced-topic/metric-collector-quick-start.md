@@ -12,8 +12,8 @@ Collect monitoring configured metric data after completing following steps:
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
-* [Register Billing Service Account](billing-quick-start.md#register-billing-service-account-ex-hyper-billing)
-* [Billing Information](billing-quick-start.md#billing-information)
+* [Register SpaceONE Service Account](metric-collector-quick-start.md#register-spaceone-service-account-ex-metric-collector)
+* [Monitoring Metric Information](metric-collector-quick-start.md#monitoring-metric-information) 
 
 ## Prerequisites
 
