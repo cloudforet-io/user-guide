@@ -79,10 +79,14 @@ Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Da
 
 ## Monitoring Metric Type
 
+{% hint style="info" %}
+Monitoring Metric Type will keep updating.   
+{% endhint %}
+
 #### Default Value for Stat
 
 | Stat for Metric | Key | Description |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | MAX | max | Maximum value per day |
 | AVERAGE | avg | Average value per day |
 
