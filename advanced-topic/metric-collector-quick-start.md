@@ -91,13 +91,13 @@ Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Da
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Collecting Metric Type</th>
+      <th style="text-align:center">Collecting Metric Type</th>
       <th style="text-align:left">Metric name / (Unit)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>CPU</b>
+      <td style="text-align:center"><b>CPU</b>
       </td>
       <td style="text-align:left">
         <p></p>
@@ -107,7 +107,7 @@ Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Da
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Memory</b>
+      <td style="text-align:center"><b>Memory</b>
       </td>
       <td style="text-align:left">
         <p></p>
@@ -119,7 +119,7 @@ Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Da
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Disk</b>
+      <td style="text-align:center"><b>Disk</b>
       </td>
       <td style="text-align:left">
         <p></p>
@@ -132,7 +132,7 @@ Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Da
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Network</b>
+      <td style="text-align:center"><b>Network</b>
       </td>
       <td style="text-align:left">
         <p></p>
