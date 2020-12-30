@@ -11,7 +11,7 @@ description: >-
 Collect monitoring configured metric data after completing following steps:
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
-* [Get API Key from Billing Service Provider](billing-quick-start.md#get-api-key-from-billing-service-provider)
+* [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
 * [Register Billing Service Account](billing-quick-start.md#register-billing-service-account-ex-hyper-billing)
 * [Billing Information](billing-quick-start.md#billing-information)
 
@@ -19,7 +19,7 @@ Collect monitoring configured metric data after completing following steps:
 
 Monitoring Metric Collector requires SpaceOne Service Account to collect various vendor includes AWS, Google Cloud, Azure, etc. 
 
-## Get API Key for Monitoring Metric Collector \(SpaceONE\)
+## Get API Key for SpaceONE Service Account 
 
 Before adding  Service Account \(SpaceONE\), you needs API Key for SpaceONE. 
 
@@ -28,7 +28,7 @@ Before adding  Service Account \(SpaceONE\), you needs API Key for SpaceONE.
 Please, contact your domain administrator of SpaceONE If you don't have a API-Key for SpaceONE service account or send an e-mail for more support \(**_**support@spaceone.dev**_**\)**
 {% endhint %}
 
-## Register SpaceOne Service Account \(Ex. Hyper Billing\)
+## Register SpaceOne Service Account \(Ex. Metric Collector\)
 
 To register billing service account, you can do in Identity &gt; Service Account.
 
