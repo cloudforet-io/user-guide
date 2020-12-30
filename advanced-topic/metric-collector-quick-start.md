@@ -1,8 +1,14 @@
+---
+description: >-
+  Quick Guide for user to set up Monitoring Metric Collectors for Servers over
+  Clouds
+---
+
 # Metric Collector Quick Start
 
 ## How to Set up
 
-You can see billing service after completing following steps:
+Collect monitoring configured metric data after completing following steps:
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
 * [Get API Key from Billing Service Provider](billing-quick-start.md#get-api-key-from-billing-service-provider)
