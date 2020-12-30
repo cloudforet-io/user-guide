@@ -73,5 +73,8 @@ You can check information at Inventory &gt; Server list.
 
 Data will be updated as below once collector's job has finished to run.
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-13.54.34.png)
+![](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
+
+You can check all collected Monitoring data in **"Row Data"**  tap within path of   
+_**Data -&gt; Monitoring**_ 
 
