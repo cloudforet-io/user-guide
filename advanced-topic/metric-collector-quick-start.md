@@ -71,7 +71,7 @@ You can check collected monitoring Metric data information at **Inventory** &gt;
 
 ![Inventory Server list summary Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
 
-Data will be updated as below once collector's job has finished to run.
+Monitoring metric's values will be updated once collector's job has finished.
 
 ![Raw data Tab Screen](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
