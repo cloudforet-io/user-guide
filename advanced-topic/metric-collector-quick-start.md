@@ -21,14 +21,12 @@ Monitoring Metric Collector requires SpaceOne Service Account to collect various
 
 ## Get API Key for Monitoring Metric Collector \(SpaceONE\)
 
-Before adding  Service Account \(SpaceONE\), you needs API Key.   
-Please, Contact your administrator.
+Before adding  Service Account \(SpaceONE\), you needs API Key for SpaceONE. 
 
-The contact point of billing backends are
-
-| Backend | Contact |
-| :--- | :--- |
-| Hyperbilling for AWS | MEGAZONE CLOUD \(Innoworks Team\) |
+{% hint style="info" %}
+**We currently provide API-Key via administrator only.   
+Please, contact your domain administrator of SpaceONE If you don't have a API-Key for SpaceONE service account or send an e-mail for more support \(**_**support@spaceone.dev**_**\)**
+{% endhint %}
 
 ## Register SpaceOne Service Account \(Ex. Hyper Billing\)
 
