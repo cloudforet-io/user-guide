@@ -59,12 +59,20 @@ All those fields are mandatory.
 ![](../.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
-Assigning Project is not mandatory for Monitoring Metric collector Service.
+Do NOT assign project for Monitoring Metric collector Service.
 
 You can SKIP this step.
 {% endhint %}
 
-![3. Select Project](../.gitbook/assets/image%20%2875%29.png)
+## Monitoring Metric Information
 
-If you have multiple billing account, repeat "Register Billing Service Account".
+You can check information at Inventory &gt; Server list.  
+  
+**Recommend Monitoring-metric-collector schedule is a once in day.** 
+
+![](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
+
+Data will be updated as below once collector's job has finished to run.
+
+![](../.gitbook/assets/screen-shot-2020-12-30-at-13.54.34.png)
 
