@@ -14,7 +14,7 @@ Collect monitoring metric data through following steps:
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
 * [Register SpaceONE Service Account](metric-collector-quick-start.md#register-spaceone-service-account-ex-metric-collector)
 * [Monitoring Metric Information](metric-collector-quick-start.md#monitoring-metric-information) 
-* Monitoring Metric Type
+* [Monitoring Metric Type](metric-collector-quick-start.md#monitoring-metric-type)
 
 ## Prerequisites
 
