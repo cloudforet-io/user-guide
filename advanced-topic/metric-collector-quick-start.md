@@ -75,7 +75,7 @@ Data will be updated as below once collector's job has finished to run.
 
 ![Raw data Tab Screen](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
-Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
+Check all collected Monitoring data at **"Raw Data"**  tab within path of  _**Data -&gt; Monitoring**_ 
 
 ## Collecting Monitoring Metric Type 
 
