@@ -42,7 +42,6 @@ Register SpaceONE Service Account like following steps,
 1. Name Service account
 2. Set User ID
 3. Put Credentials \(API Key\)
-4. Select Project 
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
 
