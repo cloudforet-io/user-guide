@@ -30,34 +30,38 @@ Please, contact your domain administrator of SpaceONE If you don't have a API-Ke
 
 ## Register SpaceOne Service Account \(Ex. Metric Collector\)
 
-To register billing service account, you can do in Identity &gt; Service Account.
+To register SpaceONE service account, you can do in Identity &gt; Service Account.
 
-Select **Hyper Billing** Service Provider, then click **Add**
+Select **SpaceONE** Service Provider, then click **Add**  
 
-![Register Billing ServiceAccount](../.gitbook/assets/image%20%2877%29.png)
+
+![](../.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
+
+Register SpaceONE Service Account like following steps,
+
+1. Name Service account
+2. Set User ID
+3. Put Credentials \(API Key\)
+4. Select Project 
+
+![](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
+
+Configure credentials which has obtained from domain administrator after set service account name and user ID. 
+
+You will get a three following items as credential inputs
+
+1. _API Key_
+2. _API Key ID_
+3. _Identity Endpoint_
+
+All those fields are mandatory. 
+
+![](../.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
-**If you have no "Hyper Billing" in the Service Providers, contact Domain Administrator of SpaceONE.**
-{% endhint %}
+Assigning Project is not mandatory for Monitoring Metric collector Service.
 
-Register Billing Service Account like following steps,
-
-1. name of service account
-2. Put Credentials \(API Key\)
-3. Select Project
-
-![1. name of service account](../.gitbook/assets/image%20%2879%29.png)
-
-After set name of service account, you have to configure Credentials which is received from Billing Service Provider. In this example you can get Credentials from Megazone Hyperbilling team.
-
-They will give you Credentials which are consisted with "Account", "Email" and "Key". Put the information correctly.
-
-![2. Credentials \(API Key\)](../.gitbook/assets/image%20%2874%29.png)
-
-{% hint style="info" %}
-Assigning Project is mandatory for Billing Service.
-
-DO NOT SKIP THIS STEP.
+You can SKIP this step.
 {% endhint %}
 
 ![3. Select Project](../.gitbook/assets/image%20%2875%29.png)
