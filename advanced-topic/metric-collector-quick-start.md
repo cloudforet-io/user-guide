@@ -14,7 +14,7 @@ Collect monitoring metric data through following steps:
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
 * [Register SpaceONE Service Account](metric-collector-quick-start.md#register-spaceone-service-account-ex-metric-collector)
 * [Monitoring Metric Information](metric-collector-quick-start.md#monitoring-metric-information) 
-* [Monitoring Metric Type](metric-collector-quick-start.md#monitoring-metric-type)
+* [Collecting Monitoring Metric Type](metric-collector-quick-start.md#collecting-monitoring-metric-type)
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ Data will be updated as below once collector's job has finished to run.
 
 Check all collected Monitoring data at **"Row Data"**  tap within path of  _**Data -&gt; Monitoring**_ 
 
-## Collecting Monitoring Metric Information 
+## Collecting Monitoring Metric Type 
 
 {% hint style="info" %}
 Default metric type that collects via **version 1.5.3.**  
