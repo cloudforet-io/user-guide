@@ -11,6 +11,8 @@
 ## ADVANCED TOPIC
 
 * [Power Scheduler Quick Start](advanced-topic/power-scheduler-quick-start.md)
+* [Billing Quick Start](advanced-topic/billing-quick-start.md)
+* [Metric Collector Quick Start](advanced-topic/metric-collector-quick-start.md)
 
 ## Dashboard <a id="dashboard-1"></a>
 

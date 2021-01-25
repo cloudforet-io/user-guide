@@ -1,0 +1,2 @@
+# Metric Collector Quick Start
+
