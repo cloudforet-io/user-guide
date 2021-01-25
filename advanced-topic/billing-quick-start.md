@@ -13,7 +13,7 @@ Billing 서비스를 사용하기 위해서는 아래와 같은 절차가 필요
 * [Billing Service Account를 등록](billing-quick-start.md#billing-service-account-ex-hyper-billing)
 * [Billing 정보 조회하기](billing-quick-start.md#undefined-1)
 
-##  사전 준비 <a id="prerequisite"></a>
+## 사전 준비 <a id="prerequisite"></a>
 
 Billing 정보는 AWS, Google Cloud, Azure 혹은 Hyperbilling을 통해 제공 됩니다.
 
