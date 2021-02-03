@@ -80,7 +80,7 @@ desc
 
 ![](.gitbook/assets/create_aws_ec2_collector.png)
 
-### **AWS Cloud Services Collector 생성**
+### **Create AWS Cloud Services Collector** 
 
 **STEP 1:** 
 
@@ -88,13 +88,13 @@ desc
 
 \*\*\*\*
 
-**STEP 2: AWS Cloud Service Collector 를 생성합니다.** 
+**STEP 2:** 
 
 ![](.gitbook/assets/create_aws_cloud_services_collector.png)
 
 \*\*\*\*
 
-### **AWS  Trusted Advisor Collector 생성**
+### **Create AWS  Trusted Advisor Collector** 
 
 **STEP 1:** 
 
