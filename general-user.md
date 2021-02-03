@@ -30,7 +30,7 @@
 
 
 
-생성한 프로젝트를 한눈에 확인할 수 있합니다.
+생성한 프로젝트를 한눈에 확인할 수 있습니다.
 
 ![](.gitbook/assets/list_spaceone_projects.png)
 
@@ -46,8 +46,6 @@
 
 **STEP 2: 해당 Service Account가 속할 프로젝트를 선택합니다. \(optional\)**
 
-![](.gitbook/assets/attach_account_to_project.png)
-
 **`save`** 버튼을 눌러 저장합니다.
 
 \*\*\*\*
@@ -57,6 +55,10 @@
 ## Collect Resources
 
 **STEP 1:** 
+
+\*\*\*\*
+
+![](.gitbook/assets/collect_data.png)
 
 \*\*\*\*
 

@@ -46,13 +46,13 @@ desc
 
 \*\*\*\*
 
-![](.gitbook/assets/list_user2.png)
-
 **STEP 2: User를 Services 프로젝트 그룹에 매핑합다.**
 
-\*\*\*\*
+![](.gitbook/assets/add_user2_to_project_group.png)
 
-**STEP 3:** 
+**STEP 3: User Management 화면에서 Role과 Authorization Type이 매핑된 것을 확인할 수 있습니다.**
+
+![](.gitbook/assets/check_user2_role.png)
 
 ## Collect Collectors
 
