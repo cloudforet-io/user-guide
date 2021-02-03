@@ -1,12 +1,20 @@
 # Table of contents
 
-* [Introduction to SpaceONE](README.md)
+* [Introduction to SpaceONE\(temp\)](README.md)
+
+## Introduction to SpaceONE
+
+* [SpaceONE](introduction-to-spaceone/spaceone.md)
+* [Key Differentiators](introduction-to-spaceone/key-differentiators.md)
 
 ## Getting Started
 
 ---
 
-* [A Compass To SpaceONE Universe Traveler](getting-started-2.md)
+* [A Compass To SpaceONE Universe Traveler\(temp\)](getting-started-2.md)
+* [Root Account](root-account.md)
+* [Domain Admin](domain-admin.md)
+* [General User](general-user.md)
 
 ## ADVANCED TOPIC
 
