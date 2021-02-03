@@ -1,20 +1,30 @@
 # Root Account
 
-## Login
+## Log-in
 
-**STEP 1: Log-in as domain administrator**
+desc
+
+**STEP 1:** 
+
+![Login](.gitbook/assets/login.png)
+
+![Domain owner login](.gitbook/assets/domain_owner_login.png)
 
 \*\*\*\*
 
+**STEP 2:** 
 
+![Check domain login](.gitbook/assets/domain_owner_check.png)
 
 \*\*\*\*
 
 ## Create Domain Admin
 
-**STEP 1:** 
+desc
 
-**STEP 2:** 
+![Add User](.gitbook/assets/create_user1.png)
 
 
+
+![](.gitbook/assets/list_user1.png)
 
