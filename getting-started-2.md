@@ -2,7 +2,7 @@
 description: SpaceONE을 처음 시작 하는 분을 위한 Quick Guide 입니다.
 ---
 
-# A Compass To SpaceONE Universe Traveler\(temp\)
+# A Compass To SpaceONE Universe Traveler\(old\)
 
 ## 전체 순서  <a id="overview"></a>
 

@@ -2,7 +2,7 @@
 description: One cloud management platform for any cloud
 ---
 
-# Introduction to SpaceONE\(temp\)
+# Introduction to SpaceONE\(old\)
 
 ## SpaceONE
 

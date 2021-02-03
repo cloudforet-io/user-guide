@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction to SpaceONE\(temp\)](README.md)
+* [Introduction to SpaceONE\(old\)](README.md)
 
 ## Introduction to SpaceONE
 
@@ -11,7 +11,7 @@
 
 ---
 
-* [A Compass To SpaceONE Universe Traveler\(temp\)](getting-started-2.md)
+* [A Compass To SpaceONE Universe Traveler\(old\)](getting-started-2.md)
 * [Root Account](root-account.md)
 * [Domain Admin](domain-admin.md)
 * [General User](general-user.md)
