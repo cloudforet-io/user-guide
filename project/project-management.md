@@ -1,5 +1,5 @@
 ---
-description: '프로젝트의 전체 현황을 조회하고, 각 Cloud Resource의 상세 현황으로 이동할 수 있습니다.'
+description: 'Overall status of each projects, Navigating to detailed cloud resources'
 ---
 
 # Project Management
@@ -16,11 +16,11 @@ description: '프로젝트의 전체 현황을 조회하고, 각 Cloud Resource�
 
 \*\*\*\*
 
-분류별 사용 현황 \(삭\)
+**Usage by resource classification**
 
 ![](../.gitbook/assets/2020-08-05-2.54.31.png)
 
-* Compute 서비스를 제외한 Cloud Resource의 분류별 전체 사용 현황을 확인 가능합니다. 각각의 아이콘을 클릭시 상세 내역 조회 페이지로 이동 됩니다. 
+* You can check cloud resources by classification. Click each icon to go to the detailed information page.
 
 ### General
 
