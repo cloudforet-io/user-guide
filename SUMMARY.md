@@ -57,7 +57,6 @@
 ## ETC
 
 * [Profile](etc/profile.md)
-* [Domain 관리자 전용기능](etc/administrator.md)
 
 ## FAQ
 
