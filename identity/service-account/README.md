@@ -96,33 +96,31 @@ Like picture below, Select project to be changed then click _**Confirm.**_
 
 ![](../../.gitbook/assets/2020-08-07-6.22.47.png)
 
-## AWS Console로 링크 
+## Link to AWS Console
 
-대상 Service Account를 선택 후 _**Action**_ 메뉴를 클릭한 후 _**Console**_을 선택 합니다. 
+Select target Service Account then, click _**Action &gt; Console.**_
 
-AWS의 콘솔 링크로 이동 합니다. 사전에 AWS Console에 로그인이 되어 있거나, 로그인을 해야 해당 IAM Account로 이동할 수 있습니다. 
+User can move to AWS Console. User need to login to AWS Console previously\(AWS Console SSO is not available\)
 
+## Detailed Status Tab
 
-
-## 상세 조회 및 관리
-
-상세 관리 탭을 통해  Service Account의 상세 정보 확인/Tag 관리/Credential 관리/Member 관리가 가능 합니다. 
+Using detailed status tab, Checking detailed parameter of _**Service Account**_ or managing members are available.
 
 #### Detail 
 
-Service Account의 Meta 정보를 확인할 수 있습니다.
+Detailed parameter of _**Service Account**_.
 
-![Service Account &#xC0C1;&#xC138;&#xC870;&#xD68C;](../../.gitbook/assets/2020-08-07-6.33.27.png)
+![](../../.gitbook/assets/2020-08-07-6.33.27.png)
 
 #### Tag
 
-_**Edit**_ 버튼을 클릭해서 Service Account의 Tag를 추가/삭제할 수 있습니다. 
+By clicking _**Edit**_ button, Tag for Service Accounts will be added or deleted.
 
-![Tag &#xCD94;&#xAC00;/&#xC0AD;&#xC81C; ](../../.gitbook/assets/2020-08-07-6.54.13.png)
+![](../../.gitbook/assets/2020-08-07-6.54.13.png)
 
 #### Credentials
 
-Service Account 에서 Key 정보를 보관하고 있는 Credential 을 추가하거나 삭제할 수 있습니다.
+Credentials that contains key information can be added/removed
 
 ####  
 
