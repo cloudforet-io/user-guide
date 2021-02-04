@@ -20,7 +20,7 @@
 
 ## Create Domain Admin
 
-Root Account 의 역할 중 한 가지는  `Domain Admin`  관리자를 생성하고,  `Domain Admin Role` 을 부여해  관리자가 접속할 수 있도록 지원하는 것입니다.  
+**Root Account** 의 역할 중 한 가지는  `Domain Admin`  관리자를 생성하고,  `Domain Admin Role` 을 부여해  관리자가 접속할 수 있도록 지원하는 것입니다.  
 
 ![Add User](.gitbook/assets/create_user1.png)
 
