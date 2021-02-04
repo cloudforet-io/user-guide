@@ -12,7 +12,9 @@ The Project page consists of **`Project Group`**management, and **`Project`** ma
 
 It allows users of your company to participate in projects, and manage the authorization through roles by projects.
 
-![Project &#xAD00;&#xB9AC; &#xD398;&#xC774;&#xC9C0; Overview](../.gitbook/assets/2020-08-05-10.32.59-2.png)
+![Project Management page Overview](../.gitbook/assets/2020-08-05-10.32.59-2.png)
+
+
 
 When you enter the first page, you can see the entire project list.
 
