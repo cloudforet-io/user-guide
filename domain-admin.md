@@ -14,7 +14,7 @@
 
 ## Create Project Group
 
-SpaceONE의 모든 자원은 특정 **`Project`**에 소속되어 있으며, **`Project`**를 그룹화 할 수 있는 **`Project Group`**이 있습니다. 
+SpaceONE의 모든 자원은 특정 **`Project`**에 소속되어 있습니다. 또한,  **`Project Group`**은 **`Project`**를 그룹화합니다. 
 
 Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`**을 생성합니다. 
 
@@ -24,7 +24,7 @@ Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`
 
 
 
-**STEP 1: `Landing Zone`라는 이름으로** 
+**STEP 1: 상단 Navigation에서 Project 선택 후, `Landing Zone`라는 이름으로 Project를 생성합니다.** 
 
 ![](.gitbook/assets/create_top_project_group.png)
 
