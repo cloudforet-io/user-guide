@@ -48,11 +48,11 @@ Check the Cloud Resource status distributed by region.
 
 ![](../.gitbook/assets/2020-08-05-3.02.22.png)
 
-* Project에 속해있는 Service Account 및 Service Account 별 리소스 사용량 및 입력된 Credential 수량을 확인할 수 있습니다.   
+You can check the resource usage by `Service Account` that belong to the project. Also, you can check the amount of **`Credential`** registered.
 
 ### Daily Updates
 
-**`Daily update`** shows the history of changes in your cloud resources so far. Click to go to the Detailed Status page.
+**`Daily update`** shows the history of changes in your cloud resources so far. Click to go to the detailed status page.
 
 ### 
 
