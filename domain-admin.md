@@ -24,7 +24,7 @@ Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`
 
 
 
-**STEP 1: 상단 Navigation에서 Project 선택 후, `Landing Zone`라는 이름으로 Project를 생성합니다.** 
+**STEP 1: 상단 Navigation에서 Project 선택 후, `Landing Zone`라는 이름으로 Project Group을 생성합니다.** 
 
 ![](.gitbook/assets/create_top_project_group.png)
 
@@ -34,15 +34,15 @@ Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`
 
 
 
-**STEP 2:** 
+**STEP 2: Services 라는 이름으로 Project Group을 생성합니다.**
 
 ![](.gitbook/assets/create_project_group_services.png)
 
-**STEP 4:** 
+**STEP 3: Business Support System 이라는 Project Group을 생성합니다.** 
 
 ![](.gitbook/assets/create_project_group_businesssupportsystems.png)
 
-
+**STEP 4: SpaceONE 콘솔의 좌측 Navigation에서 생성된 Project Group을 확인할 수 있습니다.**
 
 ![](.gitbook/assets/show_project_page.png)
 
