@@ -78,23 +78,23 @@ Select the project to which the _**Service Account**_ will be placed. Collected 
 
 ## Deletion of Service Account /Changing Project 
 
-Service Account를 삭제 하거나/기존에 지정했던 Project를 변경 합니다. 
+User can delete Service Account or change project that was linked.
 
-대상 Service Account를 선택 후 _**Action**_ 메뉴를 클릭한 후 _**Delete**_ 혹은 _**Change Project**_를 선택 합니다. 
+Select target _**Service Account**_, then click _**Action &gt; Delete/Change Project**_
 
-![Service Account &#xC0AD;&#xC81C;/&#xBCC0;&#xACBD; &#xBA54;&#xB274;](../../.gitbook/assets/2020-08-07-6.17.37.png)
+![](../../.gitbook/assets/2020-08-07-6.17.37.png)
 
-#### Service Account 삭제
+#### Deletion of Service Account
 
-아래와 같이 Service Account 삭제 화면에서 Service Account 이름을 입력한 후 _**Confirm**_ 을 클릭하여 삭제가 가능합니다.   
+Enter name of Service Account, then click _**Confirm**_
 
-![Service Account &#xC0AD;&#xC81C; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.21.27.png)
+![](../../.gitbook/assets/2020-08-07-6.21.27.png)
 
-#### Project 변경
+#### Changing Project
 
-아래와 같이 Change Project 화면에서 변경하고자 하는 Project를 지정한 후 _**Confirm**_을 클릭하여 삭제가 가능합니다. 
+Like picture below, Select project to be changed then click _**Confirm.**_
 
-![Project &#xBCC0;&#xACBD; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.22.47.png)
+![](../../.gitbook/assets/2020-08-07-6.22.47.png)
 
 ## AWS Console로 링크 
 
