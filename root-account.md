@@ -26,11 +26,20 @@ description: >-
 
 Root Account's primary role is to create a **`Domain Admins`** who's administrator of certain domain.
 
-**STEP 1:** Connect to **SpaceONE** from your browser and Click **`Sign in for Root Account`** to sign in 
+**STEP 1:** Drive to menu **`Identity > User`** at top bar. 
+
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.16.22.png)
+
+  
+**STEP 2:** Click **`+ Add`** button to add a domain Admin user.
+
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.18.45.png)
+
+**STEP 3:** Fill out all required fields ****and click **`Confirm`** button once finish.
 
 ![Add User](.gitbook/assets/create_user1.png)
 
-
+**STEP 4:** Check an added user on user list on User Management menu.  
 
 ![](.gitbook/assets/list_user1.png)
 
