@@ -9,44 +9,40 @@ description: '프로젝트의 전체 현황을 조회하고, 각 Cloud Resource�
 **`Project`** page allows you the following actions:
 
 * **View and edit projects.** 
-* **Delete projects.**
-* **Project 상세 기능 탭** : Project 관리 기능인 Summary, Member, Tag 기능의 상세 페이지로 이동 합니다. 
-* **Project Dashboard** : Project의 전체 사용 현황을 확인할 수 있습니다. 
+* **View project details** : View summary, member and tags.
+* **Project Dashboard** : Overall usage of the project.
 
 ![Project Management Overview](../.gitbook/assets/2020-08-05-2.26.10.png)
 
-* \*\*\*\*
+\*\*\*\*
 
-
-
-## Summary
-
-Project의 전체 사용 현황을 확인하고, 상세현황으로 안내 합니다. 
-
-### 변경 History    
-
-![](../.gitbook/assets/2020-08-05-2.51.28.png)
-
-* \(Project에서 사용 중인\) Server와 Cloud Service의 전체 사용 현황을 조회 할 수 있습니다.\(한달간 변화 이력 포함\)
-* 화면을 클릭시 상세 이용 현황 페이지로 링크 됩니다. 
-
-### 분류별 사용 현황 
+분류별 사용 현황 \(삭\)
 
 ![](../.gitbook/assets/2020-08-05-2.54.31.png)
 
 * Compute 서비스를 제외한 Cloud Resource의 분류별 전체 사용 현황을 확인 가능합니다. 각각의 아이콘을 클릭시 상세 내역 조회 페이지로 이동 됩니다. 
 
-### Daily Update
+### General
 
-![](../.gitbook/assets/2020-08-05-2.57.10.png)
+**Compute Type**
 
-* 현재까지의 Cloud Resource의 변화 이력을 확인할 수 있습니다. 클릭시 상세 현황 페이지로 이동 합니다. 
+\*\*\*\*
 
-### Region 별 사용량
+**Region**
 
 ![](../.gitbook/assets/2020-08-05-2.59.08.png)
 
-*   지역별로 분포되어있는 Cloud Resource 현황을 확인 합니다. 
+Check the Cloud Resource status distributed by region.
+
+### **Billing**
+
+**Trend**
+
+\*\*\*\*
+
+### Personal Health Dashboard
+
+### 
 
 ### Service Accounts
 
@@ -54,27 +50,37 @@ Project의 전체 사용 현황을 확인하고, 상세현황으로 안내 합�
 
 * Project에 속해있는 Service Account 및 Service Account 별 리소스 사용량 및 입력된 Credential 수량을 확인할 수 있습니다.   
 
+### Daily Updates
 
+**`Daily update`** shows the history of changes in your cloud resources so far. Click to go to the Detailed Status page.
+
+### 
+
+![](../.gitbook/assets/2020-08-05-2.57.10.png)
+
+#### 
+
+#### Cloud services
+
+#### Trusted Advisor
 
 ## Member
 
-Project를 조회하고 변경할 수 있는 사용자를 등록/삭제 합니다. 
-
-사전에 Domain내의 사용자로 등록 되어 있어야 합니다. 
+Register **or** delete users who can view and manage the project. The users should be registered as a **`Project Admin`** in advance.
 
 ![Project Member &#xAD00;&#xB9AC;&#xD654;&#xBA74;](../.gitbook/assets/2020-08-05-3.48.21.png)
 
-### 사용자 추가
+### Add member
 
-_**+ Add**_ 버튼을 클릭시 사용자 추가 화면으로 이동 합니다. 복수의 사용자를 한번에 추가할 수 있습니다.   
+When you click the **`Add`** button, you can see to the **`Add User`** page. You can add multiple users at once.
 
-![Project&#xC5D0; &#xC0AC;&#xC6A9;&#xC790; &#xCD94;&#xAC00;&#xD558;&#xAE30;](../.gitbook/assets/2020-08-05-3.44.14.png)
+![Add users to project](../.gitbook/assets/2020-08-05-3.44.14.png)
 
-### 사용자 삭제 
+### Delete member
 
-Project에서 사용자를 삭제하고 싶을 경우, 선택 후 _**Delete**_ 버튼을 클릭하여 삭제 합니다.
+Select the user and click the **`Delete`** button to delete member.
 
-![Project&#xC5D0; &#xC0AC;&#xC6A9;&#xC790; &#xC81C;&#xAC70;&#xD558;&#xAE30;](../.gitbook/assets/2020-08-05-5.38.47.png)
+![Delete member](../.gitbook/assets/2020-08-05-5.38.47.png)
 
 
 
@@ -84,11 +90,11 @@ Project에서 사용자를 삭제하고 싶을 경우, 선택 후 _**Delete**_ �
 
 ## Tag
 
-Project에 Tag를 추가 하거나 삭제할 수 있습니다. 
+You can **`add`** or **`delete`** Tags in your project.
 
 ![](../.gitbook/assets/2020-08-05-5.40.40.png)
 
-_**Edit**_ 버튼을 클릭하여 Tag 편집 화면에서 추가/삭제가 가능 합니다. 화면 내의 추가/삭제 후 _**Save**_ 버튼을 클릭하여 완료 합니다. 
+Click the _**`Edit`**_button to delete or add Tags, and Click **`Save`**  button. 
 
 ![](../.gitbook/assets/2020-08-05-5.43.10.png)
 
