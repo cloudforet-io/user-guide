@@ -42,33 +42,35 @@ If creation is not proceeds, Check red marked steps in _**Collector creation wiz
 
 
 
-## Collector 변경/삭제/활성화/비활성화
+## Collector Update/Delete/Enable/Disable
 
-생성을 제외한 collector 작업은 Action 리스트 메뉴를 통해서 가능 합니다. Collector를 선택한 후 Action 버튼을 클릭하게 되면 아래와 같이 작업 가능한 리스트가 조회 됩니다.
+Controlling _**Collector**_ can be done by _**Action**_ list menu. 
 
-![Collector &#xB9AC;&#xC2A4;&#xD2B8; &#xBA54;&#xB274;](../.gitbook/assets/2020-08-07-11.18.32.png)
+Select _**Collector**_ then click _**Action button**_. Available list of actions will be shown.
 
-#### 변경 
+![](../.gitbook/assets/2020-08-07-11.18.32.png)
 
-변경 사항을 수정한 후 _**Confirm**_ 버튼을 클릭하여 완료 합니다. 
+#### Update 
 
-![Collector &#xBCC0;&#xACBD; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-11.20.18.png)
+Change items to be updated, then click _**Confirm**_ button. 
 
-#### 삭제 
+![](../.gitbook/assets/2020-08-07-11.20.18.png)
 
-아래와 같이 삭제 팝업이 보이게 되는데, _**Confirm**_ 으로 진행 합니다. 
+#### Delete 
 
-![Collector &#xC0AD;&#xC81C; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.06.46.png)
+Deletion pop up will be printed, Proceeds through _**Confirm**_ button
 
-#### 활성화
+![](../.gitbook/assets/2020-08-07-2.06.46.png)
 
-_**DISABLE**_ 상태인 Collector를 _**ENABLE**_ 상태로 변경 합니다. Cloud Resource 수집 작업이 가능 해집니다.
+#### Enable
 
-![Collector &#xD65C;&#xC131;&#xD654; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.10.04.png)
+Changing Collector status from _**DISABLE**_ status to _**ENABLE**_. This allows collecting job with _**collector.**_
+
+![](../.gitbook/assets/2020-08-07-2.10.04.png)
 
 
 
-#### 비활성화 
+#### DISABLE 
 
 Collector를 _**DISABLE**_로 변경 하여 Cloud Resource 수집 작업이 일어나지 않게 설정할 수 있습니다.
 
