@@ -36,7 +36,7 @@
 
 ## Register Service Account
 
-상단의 `Identity` - `Service Account` 탭을 클릭해 프로젝트 용 Service Account를 생성합니다. 
+상단 navigation의 **`Identity`** - **`Service Account`** 를 클릭해 프로젝트 용 Service Account를 생성합니다. 
 
 ![](.gitbook/assets/select_service_account_as_aws.png)
 
@@ -54,7 +54,7 @@
 
 ## Collect Resources
 
-**STEP 1:** 
+**STEP 1: 수집하고 싶은 collector를 선택한 후 상단 `Action` - `Collect Data` 를 선택해 리소스 수집을 시작합니다.**
 
 \*\*\*\*
 

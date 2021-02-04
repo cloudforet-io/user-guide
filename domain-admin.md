@@ -19,12 +19,12 @@ SpaceONE의 모든 자원은 특정 **`Project`**에 소속되어 있습니다. 
 Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`**을 생성합니다. 
 
 {% hint style="info" %}
-**`Project`** 생성 권한은 **`General User (Project Admin)`** 에게 있습니다. 
+**`Project`** 생성 권한은 **`Project Admin`**으로 지정된 **`General User`** 에게 있습니다. 
 {% endhint %}
 
 
 
-**STEP 1: 상단 Navigation에서 Project 선택 후, `Landing Zone`라는 이름으로 Project Group을 생성합니다.** 
+**STEP 1: 상단 Navigation에서 Project 선택 후, `Landing Zone`라는 이름으로 `Project Group`을 생성합니다.** 
 
 ![](.gitbook/assets/create_top_project_group.png)
 
@@ -34,31 +34,35 @@ Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`
 
 
 
-**STEP 2: Services 라는 이름으로 Project Group을 생성합니다.**
+**STEP 2: `Services` 라는 이름으로 `Project Group`을 생성합니다.**
 
 ![](.gitbook/assets/create_project_group_services.png)
 
-**STEP 3: Business Support System 이라는 Project Group을 생성합니다.** 
+**STEP 3: `Business Support System` 이라는 `Project Group`을 생성합니다.** 
 
 ![](.gitbook/assets/create_project_group_businesssupportsystems.png)
 
-**STEP 4: SpaceONE 콘솔의 좌측 Navigation에서 생성된 Project Group을 확인할 수 있습니다.**
+**STEP 4: SpaceONE console의 좌측 navigation 에서 생성된 `Project Group`을 확인할 수 있습니다.**
 
 ![](.gitbook/assets/show_project_page.png)
 
 ## Create User
 
-desc
+일반 사용자를 생성하여 **`Project Group`**에 할당합니다. 
+
+{% hint style="info" %}
+일반 사용자는 자신이 소속된 **`Project Group`** 의 리소스에만 접근 가능합니다. 
+{% endhint %}
 
 
 
-**STEP 1:** 
+**STEP 1: Project Admin 사용자를 추가합니다.** 
 
 ![](.gitbook/assets/create_user1%20%281%29.png)
 
 \*\*\*\*
 
-**STEP 2: User를 Services 프로젝트 그룹에 매핑합다.**
+**STEP 2: User를 Services 프로젝트 그룹에 매핑합니다.**
 
 ![](.gitbook/assets/add_user2_to_project_group.png)
 
@@ -68,9 +72,13 @@ desc
 
 ## Collect Collectors
 
-desc
+**`Collector`**는 AWS, Google Cloud, Azure 등 클라우드 서비스의 자원을 수집하는 Plugin입니다. 
+
+**`Domain Admin`**이 **`Collector`**에 대한 정보를  설정합니다. 
 
 
+
+SpaceONE 상단 navigation의 **`Plugin` -`Collector`** 를 선택한 후, **`Create`** 버튼을 클릭해 Collector를 생성합니다.
 
 ![Create collectors](.gitbook/assets/create_collector.png)
 
@@ -78,7 +86,7 @@ desc
 
 ### **AWS EC2 Collector 생성**
 
-**STEP 1: Market place 에서 aws-ec2 플러그인을 선택합니다.**
+**STEP 1: Market place 에서 `aws-ec2` 플러그인을 선택합니다.**
 
 ![](.gitbook/assets/select_aws_ec2_plugin.png)
 
@@ -106,7 +114,7 @@ desc
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** 
+**STEP 2: AWS trusted advisor `collector`를 생성합니다.** 
 
 ![](.gitbook/assets/create_aws_trusted_advisor_collector.png)
 
@@ -120,7 +128,7 @@ desc
 
 \*\*\*\*
 
-**STEP 2:** 
+**STEP 2: AWS Personal Health Dashboard `collector`를 생성합니다.** 
 
 ![](.gitbook/assets/create_aws_personal_health_dashboard_collector.png)
 
@@ -132,25 +140,29 @@ desc
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** 
+**STEP 2: Spaceone-Monitoring Metric Collector를 생성합니다.** 
 
 ![](.gitbook/assets/create_spaceone_monitoring_metric_collector.png)
 
 
 
-생성된 전체 collector 목록을 확인합니다.
+생성된 전체 **`collector`** 목록을 확인합니다.
 
 ![](.gitbook/assets/list_all_collectors.png)
 
 ## Update Schedule
 
-desc
+Schedule 설정을 통해, 생성된 **`Collector`** 들의 수집주기를 설정하고 주기적으로 클라우드 자원을 수집합니다.   
 
-**STEP 1: Schedule을 설정하고 싶은 Collector를 선택한 뒤, 하단의 `Schedule` 탭 내 `Add` 버튼을 클릭합니다.** 
+
+
+**STEP 1: Schedule을 설정하고 싶은 `Collector`를 선택한 뒤, 하단의 `Schedule` 탭 내 `Add` 버튼을 클릭합니다.** 
 
 ![](.gitbook/assets/select_schedule_tab.png)
 
-**STEP 2: 매 4시간 마다 수집하는 Collector를 생성합니다.**
+\*\*\*\*
+
+**STEP 2: 매 4시간 마다 수집하는 `Collector`를 생성합니다.**
 
  ****
 
