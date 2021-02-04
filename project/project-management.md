@@ -4,16 +4,18 @@ description: '프로젝트의 전체 현황을 조회하고, 각 Cloud Resource�
 
 # Project Management
 
-## 둘러보기 
+## Overview 
 
-Project Management 는 크게 아래와 같은 기능으로 구성되어 있습니다.
+**`Project`** page allows you the following actions:
+
+* **View and edit projects.** 
+* **Delete projects.**
+* **Project 상세 기능 탭** : Project 관리 기능인 Summary, Member, Tag 기능의 상세 페이지로 이동 합니다. 
+* **Project Dashboard** : Project의 전체 사용 현황을 확인할 수 있습니다. 
 
 ![Project Management Overview](../.gitbook/assets/2020-08-05-2.26.10.png)
 
-* **Project 이름 조회 & 변경** : Project의 이름을 조회 하고 변경 합니다. 
-* **Project 삭제** : Project를 삭제 합니다.
-* **Project 상세 기능 탭** : Project 관리 기능인 Summary, Member, Tag 기능의 상세 페이지로 이동 합니다. 
-* **Project Dashboard** : Project의 전체 사용 현황을 확인할 수 있습니다. 
+* \*\*\*\*
 
 
 
