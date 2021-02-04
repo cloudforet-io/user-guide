@@ -22,23 +22,23 @@ Domain Admin creates the project group based on company's management policy.
 **Note&gt;** General User **\(Project Admin\)** creates projects only under project group with permission to manage cloud resources.   
 {% endhint %}
 
-**STEP 1:** 
+**STEP 1:** Drive to menu **`Project`** at top bar and click **`+ Create Group button`** at top right corner of panel.
 
 ![](.gitbook/assets/create_top_project_group.png)
 
-**STEP 2:** 
+**STEP 2:** Type project group name \(**sample case: Landing Zone**\) and Click Confirm.
 
 ![](.gitbook/assets/create_project_group_landingzone.png)
 
-**STEP 3:** 
+**STEP 3:** Type project group name \(**sample case: Services**\) and Click Confirm.
 
 ![](.gitbook/assets/create_project_group_services.png)
 
-**STEP 4:** 
+**STEP 4:** Type project group name \(**sample case: Business Support Systems**\) and Click Confirm.
 
 ![](.gitbook/assets/create_project_group_businesssupportsystems.png)
 
-
+**STEP 5:** Check all 3 project groups has created a tree on left menu.
 
 ![](.gitbook/assets/show_project_page.png)
 
