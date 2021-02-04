@@ -1,5 +1,5 @@
 ---
-description: View and manage project groups that users belong to.
+description: View and manage project groups.
 ---
 
 # Project Group Management
