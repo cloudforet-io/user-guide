@@ -44,19 +44,26 @@ Domain Admin creates the project group based on company's management policy.
 
 ## Create User
 
-desc
+Create general user and assign the project groups to created user. General users can access only to the project group which they are belonged to.
 
+**STEP 1:** Drive to menu **`Identity > User`** at top bar. 
 
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.16.22.png)
 
-**STEP 1:** 
+  
+**STEP 2:** Click **`+ Add`** button to add a domain Admin user.
+
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.18.45.png)
+
+**STEP 3:** Fill out all required fields ****and click **`Confirm`** button once finish.
 
 ![](.gitbook/assets/create_user1%20%281%29.png)
 
-\*\*\*\*
+**STEP 4:** Drive to Project ****and Click member icons at right next to **`+ Create Project`** button.
 
-**STEP 2:** 
+![](.gitbook/assets/screen-shot-2021-02-04-at-16.28.10.png)
 
-\*\*\*\*
+**STEP 5:** Fill out all required fields ****and click **`Confirm`** button once finish.
 
 ![](.gitbook/assets/add_user2_to_project_group.png)
 
