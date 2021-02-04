@@ -1,6 +1,6 @@
 # Domain Admin
 
-## Log-in
+## Sign-in
 
 desc
 
