@@ -1,10 +1,10 @@
 ---
-description: Domain 내의 사용자를 관리하는 페이지입니다.
+description: Managing Users
 ---
 
 # User
 
-## 둘러보기
+## Overview
 
 아래의 사용자 관리 페이지를 통해 도메인내 사용자를 추가/변경/삭제할 수 있습니다.  
 
