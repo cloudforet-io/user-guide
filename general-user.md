@@ -46,6 +46,8 @@
 
 **STEP 2: 해당 Service Account가 속할 프로젝트를 선택합니다. \(optional\)**
 
+![](.gitbook/assets/attach_account_to_project%20%281%29.png)
+
 **`save`** 버튼을 눌러 저장합니다.
 
 \*\*\*\*
