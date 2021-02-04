@@ -2,27 +2,39 @@
 
 ## Log-in
 
-desc
+**`Domain Admin`** 은 일반 Log-in 페이지를 통해 Log-in 합니다. **`Root Account`**에게서 받은 이메일에 ID/Password 또는 Google Oauth2와 같은 Single-Sign-On 방식의 접속정보가 명시되어 있습니다.
+
+**`Domain Admin`** 은 최상위 프로젝트 그룹을 만들고, 사용자를 생성하며, 주요 **`Collector`**를 설정합니다.
 
 
 
-**STEP 1:** 
+**STEP 1: `Domain Admin Role`이 부여된 User가 Log-in 합니다.** 
+
+![](.gitbook/assets/login_user1.png)
 
 ## Create Project Group
 
-desc
+SpaceONE의 모든 자원은 특정 **`Project`**에 소속되어 있으며, **`Project`**를 그룹화 할 수 있는 **`Project Group`**이 있습니다. 
+
+Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`**을 생성합니다. 
+
+{% hint style="info" %}
+**`Project`** 생성 권한은 **`General User (Project Admin)`** 에게 있습니다. 
+{% endhint %}
 
 
 
-**STEP 1:** 
+**STEP 1: `Landing Zone`라는 이름으로** 
 
 ![](.gitbook/assets/create_top_project_group.png)
 
-**STEP 2:** 
+
 
 ![](.gitbook/assets/create_project_group_landingzone.png)
 
-**STEP 3:** 
+
+
+**STEP 2:** 
 
 ![](.gitbook/assets/create_project_group_services.png)
 
