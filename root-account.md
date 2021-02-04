@@ -1,3 +1,9 @@
+---
+description: >-
+  Root Account is the top administrator for the entire SpaceONE system and
+  access through the Root Account login page.
+---
+
 # Root Account
 
 ## Log-in
