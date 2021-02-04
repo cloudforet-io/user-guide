@@ -1,25 +1,22 @@
 ---
-description: 각 Cloud Provider의 Credential 정보를 관리 합니다.
+description: Credential information for each cloud providers.
 ---
 
 # Service Account
 
-## 둘러보기
+## Overall
 
-Service Account 페이지를 통해 사용자는 다양한 Provider에서 제공하는 Credential을 편리하게 관리할 수 있습니다. 이 정보를 바탕으로 Multi Cloud Resource 정보를 수집 합니다. 
+Using service account page, Users can manage credentials easily for each  cloud providers. Multi cloud resources are collected based on this credentials
 
-![Service Account &#xAD00;&#xB9AC; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-4.34.53-2%20%281%29.png)
+![](../../.gitbook/assets/2020-08-07-4.34.53-2%20%281%29.png)
 
-페이지 내에서 사용자는 아래의 작업이 가능 합니다. 
+Listed jobs are available
 
-* Service Account 추가
-* Service Account 삭제/Project 변경
-* AWS Console로 링크
-* 상세 조회 및 관리
+* Adding _**Service Account**_
+* Deletion of _**Service Account**_ /Changing _**project**_
+* Link to AWS Console
 
-
-
-현재 SpaceONE에서 지원하는 service provider는 다음과 같습니다. 
+SpaceONE supports providers belows. 
 
 * AWS
 * Google Cloud
@@ -27,50 +24,50 @@ Service Account 페이지를 통해 사용자는 다양한 Provider에서 제공
 * MEGAZONE
 * SpaceONE
 
-## Service Account 추가
+## Adding Service Account
 
-Cloud Provider를 선택한 후 _**+ Add**_ 버튼을 클릭하여 Service Account를 새로 추가할 수 있습니다. 
+Users can add _**Service Account**_ by select cloud provider and clicking _**+ Add**_ button
 
-사용자 가이드 에서는 AWS의 IAM을 중심으로 살펴 봅니다. 
+In the user guide, we will focus on AWS\`s IAM
 
-Service Account 입력 페이지에서는 \* 로 표기된 항목을 입력하면 간단히 추가가 가능합니다. 
+_**Service Account**_ will be easily added by fill out items marked with \*.
 
 ### Base Information
 
-![Ser](../../.gitbook/assets/2020-08-07-5.44.58.png)
+![](../../.gitbook/assets/2020-08-07-5.44.58.png)
 
-* Name : Service Account의 이름을 입력 합니다. 
-* Account ID : AWS의 Account ID 정보를 입력 합니다.\(12자리의 숫자로 표시됩니다.\)
-* Tag : Service Account의 Tag 정보를 편집 합니다.
+* Name : Name of Service Account
+* Account ID : Root Account ID.\(12-digits\)
+* Tag : Additional _**Service Account**_\`s tag
 
 ### Credentials
 
-SpaceONE에서는 두가지 타입의 Service Account를 지원 합니다. \(aws\_access\_key, aws\_assume\_role\)
+Two types of Service Accounts are available. \(aws\_access\_key, aws\_assume\_role\)
 
-각 타입별 입력 항목은 아래와 같습니다.
+Input parameters for each types. 
 
 #### aws\_access\_key  
 
-![aws access key &#xBC29;&#xC2DD;&#xC758; key &#xC785;&#xB825; &#xD3FC;](../../.gitbook/assets/2020-08-07-5.48.28.png)
+![](../../.gitbook/assets/2020-08-07-5.48.28.png)
 
-* Region\(Option\) : 수집 대상인 Region 정보를 입력 합니다. 입력하지 않을 경우 모든 region으로부터 cloud resource를 스캔 합니다. 
-* AWS Access Key\(Required\) : IAM의 Access Key를 입력 합니다. 주로  Read Only IAM 계정을 별도 생성하여 입력 합니다.  
-* AWS Secret Key\(Required\) : 위에서 입력한 IAM의 Secret key를 입력 합니다. 
+* Region\(Option\) : Target regions to be collected. Empty will be considered all regions \(Collectors will scan all regions resources\).
+* AWS Access Key\(Required\) : Access Key from IAM. Read Only policy is strongly recommended.
+* AWS Secret Key\(Required\) : Secret key from IAM.
 
 #### aws\_assume\_role
 
-![aws\_assume\_role &#xBC29;&#xC2DD;&#xC758; &#xC785;&#xB825; &#xD3FC;](../../.gitbook/assets/2020-08-07-5.53.33.png)
+![](../../.gitbook/assets/2020-08-07-5.53.33.png)
 
-* Region\(Option\) : 수집 대상인 Region 정보를 입력 합니다. 입력하지 않을 경우 모든 region으로부터 cloud resource를 스캔 합니다. 
-* AWS Access Key\(Required\) : Assume 받는 IAM 계정의 Access Key를 입력 합니다. 
-* AWS Secret Key\(Required\) : Assume 받는 IAM 계정의 Secret Key를 입력 합니다. 
-* Role ARN\(Required\) : IAM에서 생성한 Assume Role의 Role ARN 정보를 입력 합니다. 
+* Region\(Option\) : Target regions to be collected. Empty will be considered all regions \(Collectors will scan all regions resources\).
+* AWS Access Key\(Required\) : Access key from IAM to be assumed.
+* AWS Secret Key\(Required\) : Secret key from IAM to be assumed.
+* Role ARN\(Required\) : Role ARN of assume role from IAM.
 
-### Project 선택
+### Selecting Project
 
-Service Account가 속할 Project를 지정합니다. 지정하게 되면, 해당 Service Account에서 수집한 Cloud Resource 정보는 자동으로 Project에 연결되게 됩니다. 
+Select the project to which the _**Service Account**_ will be placed. Collected resources from that _**Service Account**_ will be belongs to the projects automatically
 
-![Project &#xC120;&#xD0DD; &#xD654;&#xBA74;](../../.gitbook/assets/2020-08-07-6.02.19.png)
+![](../../.gitbook/assets/2020-08-07-6.02.19.png)
 
 * Project 생성이 필요할 경우 _**+ Create Project**_ 버튼을 클릭하여 필요한 Project Group/Project를 생성한 후 진행 합니다. Project 생성에 대한 자세한 링크는 아래 페이지를 참고하세요.
 
