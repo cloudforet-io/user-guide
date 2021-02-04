@@ -83,7 +83,7 @@ Consolidated Billing information in the main Dashboard. This is a summation-inte
 
 ![](../.gitbook/assets/image%20%2878%29.png)
 
-Each project page providers its own billing information if you register billing service account.
+Each project page provides its own billing information if you register billing service account.
 
 ![Billing per project](../.gitbook/assets/image%20%2873%29.png)
 

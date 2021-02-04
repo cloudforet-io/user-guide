@@ -1,5 +1,5 @@
 ---
-description: 사용자가 소속되어있는 프로젝트를 조회하고 관리 합니다.
+description: View and manage project groups that users belong to.
 ---
 
 # Project Group Management
@@ -26,9 +26,9 @@ Through a search field at the left-top, you can easily search / create / edit **
 
 ![](../.gitbook/assets/2020-07-31-4.04.20.png)
 
-### 조회하기 
+### View Project Group
 
-_**All Project**_ 를 선택할 경우, 사용자가 조회 할 수 있는 모든 프로젝트의 리스트가 한번에 조회 됩니다. 대상 프로젝트를 선택하여 Project Dashboard로 이동할 수 있습니다.   
+When **`All Project`** is selected, the list of all projects are shown at once. You can select a target project to navigate to the **`Project Dashboard`**.
 
 
 
@@ -36,59 +36,69 @@ _**All Project**_ 를 선택할 경우, 사용자가 조회 할 수 있는 모�
 
 
 
-각각의 Project Group을 선택했을 경우 해당 Project Group에 속한 Project List를 조회할 수 있습니다. 
-
-
+If you select each **`Project group`**, you can view the project list that belongs to that project group.
 
 ![Project Group&#xC744; &#xC120;&#xD0DD;&#xD55C; &#xACBD;&#xC6B0;](../.gitbook/assets/2020-08-05-10.58.14.png)
 
-### 생성하기
+### Create Project Group
 
-Project Group 문구 옆 _**Create**_ 버튼을 통해 Project Group을 생성할 수 있습니다. 
+You can create a **`Project Group`** through the **`Create`** button at the top.
 
 ![Project Group Create &#xBC84;&#xD2BC;](../.gitbook/assets/2020-08-05-11.00.02.png)
 
-![Project Group &#xC774;&#xB984; &#xC785;&#xB825; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-05-11.00.49.png)
+![Create Project Group](../.gitbook/assets/2020-08-05-11.00.49.png)
 
-Project Group은 Tree 구조로 계층 관계를 가질 수 있습니다. 상위 Project Group 밑에 Sub Project Group을 생성할 경우에는 아래와 같이 선택 합니다.
+
+
+**`Project Group`** can have hierarchical relationships. If you are creating a **`Sub Project Group`** under a parent **`Project Group`**, select it as follows: 
 
 ![Sub Project Group &#xC785;&#xB825; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-05-11.12.35.png)
 
-### 변경/삭제하기
+### 
 
-Project Group을 변경/삭제하는 기능은 Project Group명이 표시되는 부분 에서 가능합니다.
+### Edit / Delete Project Group
+
+If you want to edit or delete the Project group, Click the  **`⚙`** button at the right top of the page.
 
 ![Project Group &#xBCC0;&#xACBD;/&#xC0AD;&#xC81C;](../.gitbook/assets/2020-08-05-11.17.01.png)
 
-![Project Group &#xC774;&#xB984; &#xBCC0;&#xACBD;](../.gitbook/assets/2020-08-05-11.17.53.png)
-
-Project Group을 삭제하기 위해서는 사전에 대상 Group내에 Project를 모두 삭제해야 가능합니다. 
-
-![Project Group &#xC0AD;&#xC81C;&#xD558;&#xAE30;](../.gitbook/assets/2020-08-05-11.18.21.png)
+![Update Project Group](../.gitbook/assets/2020-08-05-11.17.53.png)
 
 
 
-## Project 
+To delete a project group, you must delete all of the projects in the target group in advance.
 
-Project Group을 선택하면 소속된 Project를 확인할 수 있습니다. 
+![Delete Project Group](../.gitbook/assets/2020-08-05-11.18.21.png)
+
+
+
+## View Project 
+
+To see details of the project, select the project group.
 
 ![Project List](../.gitbook/assets/2020-08-05-11.25.03.png)
 
-각 Project 에 속해있는 Server/Cloud Service의 개수를 간략히 확인할 수 있있습니다. 또한, 소속된 Cloud Service Accout Type도 확인할 수 있습니다. 
+
+
+You can see briefly how many **`Server / Cloud services`** each project has. You can also check your Cloud **`Service Account Type`**. 
 
 ![](../.gitbook/assets/2020-08-05-11.27.30.png)
 
 
 
-## 검색하기 
+## Search Project Group 
 
-Search Bar를 통해 Project Group/Project로 빠르게 이동 가능합니다. 
+**`Search Bar`** enables quick movement to **`Project Group / Project.`**
 
 ![Project Search Bar](../.gitbook/assets/2020-08-05-11.29.35.png)
 
-* Search Bar에 키워드 입력시 Group/Project를 검색하여 제안 합니다. 
-* Group/Project를 클릭시 해당 페이지로 링크 합니다.
-* _**show more**_ 버튼 클릭시 추가 리스트를 확인 가능합니다. 
+**`Search bar`** enables you the following actions:  
+
+* Search **`Project Group / Project`** by the simple keywords.
+* Link to the project page 
+* Show all projects if you click the **`more`** button.
+
+
 
 
 
