@@ -4,39 +4,29 @@ description: 사용자가 소속되어있는 프로젝트를 조회하고 관리
 
 # Project Group Management
 
-## 개요
+## Overview
 
-## 둘러보기
+You can manage **`Project groups`**and **`Projects`** through the **`Project`** menu on the top of the page.
 
-Project 페이지를 통해 프로젝트 그룹과 프로젝트들을 관리할 수 있습니다.  
+The Project page consists of **`Project Group`**management, and **`Project`** management as shown below.
 
-Project 페이지는 아래와 같이 _**Project Group 관리/Project 관리/검색**_  부분으로 각각 구성되어 있습니다. 
-
-이 기능을 통해 회사의 사용자들을 프로젝트에 참가시킬 수 있으며 프로젝트 단위로 자원을 관리하거나 서비스 운영을 할 수 있습니다.
+It allows users of your company to participate in projects, and manage the authorization through roles by projects.
 
 ![Project &#xAD00;&#xB9AC; &#xD398;&#xC774;&#xC9C0; Overview](../.gitbook/assets/2020-08-05-10.32.59-2.png)
 
+When you enter the first page, you can see the entire project list.
+
 ![](../.gitbook/assets/2020-07-31-3.23.16.png)
 
-각 부분의 상세 기능에 대해서는 아래에서 다루도록 합니다.  
+## Project Group Management
 
-처음 페이지에 들어가면 전체 프로젝트 리스트를 확인할 수 있습니다. 
+The search bar on the left allows you to search and move **`Project Groups / Projects`** easily.
 
-
+Through a search field at the left-top, you can easily search / create / edit **`Project Group Tree`**
 
 ![](../.gitbook/assets/2020-07-31-4.04.20.png)
 
-## Project Group 관리
-
-좌측의 검색 바를 통해 Project Group과 Project를 검색하고 손쉽게 이동할 수 있습니다. 
-
-Project Group Tree를 조회하고 생성,변경,삭제합니다. 
-
-
-
 ### 조회하기 
-
-
 
 _**All Project**_ 를 선택할 경우, 사용자가 조회 할 수 있는 모든 프로젝트의 리스트가 한번에 조회 됩니다. 대상 프로젝트를 선택하여 Project Dashboard로 이동할 수 있습니다.   
 
@@ -78,7 +68,7 @@ Project Group을 삭제하기 위해서는 사전에 대상 Group내에 Project�
 
 
 
-## Project 조회
+## Project 
 
 Project Group을 선택하면 소속된 Project를 확인할 수 있습니다. 
 

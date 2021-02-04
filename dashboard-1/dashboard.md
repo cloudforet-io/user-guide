@@ -1,15 +1,17 @@
 ---
-description: View the full status of the Cloud Resources in your domain.
+description: >-
+  Domain Dashboard provides the full status of the Cloud Resources in your
+  domain.
 ---
 
 # Domain Dashboard
 
 ## Overview
 
-The Dashboard is the first screen you will see when connecting to SpaceONE service.
+The Dashboard is the first screen you will see when connecting to **`SpaceONE`** service.
 
   
-DashBoard allows you to view the status of the entire service being used by Domain. 
+DashBoard allows you to view the status of the entire service being used by domain. 
 
 If you click an item, you can navigate to the corresponding service.
 
@@ -57,17 +59,15 @@ You can see the number of **`Service Accounts`** registered in the domain. Follo
 
 ![Service Account](../.gitbook/assets/2020-08-03-5.05.53.png)
 
-You can see the current number of Service Accounts registered for each cloud.
-
-![](../.gitbook/assets/2020-08-03-5.31.12.png)
+Also, you can view the current number of Service Accounts registered for each cloud.
 
 ## Daily Updates
 
-It displays information about increasing/decreasing resources on a daily basis. `Daily updates` shows the history of changes from 0 to the present. 
+It displays information about increasing/decreasing resources on a daily basis. **`Daily updates`** shows the history of changes from **0** to the **present**. 
 
 You can view the changed number of servers and cloud services from midnight to the present.
 
-## 
+
 
 ![Daily updates](../.gitbook/assets/2020-08-03-5.31.12.png)
 
@@ -81,33 +81,29 @@ You can view the changed number of servers and cloud services from midnight to t
 
 ![](../.gitbook/assets/2020-07-31-3.18.09.png)
 
-수집된 클라우드 서비스 자원들의 개수와 종류를 한 눈에 볼 수 있습니다. More을 누르면 요약이 아닌 전체 클라우드 서비스 자원 현황 페이지\(Cloud Service Page\)로 이동합니다.
+You can see the number and type of cloud service resources collected at a glance. When you click **`More`**, you go to the **`Cloud Service`** page.
 
 ## Collection
 
-Collector 실행 이력 및 현재 실행중인 Collector의 상태를 조회할 수 있습니다. 
+You can inquire the history of **`Collector`** execution and the status of the **`Collector`** which currently runs.
 
-### History
+### Collector History
 
-일주일간 Collector의 수집 성공/실패 이력을 표시 합니다. 
+**`Collector history`** shows the collection success/failure history for a week.
 
 ![](../.gitbook/assets/2020-08-03-5.36.44.png)
 
 ### 
 
-### Recent Collecting Runs
+### Collecting Progress
 
-현재 실행중인 Collector의 리스트를 확인할 수 있습니다. 우측의 Refresh 버튼을 클릭하여 상태를 업데이트 할 수 있습니다.
+You can view the list of currently running collectors.  **`More`** button links you to the **`Collector history`** page.
 
 ![](../.gitbook/assets/2020-08-03-5.37.46.png)
 
 
 
-## Cloud Services 
 
-수집된 Cloud Resource중 12종의 수치를 표현 합니다. _**MORE**_ 를 클릭시 전체 리스트를 확인할 수 있습니다. 
-
-![](../.gitbook/assets/2020-08-03-5.35.13.png)
 
 
 
