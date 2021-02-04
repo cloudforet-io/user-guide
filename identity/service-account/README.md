@@ -69,14 +69,14 @@ Select the project to which the _**Service Account**_ will be placed. Collected 
 
 ![](../../.gitbook/assets/2020-08-07-6.02.19.png)
 
-* Project 생성이 필요할 경우 _**+ Create Project**_ 버튼을 클릭하여 필요한 Project Group/Project를 생성한 후 진행 합니다. Project 생성에 대한 자세한 링크는 아래 페이지를 참고하세요.
+* To create _**Project**_. By clicking _**+ Create Project ,**_ new tab will be opened to create project. 
+* To check detailed process about creating project, refer to following link.
 
 {% page-ref page="../../project/project-group-management.md" %}
 
-* 원하는 Project를 선택한 후 _**Save**_ 버튼을 클릭하여 Service Account의 생성 작업을 완료 합니다. 
-* Project를 지정하지 않고 싶은 경우 _**Select no Project**_를 선택 합니다. Project는 나중에 다시 지정이 가능 합니다. 
+* Select projects you need then click _**Save**_ button.
 
-## Service Account 삭제/Project 변경
+## Deletion of Service Account /Changing Project 
 
 Service Account를 삭제 하거나/기존에 지정했던 Project를 변경 합니다. 
 
