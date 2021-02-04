@@ -1,26 +1,29 @@
 ---
-description: 사용중인 도메인의 Cloud Resource에 대한 전체 현황을 확인할 수 있습니다.
+description: View the full status of the Cloud Resources in your domain.
 ---
 
 # Domain Dashboard
 
-## 둘러보기
+## Overview
 
-Dashboard는 SpaceONE 서비스 접속시 최초에 만나게 되는 화면 입니다. 
+The Dashboard is the first screen you will see when connecting to SpaceONE service.
 
-DashBoard를 통해 Domain에서 사용중인 전체 서비스에 대한 현황을 볼 수 있고, 항목을 클릭한 경우 대응되는 서비스로 이동할 수 있습니다. 
+  
+DashBoard allows you to view the status of the entire service being used by Domain. 
+
+If you click an item, you can navigate to the corresponding service.
 
 ![SpaceONE Domain Dashboard](../.gitbook/assets/2020-08-03-5.00.05.png)
 
 
 
-화면 상단의 네비게이션 바를 이용해 각 페이지로 빠르게 이동할 수 있습니다.
+You can use the navigation bar at the top of the screen to quickly navigate to each page.
 
 ![](../.gitbook/assets/2020-07-31-3.03.43.png)
 
 
 
-## Summary
+## Summary \(삭제\)
 
 ![](../.gitbook/assets/2020-07-31-3.07.43.png)
 
@@ -30,35 +33,45 @@ DashBoard를 통해 Domain에서 사용중인 전체 서비스에 대한 현황�
 
 
 
-## Top 5 Resource Managing Projects
+## Top Resource Managing Projects
 
-Server / Cloud Service를 가장 많이 사용하는 상위 5개의 프로젝트 현황을 볼 수 있습니다. 각 Project Group/Project를 클릭할 경우 대응되는 페이지로 이동합니다.
+You can see the status of projects that use**`Server`**/**`Database`** service the most. When you click on each **`Project group / Project`**, you will be taken to the corresponding page.
 
 ![](../.gitbook/assets/2020-07-31-3.08.33.png)
 
 
 
-도메인에 입력된 Service Account의 갯수를 확인할 수 있습니다. 현재는 AWS, Azure, GCP의 Key Pair를 입력 가능합니다.
+## Service Accounts
 
-Server / Cloud Service를 가장 많 사용하는 상위 5개의 프로젝트 현황을 볼 수 있습니다.
+You can see the number of **`Service Accounts`** registered in the domain. Following Services providers are currently available: 
+
+* AWS
+* Azure
+* GCP
+* Megazone Hyper Billing
+* Megazone
+
+
+
+
 
 ![Service Account](../.gitbook/assets/2020-08-03-5.05.53.png)
 
-
-
-##  Service Accounts
-
-일별로 리소스의 증가/감소 정보를 표시 합니다. 0~현재까지의 변경 이력을 표현 합니다. 
+You can see the current number of Service Accounts registered for each cloud.
 
 ![](../.gitbook/assets/2020-08-03-5.31.12.png)
 
-각 클라우드 별 등록되어 있는 Service Accounts 개수 현황을 보여줍니다. 
-
 ## Daily Updates
 
-자정부터 현재까지 변화된 서버와 클라우드 서비스 개수 현황을 볼 수 있습니다.
+It displays information about increasing/decreasing resources on a daily basis. `Daily updates` shows the history of changes from 0 to the present. 
 
-## Collection
+You can view the changed number of servers and cloud services from midnight to the present.
+
+## 
+
+![Daily updates](../.gitbook/assets/2020-08-03-5.31.12.png)
+
+## Collection \(삭제\)
 
 ![](../.gitbook/assets/2020-07-31-3.15.02.png)
 
