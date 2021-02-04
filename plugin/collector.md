@@ -1,40 +1,42 @@
 ---
-description: 'Collector를 생성하고, Cloud Resource를 수집합니다.'
+description: Creating Collector. Collecting Cloud Resources.
 ---
 
 # Collector
 
-## 둘러보기 
+## Overview
 
-SpaceONE은 Collector Plugin을 통하여 다양한 서비스의 Cloud Resource 수집이 가능 합니다. 
+With _**Collector Plugins**_ in SpaceONE marketplace, Cloud resources from various cloud providers can be collected easily.
 
-Plugin은 Official Marketplace를 통하거나, 자체 제작한 Plugin을 사용할 수 있습니다. 
+Plugins are offered by both SpaceONE Official marketplace and private repository.
 
-![Collector &#xAD00;&#xB9AC; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/2020-08-06-7.48.58-.png)
+![](../.gitbook/assets/2020-08-06-7.48.58-.png)
 
 
 
-## Collector 생성 
+## Create Collector
 
-아래 화면과 같이 Official Marketplace를 선택하면, 사용 가능한 plugin list가 조회 됩니다. 
+Available plugin list is printed by select _**Official Marketplace.**_
 
-설치 하고 싶은 Plugin을 선택하고, 화면 내 _**+ Create**_ 버튼을 클릭 하는 것으로 Collector 생성을 시작할 수 있습니다. 
+Select plugin to install, Click _**+ Create**_ button will starts collector creation wizard.
 
-![Collector Plugin &#xC120;&#xD0DD; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-10.23.39.png)
+![](../.gitbook/assets/2020-08-07-10.23.39.png)
 
-Collector의 이름만 입력 후 다른 부분은 Default 값으로 두셔도 무방 합니다. Plugin 버전을 선택 가능하나, 주로 latest로 합니다. 
+Fill out name of collector and choose version of plugin. Higher plugin version is generally suggested.
 
-![Collector &#xC0DD;&#xC131; &#xD654;&#xBA74; \#1](../.gitbook/assets/2020-08-07-11.10.04.png)
+![](../.gitbook/assets/2020-08-07-11.10.04.png)
 
-Collector가 사용할 Credentials 정보를 선택 합니다. 기존에 사용중인 Credentials 정보를 제외 하여 자동으로 mapping 해주므로, _**Availability**_ 항목이 정상으로 표시된 경우 다음 화면으로 넘어갑니다. 
+Selecting credentials information for collector. This step will be done automatically.
 
-![Collector &#xC0DD;&#xC131; &#xD654;&#xBA74; \#2](../.gitbook/assets/2020-08-07-11.10.58.png)
+![](../.gitbook/assets/2020-08-07-11.10.58.png)
 
-Tag 입력 화면입니다. Collector에 Tag 입력이 필요하다면 추가하고 아니라면 _**Confirm**_ 을 입력하여 생성을 완료 합니다. 
+User can add tags for collector. Tags can be added by clicking _**+ Add**_ button
 
-![Collector &#xC0DD;&#xC131; &#xD654;&#xBA74; \#3](../.gitbook/assets/2020-08-07-11.14.05.png)
+You don\`t need to delete existing tags\(For system use\)
 
-만약 생성이 정상적으로 진행되지 않는다면, Collector 생성 화면내 붉은색으로 표시된 순서가 있는지 확인 해야 합니다. 
+![](../.gitbook/assets/2020-08-07-11.14.05.png)
+
+If creation is not proceeds, Check red marked steps in _**Collector creation wizards**_
 
 ![](../.gitbook/assets/2020-08-07-11.16.29.png)
 
