@@ -16,7 +16,7 @@ description: >-
 
 \*\*\*\*
 
-**STEP 2:** Click **`SpaceShip`** icon at top right corner of page's top bar.  
+**STEP 2:** Click **`SpaceShip`** icon at right corner of top bar and check yourself that you are Root Account. 
 
 ![Check domain login](.gitbook/assets/domain_owner_check.png)
 
