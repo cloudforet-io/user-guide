@@ -1,12 +1,16 @@
+---
+description: >-
+  The role of Domain Admin creates the top-level project group, creates users,
+  and sets the main collector.
+---
+
 # Domain Admin
 
 ## Sign-in
 
-desc
+**STEP 1: Drive to domain of SpaceONE on browser and type given ID and Password**
 
-
-
-**STEP 1:** 
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.39.08.png)
 
 ## Create Project Group
 
