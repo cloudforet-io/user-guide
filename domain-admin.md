@@ -8,13 +8,17 @@ description: >-
 
 ## Sign-in
 
-**STEP 1: Drive to domain of SpaceONE on browser and type given ID and Password**
+**STEP 1:** Drive to domain of **SpaceONE** on browser ****and type given ID and Password.   
+**\(**E-mail received from the Root Account has stated detailed the connection methods; Single Sign On\(SSO\),  ID/PW, or Google Oauth2**\)**
 
 ![](.gitbook/assets/screen-shot-2021-02-04-at-14.39.08.png)
 
 ## Create Project Group
 
-desc
+All cloud resources must belong to a certain project. You can grouping any projects with Project Group.
+
+* Domain Admin creates the best project group according to the company's management policy.
+* Note\) Project creation is assigned a role to General User \(Project Admin\).
 
 
 

@@ -8,7 +8,7 @@ description: >-
 
 ## Sign-in
 
-**STEP 1:** Connect to **SpaceONE** from your browser and Click **`Sign in for Root Account`** to sign in. 
+**STEP 1:** Connect to **SpaceONE** from your browser and Click **`Sign in for Root Account`** to sign in as Domain Owner. 
 
 ![Login](.gitbook/assets/login.png)
 
