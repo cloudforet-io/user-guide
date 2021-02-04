@@ -8,7 +8,7 @@
 
 
 
-**STEP 1: `Domain Admin Role`이 부여된 User가 Log-in 합니다.** 
+**STEP 1: `Domain Admin`Role 이 부여된 User로 Log-in 합니다.** 
 
 ![](.gitbook/assets/login_user1.png)
 
@@ -90,7 +90,7 @@ SpaceONE 상단 navigation의 **`Plugin` -`Collector`** 를 선택한 후, **`Cr
 
 ![](.gitbook/assets/select_aws_ec2_plugin.png)
 
-**STEP 2: AWS EC2 collector 를 생성합니다.**
+**STEP 2: AWS EC2 `collector` 를 생성합니다.**
 
 ![](.gitbook/assets/create_aws_ec2_collector.png)
 
@@ -140,7 +140,7 @@ SpaceONE 상단 navigation의 **`Plugin` -`Collector`** 를 선택한 후, **`Cr
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2: Spaceone-Monitoring Metric Collector를 생성합니다.** 
+**STEP 2: Spaceone-Monitoring Metric `Collector`를 생성합니다.** 
 
 ![](.gitbook/assets/create_spaceone_monitoring_metric_collector.png)
 
@@ -156,7 +156,7 @@ Schedule 설정을 통해, 생성된 **`Collector`** 들의 수집주기를 설�
 
 
 
-**STEP 1: Schedule을 설정하고 싶은 `Collector`를 선택한 뒤, 하단의 `Schedule` 탭 내 `Add` 버튼을 클릭합니다.** 
+**STEP 1: Schedule을 설정하고 싶은 `Collector`를 선택한 뒤, 하단 `Schedule` 탭의 `Add` 버튼을 클릭합니다.** 
 
 ![](.gitbook/assets/select_schedule_tab.png)
 
