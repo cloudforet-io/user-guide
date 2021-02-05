@@ -1,20 +1,20 @@
 ---
-description: 프로젝트 리소스들을 자동으로 스케줄링해 관리하는 기능입니다.
+description: Managing Power Status of Cloud Resources in projects
 ---
 
 # Power Scheduler
 
-## 둘러보기
+## Overall
 
-Power scheduler 페이지에서는 프로젝트의 resource를 자동으로 on-off 하는 scheduling을 관리합니다. 스케줄러 정보를 확인하고, 새 스케줄러를 생성, 수정 또는 삭제하는 기능을  제공합니다. 
+In Power Scheduler page, User can schedule power status of target cloud resources. 
 
-
+Power Scheduler page offers listing scheduler information, add/update/delete scheduler.
 
 ## Prerequisites
 
-SpaceONE의 power scheduler 서비스 이용에 필요한 IAM 정책을 각 cloud-provider 별로 해당 credential에 미리 정의해 SpaceONE의 사용자 리소스 액세스를 안전하게 제어하고, 다른 리소스에 대한 액세스를 방지할 수 있습니다.  
+User need to define security policy\(IAM\) before setup power scheduler. 
 
-Power Scheduler를 생성하기 전  아래  페이지에 명시된 방법 통해 각 cloud provider의 콘솔에서 해당 정책을 SpaceONE에 할당해주시기 바랍니다. 
+Before creating Power Scheduler modify your existing policy, For detailed process refer to link below.
 
 {% page-ref page="../identity/service-account/service-account-policy-management.md" %}
 
