@@ -72,109 +72,109 @@ Changing Collector status from _**DISABLE**_ status to _**ENABLE**_. This allows
 
 #### DISABLE 
 
-Collector를 _**DISABLE**_로 변경 하여 Cloud Resource 수집 작업이 일어나지 않게 설정할 수 있습니다.
+Changing _**ENABLE**_ to _**DISABLE**_. This will block collecting job with _**collector**_.
 
-![Collector &#xBE44;&#xD65C;&#xC131;&#xD654; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.09.45.png)
+![](../.gitbook/assets/2020-08-07-2.09.45.png)
 
 
 
-## Collector 조회/상세조회
+## Collector Listing
 
 
 
 ![](../.gitbook/assets/2020-08-07-2.16.13.png)
 
-Collector 리스트에서는 아래와 같은 정보 확인이 가능 합니다. 
+In Collector list, Collector informations and status can be checked.
 
-* Name : Collector의 이름
-* State : Enable/Disable 상태로 구분하여, Collector의 사용 여부를 결정 합니다. 
-* Priority : 다수의 Collector로 부터 수집된 정보가 중복 되었을 경우, 우선순위를 결정 합니다. Priority가 낮을수록 우선순위가 높습니다.
-* Last Collected : Collector가 구동된 마지막 시간을 기록 합니다.
-* Created : Collector가 생성된 시간을 기록 합니다. 
-
-Collector의 상세 동작은 하단 탭에서 관리 가능 합니다. 
+* Name : Name of Collector
+* State : Availability of collection\(_**Enable**_/_**Disable**_\).
+* Priority : Determination priority of duplicated parameters from multi collector. Lower number gets higher priority.
+* Last Collected : Last timestamp of collector action
+* Created : Timestamp of collector creation.
 
 
 
 ### Detail
 
-Collector의 상세 설정을 나타냅니다. 
+Detailed information of each collector
 
-Collector가 수집하는 데이터의 Filter를 조회할 수 있습니다.
+Tables of items collected by _**Collector**_.
 
-![Collector Detail &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.25.22.png)
+![](../.gitbook/assets/2020-08-07-2.25.22.png)
 
 ### Tag
 
-Collector의 Tag를 관리할 수 있습니다. _**Edit**_ 버튼을 클릭하여 Tag 를 편집할 수 있습니다.
+Managing Collector tags. Modification through _**Edit**_ button.
 
 ![Tag &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-2.27.56.png)
 
-편집 화면에서 _**Add Tag**_ 버튼과 _**x**_ 버튼을 사용하여 추가/삭제 할 수 있습니다.  편집이 완료된 후 우측 하단의 _**Save**_ 버튼을 통해 편집을 완료 합니다. 
+User can add/delete item using _**Add Tag**_ button and _**x**_ button. After editing page click _**Save**_ button right down of page.
 
-![Tag &#xD3B8;&#xC9D1; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/2020-08-07-3.25.03.png)
+![](../.gitbook/assets/2020-08-07-3.25.03.png)
 
 ### Credentials
 
+Lists of credentials used by collectors. This credentials are linked to _**Service Account**_ of SpaceONE.
+
 Collector가 사용하는 인증 정보를 나타 냅니다. 해당 인증 정보는 SpaceONE의 Service Account와 연결 됩니다. 
 
-_**Collect Data**_ 버튼을 클릭하여 해당 Credentials로 Cloud Resource의 즉시 수집이 가능 합니다. 
+By clicking _**Collector Data**_ button, User can start collecting job for target account immediately.
 
-![Credential &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-3.28.14.png)
+![](../.gitbook/assets/2020-08-07-3.28.14.png)
 
-![Cloud Resource &#xC989;&#xC2DC; &#xC218;&#xC9D1;](../.gitbook/assets/2020-08-07-3.34.33.png)
+![](../.gitbook/assets/2020-08-07-3.34.33.png)
 
 ### Schedules
 
-Collector가 데이터를 수집하는 주기를 지정 합니다. 
+Specifies the frequency of data collection.
 
-Schedule 지정시 매일 지정된 시간에 Collector를 통한 Cloud Resource 수집이 이루어집니다. 
+When a schedule is specified, Cloud Resource collection is performed through Collector at a specified time every day.
 
-![Collector Schedule &#xAD00;&#xB9AC; &#xD0ED;](../.gitbook/assets/2020-08-07-3.39.39.png)
+![](../.gitbook/assets/2020-08-07-3.39.39.png)
 
-**추가** 
+**Add** 
 
-+ Add 버튼을 클릭할 경우 스케쥴 추가 화면이 나타납니다. 
+By clicking _**+ Add**_ button. _**Add Schedule**_ appears
 
-이름/Timezone/수집 시간을 선택할 수 있습니다. 
+User can select _**Name/Timezone/Collection Time**_
 
-Collecting Time은 24시간 기준으로 지정하고 1시간 단위로 선택 가능합니다. 
+Collecting Time can be set by 24-hour base. Can be selected in 1-hour increments
 
-![Collector Schedule &#xCD94;&#xAC00; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-3.46.11.png)
+![](../.gitbook/assets/2020-08-07-3.46.11.png)
 
-#### 스케쥴 변경, 삭제
+#### Update/Delete Schedule 
 
-스케쥴을 선택 후 _**Action**_ **&gt; Update/Delete** 버튼을 통해 기존 스케쥴을 변경하거나 삭제가 가능합니다.   
+After setting schedule, Schedule modification or deleting is available using _**Action**_ **&gt; Update/Delete** button.
 
-![Collector Schedule &#xBCC0;&#xACBD;](../.gitbook/assets/2020-08-07-3.58.22.png)
+![](../.gitbook/assets/2020-08-07-3.58.22.png)
 
 
 
-## Cloud Resource 수집
+## Collecting Cloud Resource
 
-Collector를 통하여 원하는 시점에 Cloud Resource 수집이 가능 합니다. 사용자는 다양한 방식으로 Project 내의 Inventory 데이터가 최신화 될 수 있도록 할 수 있습니다. 
+With Collector, Collection of cloud resource is available any time. User can get update to date status of each cloud resources in various ways.
 
-### 즉시수집
+### Collecting Immediately
 
-Collector를 선택 후 _**Action &gt; Collect Data**_ 메뉴를 클릭하여 수집 합니다. 
+Select collector click  _**Action &gt; Collect Data.**_
 
-![Collect Data &#xBA54;&#xB274;](../.gitbook/assets/2020-08-07-4.02.39.png)
+![](../.gitbook/assets/2020-08-07-4.02.39.png)
 
-아래와 같이 Collect Data 화면이 출력 되는데, _**Confirm**_ 버튼을 클릭하여 수집을 시작 합니다. 
+Collector Data confirmation screen appears, Proceeds with _**Confirm**_ button.
 
-![&#xC989;&#xC2DC; &#xC218;&#xC9D1; &#xD654;&#xBA74;](../.gitbook/assets/2020-08-07-4.03.34.png)
+![](../.gitbook/assets/2020-08-07-4.03.34.png)
 
-Collect가 진행중인 상황은 Main Dashboard에서 확인 가능합니다. 화면이 자동으로 Refresh 되지 않으므로, 주기적으로 화면내 _**Reload**_ 버튼을 클릭합니다. 
+Status of collecting can be checked in _**Main Dashboard**_.
 
-![Collector &#xC218;&#xC9D1; &#xC9C4;&#xD589;&#xC0C1;&#xD669;](../.gitbook/assets/2020-08-07-4.04.46.png)
+![](../.gitbook/assets/2020-08-07-4.04.46.png)
 
-### 스케쥴 수집  
+### Collecting Schedule
 
-위의 _**Schedules**_ 에  등록된 일정으로 SpaceONE 내부에서 자동으로 Cloud Resource 수집을 진행 합니다. 
+With the schedule registered in the _**schedule**_ above, Cloud Resource collection is automatically performed by SpaceONE.
 
-최종 수행 시간을 Collector 리스트에서 확인할 수 있습니다. 
+Final collected timestamp can be checked through collector list.
 
-![Schedule &#xCD5C;&#xC885; &#xC218;&#xD589;&#xC2DC;&#xAC04; &#xD655;&#xC778;](../.gitbook/assets/2020-08-07-4.08.17-.png)
+![](../.gitbook/assets/2020-08-07-4.08.17-.png)
 
  
 
