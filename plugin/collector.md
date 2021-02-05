@@ -116,8 +116,6 @@ User can add/delete item using _**Add Tag**_ button and _**x**_ button. After ed
 
 Lists of credentials used by collectors. This credentials are linked to _**Service Account**_ of SpaceONE.
 
-Collector가 사용하는 인증 정보를 나타 냅니다. 해당 인증 정보는 SpaceONE의 Service Account와 연결 됩니다. 
-
 By clicking _**Collector Data**_ button, User can start collecting job for target account immediately.
 
 ![](../.gitbook/assets/2020-08-07-3.28.14.png)
