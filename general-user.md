@@ -46,15 +46,19 @@ description: '일반 사용는 자신이 소속된 프로젝트 그룹 하위에
 
 ## Register Service Account
 
-상단 navigation의 **`Identity`** - **`Service Account`** 를 클릭해 프로젝트 용 Service Account를 생성합니다. 
+**STEP 1:**  상단 navigation의 **`Identity`** - **`Service Account`** 를 클릭해 프로젝트 용 Service Account를 생성합니다. 
 
 ![](.gitbook/assets/select_service_account_as_aws.png)
 
-**STEP 1: 프로젝트용 Service Account를 생성합니다.**
+**STEP 2: 필수 입력 항목 값들을 모두 입력합니다.** 
 
-![](.gitbook/assets/add_aws_service_account.png)
+{% hint style="info" %}
+AWS account ID, Assume role 및 AWS access key 정보를 찾으려면 오른쪽 Help for AWS User 메뉴의 링크를 클릭하세요.
+{% endhint %}
 
-**STEP 2: 해당 Service Account가 속할 프로젝트를 선택합니다. \(optional\)**
+![](.gitbook/assets/screen-shot-2021-02-05-at-15.54.03%20%281%29.png)
+
+**STEP 3: 해당 Service Account가 속할 프로젝트를 선택합니다. \(optional\)**
 
 ![](.gitbook/assets/attach_account_to_project%20%281%29.png)
 
@@ -66,11 +70,17 @@ description: '일반 사용는 자신이 소속된 프로젝트 그룹 하위에
 
 ## Collect Resources
 
-**STEP 1: 수집하고 싶은 collector를 선택한 후 상단 `Action` - `Collect Data` 를 선택해 리소스 수집을 시작합니다.**
+**STEP 1:  상단 navigation - Plugin &gt; Collector 버튼을 클릭합니다.** 
 
-\*\*\*\*
+![](.gitbook/assets/screen-shot-2021-02-05-at-16.04.34%20%281%29.png)
+
+**STEP 2: 수집하고 싶은 collector를 선택한 후 상단 `Action` - `Collect Data` 를 선택해 리소스 수집을 시작합니다.**
 
 ![](.gitbook/assets/collect_data.png)
 
-\*\*\*\*
+**STEP 3:**  Click **`Confirm`** button on **Collect Data** popup window.
+
+![](.gitbook/assets/screen-shot-2021-02-05-at-16.19.58%20%281%29.png)
+
+
 
