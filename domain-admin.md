@@ -93,20 +93,20 @@ Create general user and assign the project groups to created user. General users
 
 ![](.gitbook/assets/select_aws_ec2_plugin.png)
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS EC2 collector**.
 
 ![](.gitbook/assets/create_aws_ec2_collector.png)
 
 ### **Create AWS Cloud Services Collector** 
 
-**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **aws-cloud-services** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin.png)
 
 \*\*\*\*
 
   
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Cloud Service Collecto**r.
 
 ![](.gitbook/assets/create_aws_cloud_services_collector.png)
 
@@ -114,11 +114,11 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS  Trusted Advisor Collector** 
 
-**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **aws-trusted-advisor** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Trusted Advisor collecto**r.
 
 ![](.gitbook/assets/create_aws_trusted_advisor_collector.png)
 
@@ -126,49 +126,53 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS Health Dashboard Collector** 
 
-**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **aws-personal-health-dashboard** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
 \*\*\*\*
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Health Dashboard collector**.
 
 ![](.gitbook/assets/create_aws_personal_health_dashboard_collector.png)
 
 \*\*\*\*
 
-### **Create AWS Metric Collector** 
+### **Create Monitoring Metric Collector** 
 
-**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **monitoring-metric-collector** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
 **STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
-![](.gitbook/assets/create_spaceone_monitoring_metric_collector.png)
+![](.gitbook/assets/screen-shot-2021-02-05-at-13.46.13.png)
 
+**FINAL STEP:** Check all created collectors on the collector list.
 
+![](.gitbook/assets/screen-shot-2021-02-05-at-13.53.03.png)
 
-desc
+## Set collection schedule
 
-![](.gitbook/assets/list_all_collectors.png)
+The schedule is to set the collection time so that the collectors run the jobs periodically to collect cloud resources.
 
-## Update Schedule
+**STEP 1:** Click **Schedule** tab on half bottom\(detail\) page on selected collector.
 
-desc
+![](.gitbook/assets/screen-shot-2021-02-05-at-14.02.50.png)
 
-**STEP 1:** 
+**STEP 2:**  Click **`+ Add`** button; Fill out Name and Time zone, and Select Schedule Frequency and then Click **`Confirm`** button once schedule setting is finished. 
 
-![](.gitbook/assets/select_schedule_tab.png)
+{% hint style="info" %}
+1. Set '**Hourly schedule**' which runs everyday at selected hour 
+2. Set '**Repeat Every \***' which runs every given intervals in seconds, minutes or hours.
+{% endhint %}
 
-**STEP 2:** 
+![Add Schedule pop up](.gitbook/assets/add_schedule_to_collector.png)
 
- ****
+  
+**STEP3:** Check whether collection schedule is registered on collector.
 
-![](.gitbook/assets/add_schedule_to_collector.png)
-
-![](.gitbook/assets/list_collector_schedules.png)
+![Schedule tab of collector ](.gitbook/assets/list_collector_schedules.png)
 
 \*\*\*\*
 
