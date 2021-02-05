@@ -69,9 +69,9 @@ There are three types of scheduler mode.
 
 |  Mode | State | Description | Color |
 | :---: | :---: | :--- | :---: |
-| 반복  스케줄 |  | 매주 반복되는 타이머로 선택된 영역은 resource가 켜지며, 해제된 영역은 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%288%29.png) |
-| 1회성  스케줄 | 켜기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 켜집니다. | ![](../.gitbook/assets/image%20%2816%29.png) |
-|  | 끄기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역에서 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%2855%29.png) |
+| Repeated Schedule |  | Timer repeated by every weeks. Selected area became On, Otherwise\(Non selected\) became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
+| One Time Schedule | ON | Created specified time range. Resource became On selected area. | ![](../.gitbook/assets/image%20%2816%29.png) |
+|  | OFF | Created specified time range. Resource became Off selected area. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 
 
@@ -88,37 +88,37 @@ Set the resource group for applying defined schedule
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
-`+ 그룹 추가` 버튼을 클릭해 리소스 그룹 만들기 페이지로 이동해 스케줄러를 적용할 리소스 그룹의 이름을 입력합니다.
+By clicking _**+ Add Group**_ Button. User can move to creating resource group. 
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
-리소스 그룹의 이름을 입력할 때의 제약사항은 다음과 같습니다
+Name Limit
 
-> * 최대 128자 입력 가능 \(리소스그룹 카드에는 16자까지 표기\)
-> * 문자로 시작
-> * 문자, 숫자 및 `-`  사용 가능
+Limitation of Resource Group name is is below.
+
+> * Total 128 character 
+> * Start with character
+> * Character, Number, 문자, 숫자 및 Hyphen`-`  available
 
 
 
-리소스 타입을 선택합니다. 리소스 타입이란 스케줄러를 통해 on-off 를 적용하고 싶은 리소스 종류이며, 리소스 그룹을 구분하는 기준이 됩니다. 
+Selecting resource type. Available types are below
 
-현재 SpaceONE power scheduler 에서 지원하는 리소스 타입은 
-
-`[ALL] Server / [AWS] RDS / [AWS] Auto Scaling Group`의 3가지입니다. 
+`[ALL] Server / [AWS] RDS / [AWS] Auto Scaling Group`
 
 ![](../.gitbook/assets/image%20%2846%29.png)
 
 
 
-모든 정보를 입력한 후 페이지 오른쪽 하단의 저장 버튼을 눌러 스케줄러 정보를 저장합니다. 
+Entering all information, Then click save button below to save schedule. 
 
-![&#xC800;&#xC7A5; &#xBC84;&#xD2BC;](../.gitbook/assets/image%20%284%29.png)
+![Save](../.gitbook/assets/image%20%284%29.png)
 
-모든 정보가 알맞게 저장된 경우 스케줄러 생성 완료 팝업이 뜨며 
+Scheduler _**creating success**_ message pops up. If all creation process is successful. 
 
-![&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC0DD;&#xC131; &#xC644;&#xB8CC; &#xD31D;&#xC5C5;](../.gitbook/assets/image%20%2811%29.png)
+![Pop up](../.gitbook/assets/image%20%2811%29.png)
 
-![&#xC0DD;&#xC131;&#xD55C; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC815;&#xBCF4; &#xD655;&#xC778;](../.gitbook/assets/image%20%2824%29.png)
+![Describes created schedule](../.gitbook/assets/image%20%2824%29.png)
 
 생성한 스케줄러의 정보 조회 페이지로 이동합니다.
 
