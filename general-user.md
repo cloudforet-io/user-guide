@@ -71,7 +71,11 @@ All cloud resources under service account that you registered above will be show
 
 ## Collect Resources
 
-**STEP 1: Drive to Plugin &gt; Collector Menu** 
+**STEP 1:** Drive to menu **`Plugin > Collector`**  at top bar. 
+
+![](.gitbook/assets/screen-shot-2021-02-05-at-16.04.34.png)
+
+**STEP 2:** Drive to menu **`Plugin > Collector`**  at top bar. 
 
 ![](.gitbook/assets/collect_data.png)
 
