@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction to SpaceONE\(old\)](README.md)
+* [SpaceONE](README.md)
 
 ## Introduction to SpaceONE
 
