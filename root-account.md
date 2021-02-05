@@ -4,9 +4,7 @@
 
 `Root Account`는 시스템 전체에 대한 최상위 관리자로서, **`Sign in for Root Account`** 로그인 페이지를 통해 접속 가능합니다.
 
-**STEP 1: SpaceONE 에 접속한 , `Sign in for Root Account`  sign-in 합니다.**
-
-![Login](.gitbook/assets/login.png)
+**STEP 1: SpaceONE 에 접속한  , `Sign in for Root Account`  로 Sign-in 합니다.**
 
 ![Domain owner login](.gitbook/assets/domain_owner_login.png)
 

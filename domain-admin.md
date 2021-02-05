@@ -1,6 +1,10 @@
+---
+description: 'Domain Admin은 최상위 프로젝트 그룹을 만들고, 사용자를 생성하며, 주요 Collector를 설정합니다.'
+---
+
 # Domain Admin
 
-## Log-in
+## Sign-in
 
 **`Domain Admin`** 은 일반 Log-in 페이지를 통해 Log-in 합니다. **`Root Account`**에게서 받은 이메일에 ID/Password 또는 Google Oauth2와 같은 Single-Sign-On 방식의 접속정보가 명시되어 있습니다.
 
@@ -10,7 +14,7 @@
 
 **STEP 1: `Domain Admin`Role 이 부여된 User로 Log-in 합니다.** 
 
-![](.gitbook/assets/login_user1.png)
+![](.gitbook/assets/signin_as_user1.png)
 
 ## Create Project Group
 
