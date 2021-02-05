@@ -14,19 +14,27 @@ description: '일반 사용는 자신이 소속된 프로젝트 그룹 하위에
 
 ## Create My Project Group and Project
 
-**STEP 1: `SpaceONE` 프로젝트 그룹을 생성합니다.**
+{% hint style="info" %}
+일반 사용자는 자신이 속한 프로젝트 그룹만 제어 가능합니다. 
+{% endhint %}
+
+**STEP 1: 상단 navigation - Project 의 Create 버튼을 클릭합니다.** 
+
+![](.gitbook/assets/image%20%2882%29.png)
+
+**STEP 2: `SpaceONE` 프로젝트 그룹의 이름을 입력한 뒤  `Confirm` 버튼을 눌러 성합니다.**
 
 ![](.gitbook/assets/create_project_group_spaceone.png)
 
 \*\*\*\*
 
-**STEP 2: 생성한 `SpaceONE` 프로젝트 그룹 아래 `SpaceONE-DEV` 프로젝트를 생성합니다.** 
+**STEP 3: 생성한 `SpaceONE` 프로젝트 그룹 아래 `SpaceONE-DEV` 프로젝트를 생성합니다.** 
 
 ![](.gitbook/assets/create_project_spaceone_dev.png)
 
 \*\*\*\*
 
-**STEP 3: 생성한 `SpaceONE` 프로젝트 그룹 아래 `SpaceONE-PRD` 프로젝트를 생성합니다.** 
+**STEP 4: 생성한 `SpaceONE` 프로젝트 그룹 아래 `SpaceONE-PRD` 프로젝트를 생성합니다.** 
 
 ![](.gitbook/assets/create_project_spaceone_prd.png)
 
