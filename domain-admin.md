@@ -77,13 +77,13 @@ Create general user and assign the project groups to created user. General users
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-10.17.46.png)
 
-## Collect Collectors
+## Cloud Resource Collectors
 
-desc
+**Cloud Resource Collector** \(a.k.a **CRC**\) is a plugin that collects cloud resources across platforms such as AWS, Google Cloud, Azure, CRC is set by Domain Admin only.
 
+**STEP 1:** Drive to Menu **`Plugin > Collector`**and Click **`+ Create`**button.
 
-
-![Create collectors](.gitbook/assets/create_collector.png)
+![Create collectors screenshot](.gitbook/assets/create_collector.png)
 
 
 
