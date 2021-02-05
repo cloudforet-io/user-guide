@@ -26,7 +26,7 @@ description: >-
 
 \*\*\*\*
 
-**STEP 2:** Name **`Group`** at top bar and click **`+ Create`** button as below.
+**STEP 2:** Name **`Group`** at top bar and click **`+ Confirm`** button as below.
 
 ![](.gitbook/assets/create_project_group_spaceone.png)
 
