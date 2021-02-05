@@ -26,7 +26,9 @@ description: One cloud management platform for any cloud
 
 ## SpaceONE Universe
 
-Our feature is getting expanded to all areas to build a universe \(called SpaceONE universe\) to fulfill requirements for cloud operation/management based on the inventory data, automation, and analysis, etc for Multi Clouds. 
+Our feature is expanding all areas to build a SpaceONE universe to fulfill requirements for cloud operation/management based on the inventory data, automation, analysis, and many more for Multi Clouds.  
+  
+
 
 ![](../.gitbook/assets/2020-07-31-11.19.50.png)
 

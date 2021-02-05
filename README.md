@@ -9,10 +9,13 @@ description: One cloud management platform for any cloud
 Space One is a cloud management platform that enables integrated management of Multi-Cloud. We boost and maximize your operational efficiency in management.  
 \(Space One is a cloud management platform that enables integrated management of Multi-Cloud. Our platform optimizes your operational effectiveness in cloud management.\)  
   
-    
 
+
+![](.gitbook/assets/gitbook_so.png)
 
   
+
+
 Please, Contact us via   
 - SpaceONE  Github: [https://github.com/spaceone-dev](https://github.com/spaceone-dev)    
 - SpaceONE  Docker:   
@@ -21,10 +24,6 @@ Please, Contact us via
 
 
 
-
-
-
-![](.gitbook/assets/gitbook_so.png)
 
 
 
