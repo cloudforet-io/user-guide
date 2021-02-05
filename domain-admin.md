@@ -89,23 +89,24 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS EC2 Collector**
 
-**STEP 1:** 
+**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_ec2_plugin.png)
 
-**STEP 2:**
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
 ![](.gitbook/assets/create_aws_ec2_collector.png)
 
 ### **Create AWS Cloud Services Collector** 
 
-**STEP 1:** 
+**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin.png)
 
 \*\*\*\*
 
-**STEP 2:** 
+  
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
 ![](.gitbook/assets/create_aws_cloud_services_collector.png)
 
@@ -113,11 +114,11 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS  Trusted Advisor Collector** 
 
-**STEP 1:** 
+**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** 
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
 ![](.gitbook/assets/create_aws_trusted_advisor_collector.png)
 
@@ -125,13 +126,13 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS Health Dashboard Collector** 
 
-**STEP 1:** 
+**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
 \*\*\*\*
 
-**STEP 2:** 
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
 ![](.gitbook/assets/create_aws_personal_health_dashboard_collector.png)
 
@@ -139,11 +140,11 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS Metric Collector** 
 
-**STEP 1:**
+**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** 
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
 
 ![](.gitbook/assets/create_spaceone_monitoring_metric_collector.png)
 
