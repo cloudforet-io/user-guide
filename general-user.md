@@ -78,7 +78,7 @@ AWS account ID, Assume role 및 AWS access key 정보를 찾으려면 오른쪽 
 
 ![](.gitbook/assets/collect_data.png)
 
-**STEP 3:**  Click **`Confirm`** button on **Collect Data** popup window.
+**STEP 3:  `Confirm` 버튼을 눌러 저장합니다.** 
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-16.19.58%20%281%29.png)
 
