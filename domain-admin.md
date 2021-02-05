@@ -59,21 +59,23 @@ Create general user and assign the project groups to created user. General users
 
 ![](.gitbook/assets/create_user1%20%281%29.png)
 
-**STEP 4:** Drive to Project ****and Click member icons at right next to **`+ Create Project`** button.
+**STEP 4:** Drive to Project ****and Click **MEMBER** icons at right next to **`+ Create Project`** button.
 
 ![](.gitbook/assets/screen-shot-2021-02-04-at-16.28.10.png)
 
-**STEP 5:** Fill out all required fields ****and click **`Confirm`** button once finish.
+**STEP 5:** Click **`+ Add`** button and Select members to add on the project group on the list at pop up window.
+
+![](.gitbook/assets/screen-shot-2021-02-05-at-10.11.22.png)
+
+**STEP 6:** Click **`Confirm`** button when you finish to all members and set their role as project admin.
 
 ![](.gitbook/assets/add_user2_to_project_group.png)
 
 \*\*\*\*
 
-**STEP 3:** 
+**STEP 7:** Check all selected members has registered as project members.
 
-\*\*\*\*
-
-![](.gitbook/assets/check_user2_role.png)
+![](.gitbook/assets/screen-shot-2021-02-05-at-10.17.46.png)
 
 ## Collect Collectors
 
