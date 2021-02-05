@@ -18,21 +18,21 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
 
 {% page-ref page="../identity/service-account/service-account-policy-management.md" %}
 
-## Power scheduler 조회
+## Power Scheduler Dashboard
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
-**스케줄러 조회** 
+**Scheduler list by Projects**
 
-프로젝트 목록과 함께 설정된 스케줄러의 목록  한눈에 조회할 수 있는 페이지입니다. 
+User can see Overall status of power scheduling 
 
-**검색**
+**Search Bar**
 
-검색 바를 통해 프로젝트 이름으로 검색할 수 있습니다.
+User can search status of power scheduling by project name.
 
-**스케줄링 Dashboard** 
+**Scheduling Dashboard** 
 
-하나의 스케줄 Dashboard 에 표현되는 정보는 다과 같습니다.  
+Items of power scheduler information for each projects are below.
 
 ![&#xC2A4;&#xCF00;&#xC904; Dashboard](../.gitbook/assets/image%20%2863%29.png)
 
@@ -45,73 +45,66 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xC774;&#xB984;</td>
-      <td style="text-align:left">&#xD574;&#xB2F9; &#xC2A4;&#xCF00;&#xC904;&#xB7EC;&#xAC00; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9C4;
-        &#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xC774;&#xB984;&#xACFC; &#xADF8;&#xB8F9;&#xC774;&#xB984;</td>
+      <td style="text-align:left">Project Name</td>
+      <td style="text-align:left">Name of projects which is linked to power scheduler</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xC790;&#xC6D0; &#xC218;</td>
+      <td style="text-align:left">Number of Resource</td>
       <td style="text-align:left">
         <ul>
-          <li>&#xC801;&#xC6A9;&#xB41C; &#xC790;&#xC6D0; &#xC218; : power scheduler&#xC5D0;&#xC11C;
-            &#xAD00;&#xB9AC;&#xD558;&#xACE0; &#xC788;&#xB294; &#xC790;&#xC6D0;&#xC758;
-            &#xC218;</li>
-          <li>&#xC801;&#xC6A9; &#xAC00;&#xB2A5;&#xD55C; &#xC790;&#xC6D0; &#xC218; :
-            power scheduler&#xC5D0;&#xC11C; &#xAD00;&#xB9AC; &#xAC00;&#xB2A5;&#xD55C;
-            &#xC790;&#xC6D0;&#xC758; &#xC218; (Server, RDS, Auto Scaling Group)</li>
+          <li>Number of resources : Number of resources that are controlled by power
+            scheduler.</li>
+          <li>Number of resources available : Total number of resources can be scheduled
+            by power scheduler (Server, RDS, Auto Scaling Group).</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904; &#xBAA9;&#xB85D;</td>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904;&#xC758; &#xBAA9;&#xB85D;&#xC774;&#xBA70;, &#xB300;&#xC2DC;&#xBCF4;&#xB4DC;&#xC5D0;&#xB294;
-        &#xCD5C;&#xB300; 3&#xAC1C;&#xAE4C;&#xC9C0; &#xD45C;</td>
+      <td style="text-align:left">Schedule</td>
+      <td style="text-align:left">List of running schedule(Up to 3 items)</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xC608;&#xC0C1; &#xC808;&#xAC10; &#xBE44;</td>
-      <td style="text-align:left">&#xC9C0;&#xB09C; 1&#xAC1C;&#xC6D4;&#xAC04; Power scheduler&#xC744; &#xD1B5;&#xD574;
-        &#xC808;&#xAC10;&#xB41C; &#xBE44;&#xC758; &#xD569;&#xC744; &#xB2EC;&#xB7EC;&#xB85C;
-        &#xD45C;</td>
+      <td style="text-align:left">Estimated Reduced Cost</td>
+      <td style="text-align:left">Reduced cost by power scheduler in last 1 months(US dollar).</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904;&#xB9C1; &#xD788;&#xD2B8;&#xB9F5;</td>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904;&#xC774; &#xBA87;&#xC2DC;&#xAC04;&#xC529; &#xD560;&#xB2F9;&#xB418;&#xC5C8;&#xB294;&#xC9C0;&#xC758;
-        &#xC815;&#xB3C4;&#xB97C; &#xC0C9;&#xC73C;&#xB85C; &#xD45C;&#xC2DC;</td>
+      <td style="text-align:left">Scheduled Job</td>
+      <td style="text-align:left">Length of each schedule</td>
     </tr>
   </tbody>
 </table>
 
-> **스케줄링 히트맵** 
+> **Scheduling Meat Map**
 >
-> 스케줄링 히트맵에 표시되는 색에는 2단계가 있습니다. 색은 스케줄이 몇시간씩 할당되었는지의 정도를 보여주며, 각 색이 나타내는 의미는 다음과 같습니다.
+> The color of scheduling head map has 2 steps. The color shows how long is scheduled job. Each color means below
 
-> ![](../.gitbook/assets/image%20%2858%29.png)스케줄러에 의해 스케줄링 된 시간이 0 ~ 12 시간
+> ![](../.gitbook/assets/image%20%2858%29.png)Scheduled time is between 0 ~ 12 hours
 
-> ![](../.gitbook/assets/image%20%2847%29.png)스케줄러에 의해 스케줄링 된 시간이 12~24 시간
+> ![](../.gitbook/assets/image%20%2847%29.png)Scheduled time is between 12~24 hours
 
-## Power scheduler 상세 조회
+## Scheduler Management
 
-### 스케줄러 상세조
+### Scheduler Calendar
 
-스케줄러  상세화면에서는 다음과 같은 기능을 조회합니다. 
+In scheduler Calendar, User can manage this functions
 
-#### 
 
-#### 시간
+
+#### Scheduling Time
 
 ![weekly calendar](../.gitbook/assets/image%20%2828%29.png)
 
-scheduler가 적용되는 시간을 한눈에 볼 수 있습니다. calendar의 가로축은 날짜, 세로축은 scheduler가 적용될 시간입니다.  `이번주` 버튼을 클릭하면 이번주의 scheduler 플랜을 볼 수 있습니다.
+User can see scheduler timetable. x-axis is date, y-axis is time to be controlled. By clicking _**This weeks**_ jump to power scheduling plan for this weeks.
 
-그래프 오른쪽 상단의 `< >`  를 통해 달을 이동할 수 있습니다.  
+Move to next/previous weeks by  `< >` buttons right upper side of table.
 
-스케줄에는 3가지의 scheduled mode가 있습니다.
+Schedule has two mode.
 
 | Scheduled mode | State | Description | color |
 | :--- | :--- | :--- | :--- |
-| 반복 스케줄 |  | 매주 반복되는 타이머로 선택된 영역은 resource가 켜지며, 해제된 영역은 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%288%29.png) |
-| 1회성 스케줄 | 켜기 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역은 resource가 켜집니다. | ![](../.gitbook/assets/image%20%2816%29.png) |
-|  | 끄 | 특정 날짜에 생성되는 일회성 타이머로, 선택된 영역에서 resource가 꺼집니다.  | ![](../.gitbook/assets/image%20%2855%29.png) |
+| Repeated Schedule |  | Repeated by every weeks. Within selected area, Resources are On, Otherwise\(Non selected\) resources became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
+| One time | ON | Event time for specific date. At the selected area, resources became on.  | ![](../.gitbook/assets/image%20%2816%29.png) |
+| One time | OFF | Event time for specific date. At the selected area, resources became off. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 #### 리소스 그룹 
 
