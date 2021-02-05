@@ -148,15 +148,23 @@ Detailed status resource group is done by clicking _**Name of Resource Group.**_
 
 ![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC0DD;&#xC131; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/image%20%2850%29.png)
 
-페이지 왼쪽 상단의 `새 스케줄러 만들기`  버튼을 눌러 Power scheduler를 생성합니다. 프로젝트에 기존에 생성한 스케줄러가 없는 경우 자동으로 생성모드로 변경됩니다.  
+By Clicking _**Creating New Scheduler**_ button, New scheduler editing screen appears. 
 
-스케줄 생성하기 위해서는 다음과 같은 정보를 설정해야합니다. 
+If there is no existed scheduler, Creation screen is auto generated.
 
-#### 이름
+To create schedule, fill out several items required.
 
-생성할 Power scheduler의 이름이며, 문자와 `-` 를 포함한 문자열 입력할 수 있습니다. 띄어쓰기가 불가합니다. 이름 입력이 누락되면 스케줄러 생성되지 않습니다. 
 
-#### 시간
+
+#### Name
+
+Name of Schedule. 
+
+Combination of String, Number, '-' is valid. escape character is not available. 
+
+#### Timestamp
+
+Time to be 
 
 스케줄이 적용되는 시간을 설정합니. calendar의 가로축은 날짜, 세로축은 스케줄러가 적용될 시간입니다.  `이번주` 버튼을 클릭하면 이번주의 스케줄 플랜을  입력합니다.  날짜와 시간을 클릭/ 드래그 하여 편리하게 타이머를 적용할 수 있습니다. 한번 더 클릭하면 타이머를 해제할 수 있습니다. 
 
@@ -216,7 +224,7 @@ Detailed status resource group is done by clicking _**Name of Resource Group.**_
 
 
 
-#### 리소스 그룹
+#### Resource Group
 
 스케줄러를 적용할 리소스 그룹을 정의합니다.  `리소스 그룹 추가` 버튼을 누르면 `리소스 그룹 만들기` 페이지가 나타납니다. 
 
