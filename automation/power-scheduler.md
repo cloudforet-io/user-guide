@@ -106,43 +106,43 @@ Schedule has two mode.
 | One time | ON | Event time for specific date. At the selected area, resources became on.  | ![](../.gitbook/assets/image%20%2816%29.png) |
 | One time | OFF | Event time for specific date. At the selected area, resources became off. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
-#### 리소스 그룹 
+#### Resource Group
 
-**• 스케줄러 우선순위 단계**
+**• Priority by Resource Group**
 
-![&#xB9AC;&#xC18C;&#xC2A4; &#xADF8;&#xB8F9;](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
-스케줄러는 여러개의 Resource Group으로 이루어지며, 각 스케줄러 간에 단계를 설정할 수 있습니다.  
+Scheduler is consist of several resource group. Each resource group has step defined by priority.
 
-스케줄러의 우선순위가 높을수록 숫자가 작아집니다. 스케줄러 우선순위를 5개 이상 지정하고 싶은 경우,  `편집하기` 버튼을 누른 후   `+ 우선순위 추가` 버튼을 누르면 스케줄러 그룹이 추가됩니다.  
+The lower number gets higher priority. The status change of higher priority finishes first. If the target status is _**ON**_, higher priority _**Resource Group**_ start first. 
 
-스케줄러에 리소스그룹이 지정되어 있으면 스케줄러 단계 삭제되지 않습니다. 
+Create/Deleting _**Resource Group**_ is done by clicking _**Edit button &gt; + Add Group**_.  
 
-
-
-**• 리소스 그룹 우선순위**
+**Resource Groups In Same Priority**
 
 ![](../.gitbook/assets/image%20%2857%29.png)
 
-하나의 스케줄러 내 리소스그룹 간의 우선순위를 설정할 수  있습니다.  리소스 그룹의 우선순위란 Booting 순서를 의미합니다. 스케줄러에 `N`개의 리소스 그룹이 있다고 가하면, `1`번부터 `N`번 순서로 리소스가 켜지고, `N`번부터 `1`번 순서로 리소스가 종료됩니다. 
+There is sequence of changing status between resource groups in same priority.
+
+Upper position resource group changes first, and Lower position goes second.
 
 
 
-**• 리소스 그룹 보기**
+_**Details of Resource Group**_
 
 ![](../.gitbook/assets/image%20%2852%29.png)
 
-스케줄러 페이지에서 리소스 그룹에 대한 정보를 조회합니다. `리소스그룹의 이름`을 클릭하면 다음과 같은 그룹 정보를 볼 수 있습니다.
+Detailed status resource group is done by clicking _**Name of Resource Group.**_
 
 | Item | Description |
 | :--- | :--- |
-| 그룹 이름 | 스케줄러 생성 시 입력했던 리소스 그룹의 이름 |
-| 리소스 타 | 스케줄러 생성 시 입력했던 그룹기준 &gt; 리소스 타입  |
-| 리소스 목 | 해당 그룹에 속하는 리소스 목 |
+| Name | Name of Resource Group |
+| Resource Type | Type of Resource Group\(Instance, RDS, Autoscaling\) |
+| Target List | List of Cloud Resources to be controlled |
 
 ### 
 
-### 새 scheduler 생성
+### Creating New Scheduler
 
 
 
