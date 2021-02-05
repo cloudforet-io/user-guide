@@ -58,19 +58,26 @@ Domain Admin은 회사의 관리 정책에 따라서 최상위 **`Project Group`
 일반 사용자는 자신이 소속된 **`Project Group`** 의 리소스에만 접근 가능합니다. 
 {% endhint %}
 
+**STEP 1: 상단 네비게이션에 `Identity > User`** 로 이동합니다.
 
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.16.22.png)
 
-**STEP 1: Project Admin 사용자를 추가합니다.** 
+  
+**STEP 2: `Add` 버튼을 클릭합니다.** 
+
+![](.gitbook/assets/screen-shot-2021-02-04-at-14.18.45.png)
+
+**STEP 3: Project Admin 사용자 정보를 입력 한  추가합니다.** 
 
 ![](.gitbook/assets/create_user1%20%281%29.png)
 
 \*\*\*\*
 
-**STEP 2: User를 Services 프로젝트 그룹에 매핑합니다.**
+**STEP 4: User를 Services 프로젝트 그룹에 매핑합니다.**
 
 ![](.gitbook/assets/add_user2_to_project_group.png)
 
-**STEP 3: User Management 화면에서 Role과 Authorization Type이 매핑된 것을 확인할 수 있습니다.**
+**STEP 5: User Management 화면에서 Role과 Authorization Type이 매핑된 것을 확인할 수 있습니다.**
 
 ![](.gitbook/assets/check_user2_role.png)
 
