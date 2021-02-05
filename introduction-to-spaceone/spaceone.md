@@ -6,7 +6,7 @@ description: One cloud management platform for any cloud
 
 ## Main Feature
 
-#### 1. Multi Cloud Management
+#### 1. Multi Cloud Management 
 
 * **IaaS Infra-integration :** Auto-discovery and sorting infrastructure information that scattered across various platform
 * **Resource Search :** Quick search that reflected on relevance over resources
