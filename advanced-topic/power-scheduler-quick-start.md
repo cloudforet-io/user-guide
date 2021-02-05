@@ -120,7 +120,7 @@ Scheduler _**creating success**_ message pops up. If all creation process is suc
 
 ![Describes created schedule](../.gitbook/assets/image%20%2824%29.png)
 
-생성한 스케줄러의 정보 조회 페이지로 이동합니다.
+
 
 ## 
 
