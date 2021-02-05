@@ -1,3 +1,9 @@
+---
+description: >-
+  General user can manage resources by creating a project under the project
+  group and registering a cloud account(service account) to created project.
+---
+
 # General User
 
 ## Log-in
