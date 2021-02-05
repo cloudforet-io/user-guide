@@ -75,9 +75,11 @@ All cloud resources under service account that you registered above will be show
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-16.04.34.png)
 
-**STEP 2:** Drive to menu **`Plugin > Collector`**  at top bar. 
+**STEP 2:**  Select collector and  Select collect data from drop down option on Action. 
 
 ![](.gitbook/assets/collect_data.png)
 
-\*\*\*\*
+**STEP 3:**  Click **`Confirm`** button on **Collect Data** popup window.
+
+![](.gitbook/assets/screen-shot-2021-02-05-at-16.19.58.png)
 
