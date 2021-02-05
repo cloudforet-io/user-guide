@@ -98,13 +98,7 @@ User can see scheduler timetable. x-axis is date, y-axis is time to be controlle
 
 Move to next/previous weeks by  `< >` buttons right upper side of table.
 
-Schedule has two mode.
 
-| Scheduled mode | State | Description | color |
-| :--- | :--- | :--- | :--- |
-| Repeated Schedule |  | Repeated by every weeks. Within selected area, Resources are On, Otherwise\(Non selected\) resources became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
-| One time | ON | Event time for specific date. At the selected area, resources became on.  | ![](../.gitbook/assets/image%20%2816%29.png) |
-| One time | OFF | Event time for specific date. At the selected area, resources became off. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 #### Resource Group
 
@@ -164,71 +158,27 @@ Combination of String, Number, '-' is valid. escape character is not available.
 
 #### Timestamp
 
-Time to be 
+Specifying time for scheduler, x-axis is date, y-axis is detailed time.    
 
-스케줄이 적용되는 시간을 설정합니. calendar의 가로축은 날짜, 세로축은 스케줄러가 적용될 시간입니다.  `이번주` 버튼을 클릭하면 이번주의 스케줄 플랜을  입력합니다.  날짜와 시간을 클릭/ 드래그 하여 편리하게 타이머를 적용할 수 있습니다. 한번 더 클릭하면 타이머를 해제할 수 있습니다. 
+Selecting range of times done by click & drag in calendar.
 
-스케줄에는 3가지의 scheduled mode가 있습니다.
+Schedule has two mode.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Scheduled mode</th>
-      <th style="text-align:left">State</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">icon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&#xBC18;&#xBCF5; &#xC2A4;&#xCF00;&#xC904;</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">&#xB9E4;&#xC8FC; &#xBC18;&#xBCF5;&#xB418;&#xB294; &#xD0C0;&#xC774;&#xBA38;&#xB85C;
-        &#xC120;&#xD0DD;&#xB41C; &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xCF1C;&#xC9C0;&#xBA70;,
-        &#xD574;&#xC81C;&#xB41C; &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xAEBC;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/image (8).png" alt/>
-        </p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">1&#xD68C;&#xC131; &#xC2A4;&#xCF00;</td>
-      <td style="text-align:left">&#xCF1C;&#xAE30;</td>
-      <td style="text-align:left">&#xD2B9;&#xC815; &#xB0A0;&#xC9DC;&#xC5D0; &#xC0DD;&#xC131;&#xB418;&#xB294;
-        &#xC77C;&#xD68C;&#xC131; &#xD0C0;&#xC774;&#xBA38;&#xB85C;, &#xC120;&#xD0DD;&#xB41C;
-        &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xCF1C;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <img src="../.gitbook/assets/image (16).png" alt/>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">&#xB044;</td>
-      <td style="text-align:left">&#xD2B9;&#xC815; &#xB0A0;&#xC9DC;&#xC5D0; &#xC0DD;&#xC131;&#xB418;&#xB294;
-        &#xC77C;&#xD68C;&#xC131; &#xD0C0;&#xC774;&#xBA38;&#xB85C;, &#xC120;&#xD0DD;&#xB41C;
-        &#xC601;&#xC5ED;&#xC740; resource&#xAC00; &#xAEBC;&#xC9D1;&#xB2C8;&#xB2E4;.</td>
-      <td
-      style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/image (55).png" alt/>
-        </p>
-        </td>
-    </tr>
-  </tbody>
-</table>
+| Scheduled mode | State | Description | color |
+| :--- | :--- | :--- | :--- |
+| Repeated Schedule |  | Repeated by every weeks. Within selected area, Resources are On, Otherwise\(Non selected\) resources became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
+| One time | ON | Event time for specific date. At the selected area, resources became on.  | ![](../.gitbook/assets/image%20%2816%29.png) |
+| One time | OFF | Event time for specific date. At the selected area, resources became off. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
 
 
 #### Resource Group
 
-스케줄러를 적용할 리소스 그룹을 정의합니다.  `리소스 그룹 추가` 버튼을 누르면 `리소스 그룹 만들기` 페이지가 나타납니다. 
+Creating resource groups to control.
 
-리소스 그룹 생성 시 설정해야 하는 정보는 다음과 같습니다.
+By _**Creating Resource Group**_ button, _**Creating Resource Group Page**_ Pops up.
+
+Informations to be specified are belows
 
 <table>
   <thead>
@@ -239,46 +189,39 @@ Time to be
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&#xADF8;&#xB8F9; &#xAE30;&#xBCF8; &#xC815;&#xBCF4;</td>
-      <td style="text-align:left">&#xADF8;&#xC774;&#xB984;&#xC744; &#xC785;&#xB825;&#xD569;&#xB2C8;&#xB2E4;.
-        &#xCD5C;&#xB300; 128&#xC790; &#xAE4C;&#xC9C0; &#xC785;&#xB825; &#xAC00;&#xB2A5;&#xD558;&#xBA70;,
-        &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC758; &#xB9AC;&#xC18C;&#xC2A4; &#xADF8;&#xB8F9;
-        &#xCE74;&#xB4DC;&#xC5D0;&#xB294; 16&#xC790; &#xAE4C;&#xC9C0; &#xD45C;&#xC2DC;&#xB429;&#xB2C8;&#xB2E4;.
-        &#xBB38;&#xC790;&#xB85C; &#xC2DC;&#xC791;&#xD574;&#xC57C;&#xD558;&#xACE0;,
-        &#xBB38;&#xC790;/&#xC22B;&#xC790;/ <code>- </code> &#xC744; &#xD3EC;&#xD568;&#xD55C;
-        &#xBB38;&#xC790;&#xC5F4;&#xB85C; &#xC785;&#xB825;&#xD574;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;.</td>
+      <td style="text-align:left">Name</td>
+      <td style="text-align:left">
+        <p>Enter <em><b>Resource Group</b></em> name.</p>
+        <p>Total 128 character is available.</p>
+        <p>Name should start with character(not number).</p>
+        <p>Name can be a combination of charcter, number, &apos;-&apos;</p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xADF8;&#xB8F9; &#xAE30;&#xC900;</td>
+      <td style="text-align:left">Resource Type</td>
       <td style="text-align:left">
-        <p>&#xB9AC;&#xC18C;&#xC2A4; &#xD0C0;&#xC785;&#xC744; &#xC120;&#xD0DD;&#xD569;&#xB2C8;&#xB2E4;.
-          &#xB9AC;&#xC18C;&#xC2A4; &#xD0C0;&#xC785;&#xC744; &#xC120;&#xD0DD;&#xD558;&#xBA74;
-          &#xADF8;&#xC5D0; &#xB530;&#xB978; &#xB9AC;&#xC18C;&#xC2A4; &#xBAA9;&#xB85D;&#xC774;
-          &#xC544;&#xB798;&#xC5D0; &#xD45C;&#xC2DC;&#xB429;&#xB2C8;&#xB2E4;.</p>
+        <p>Select resource type. Available list of resource group is belows.</p>
         <p>
           <img src="../.gitbook/assets/image (17).png" alt/>
         </p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xB9AC;&#xC18C;&#xC2A4; &#xBAA9;</td>
-      <td style="text-align:left">&#xB9AC;&#xC18C;&#xC2A4; &#xBAA9;&#xB85D;&#xC5D0;&#xC11C; &#xBCF4;&#xC5EC;&#xC9C0;&#xB294;
-        &#xB9AC;&#xC18C;&#xC2A4;&#xB4E4;&#xC774; scheduling &#xB429;&#xB2C8;&#xB2E4;.</td>
+      <td style="text-align:left">Resource List</td>
+      <td style="text-align:left">Target Cloud Resources to be controlled. Selected by search filter.</td>
     </tr>
   </tbody>
 </table>
 
-설정한 정보를 확인한 후, 페이지 우측 하단의 `저장`버튼을 클릭해 저장합니다.  
+Confirm the input information, then click _**save**_ button.
 
-
-
-### 스케줄 삭제
+### Schedule Deletion
 
 ![](../.gitbook/assets/image.png)
 
-상단의 `휴지통` 버튼으로 스케줄러를 삭제할 수 있습니다. 
+By clicking _**Trash Can**_ ****button, Scheduler can be deleted.
 
-### 스케줄러 수정
+### Scheduler Edit
 
 <table>
   <thead>
@@ -289,11 +232,10 @@ Time to be
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC774;&#xB984; &#xC218;</td>
+      <td style="text-align:left">Scheduler Name</td>
       <td style="text-align:left">
-        <p>&#xD398;&#xC774;&#xC9C0; &#xC0C1;&#xB2E8;&#xC5D0; &#xC704;&#xCE58;<code>&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xD3B8;&#xC9D1;</code>&#xBC84;&#xD2BC;&#xC73C;&#xB85C;
-          &#xC2A4;&#xCF00;&#xC904;&#xB7EC;&#xC758; &#xC774;&#xB984;&#xC744; &#xD3B8;&#xC9D1;&#xD560;
-          &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+        <p>By Clicking <em><b>Scheduler Edit</b></em> button right upper of page. Scheduler
+          name can be edited.</p>
         <p></p>
         <p>
           <img src="../.gitbook/assets/image (38).png" alt/>
@@ -301,13 +243,10 @@ Time to be
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC2DC;&#xAC04; &#xC218;</td>
+      <td style="text-align:left">Scheduler Calendar</td>
       <td style="text-align:left">
-        <p>calendar&#xC758; <code>&#xD3B8;&#xC9D1;&#xD558;&#xAE30;</code> &#xBC84;&#xD2BC;&#xC73C;&#xB85C;
-          &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC9C0;&#xC815; &#xC2DC;&#xAC04;&#xB300;,
-          &#xBC18;&#xBCF5; &#xC2A4;&#xCF00;&#xC904; &#xBC0F; 1&#xD68C;&#xC131; &#xC2A4;&#xCF00;&#xC904;&#xC744;
-          &#xAC01;&#xAC01; &#xC218;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p></p>
+        <p>By clicking Edit button in calendar. One time schedule, Repeated time
+          scheduled can be edited.</p>
         <p>
           <img src="../.gitbook/assets/image (66).png" alt/>
         </p>
@@ -315,11 +254,10 @@ Time to be
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xB9AC;&#xC18C;&#xC2A4; &#xADF8;&#xB8F9; &#xC218;</td>
+      <td style="text-align:left">Resource Group</td>
       <td style="text-align:left">
-        <p>&#xB9AC;&#xC18C;&#xC2A4; &#xADF8;&#xB8F9; &#xC704;<code>&#xD3B8;&#xC9D1;&#xD558;&#xAE30;</code> &#xBC84;&#xD2BC;&#xC73C;&#xB85C;
-          &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC9C0;&#xC815; &#xC2DC;&#xAC04;&#xB300;&#xB97C;
-          &#xC218;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
+        <p><em><b>Resource Group</b></em> can be edited <em><b>edit</b></em> button
+          below.</p>
         <p>
           <img src="../.gitbook/assets/image (33).png" alt/>
         </p>
