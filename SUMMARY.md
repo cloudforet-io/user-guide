@@ -11,7 +11,6 @@
 
 ---
 
-* [A Compass To SpaceONE Universe Traveler\(old\)](getting-started-2.md)
 * [Root Account](root-account.md)
 * [Domain Admin](domain-admin.md)
 * [General User](general-user.md)
