@@ -94,11 +94,11 @@ By clicking _**+ Add Group**_ Button. User can move to creating resource group.
 
 Name Limit
 
-Limitation of Resource Group name is is below.
+Limitation of Resource Group name is below.
 
 > * Total 128 character 
 > * Start with character
-> * Character, Number, 문자, 숫자 및 Hyphen`-`  available
+> * Character, Number, & Hyphen`-`  available
 
 
 
