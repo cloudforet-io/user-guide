@@ -24,6 +24,8 @@ In order to experience powerful function of SpaceONE collectors. Use the managed
 
 
 
+### Basic Policy
+
 {% tabs %}
 {% tab title="AWS" %}
 ```text
@@ -142,6 +144,31 @@ In order to experience powerful function of SpaceONE collectors. Use the managed
 ```
 {% endtab %}
 {% endtabs %}
+
+ 
+
+### AWS Personal Health Dashboard/Trusted Advisor
+
+To use aws advanced collector like AWS _**Personal Health Dashboard/Trusted Advisor**_ 
+
+User account support level should be over business and additional IAM policy need to be attached.
+
+Example of policy.
+
+```text
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "support:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
 
  
 
