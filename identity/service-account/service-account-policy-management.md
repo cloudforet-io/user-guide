@@ -160,6 +160,10 @@ In case of internal regulations, create a policy below then attach when creating
 
 Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler**_ service are below.
 
+
+
+
+
 {% tabs %}
 {% tab title="AWS" %}
 ```text
