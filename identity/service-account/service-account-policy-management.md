@@ -6,24 +6,18 @@ description: Details of API Security policy to use SpaceONE plugin
 
 ## Service Account Policy
 
-
-
 Before create Service Account, User can modify your existing API policy.
 
 This will guarantee isolation your resource from other non power-scheduled items. Also prevent malfunction from mis configuration of power scheduling.
 
-To Create API for use case. follow directions below
+To Create API for each use case. follow directions below
 
 * [API Policy for General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
 * [API Policy for Advanced Collector ](service-account-policy-management.md#advanced-collector)
   * [Power Scheduler](service-account-policy-management.md#powerscheduler)
   * [Personal Health Dashboard/Trusted Advisor](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
 
-
-
 ## General Collector 
-
-
 
 Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
 
@@ -31,15 +25,17 @@ Otherwise, User can add more restrictions like regional and resource base. One o
 
 In order to experience powerful function of SpaceONE collectors. Use the managed _**ReadOnly policy**_ is preferred. 
 
-In case of internal regulations, create a policy below then attach when creating API user.
-
 
 
 ### How To Create ReadOnly Policy in AWS
 
 
 
+
+
 ### Policy Reference
+
+In case of internal regulations, create a policy below then attach when creating API user.
 
 {% tabs %}
 {% tab title="AWS" %}
