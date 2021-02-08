@@ -6,6 +6,8 @@ description: Details of API Security policy to use SpaceONE plugin
 
 ## Service Account Policy
 
+
+
 Before create Service Account, User can modify your existing API policy.
 
 This will guarantee isolation your resource from other non power-scheduled items. Also prevent malfunction from mis configuration of power scheduling.
@@ -14,11 +16,14 @@ To Create API for use case. follow directions below
 
 * API Policy for General Collector
 * API Policy for Advanced Collector 
-* API Policy for Power Scheduler
+  * Power Scheduler
+  * Personal Health Dashboard/Trusted Advisor
 
 
 
 ## General Collector 
+
+
 
 Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
 
@@ -34,7 +39,7 @@ In case of internal regulations, create a policy below then attach when creating
 
 
 
-### Policy 
+### Policy Reference
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -151,38 +156,13 @@ In case of internal regulations, create a policy below then attach when creating
 
  
 
-### AWS Personal Health Dashboard/Trusted Advisor
-
-To use aws advanced collector like AWS _**Personal Health Dashboard/Trusted Advisor**_ 
-
-User account support level should be over business and additional IAM policy need to be attached.
-
-Example of policy.
-
-```text
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "support:*"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-```
-
- 
+## Advanced Collector 
 
 
 
-## Power Scheduler
+### PowerScheduler
 
 Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler**_ service are below.
-
-
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -210,6 +190,37 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
 ```
 {% endtab %}
 {% endtabs %}
+
+
+
+
+
+### AWS Personal Health Dashboard/Trusted Advisor
+
+To use aws advanced collector like AWS _**Personal Health Dashboard/Trusted Advisor**_ 
+
+User account support level should be over business and additional IAM policy need to be attached.
+
+Example of policy.
+
+```text
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "support:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+ 
+
+
 
 
 
