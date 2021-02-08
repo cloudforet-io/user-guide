@@ -1,30 +1,40 @@
 ---
-description: >-
-  Details of API Security policy to use SpaceONE Power Scheduler service
-  (AWS/Google Cloud)
+description: Details of API Security policy to use SpaceONE plugin
 ---
 
-# Service Account Policy Management
+# \(AWS\) Service Account Policy Management
 
 ## Service Account Policy
 
-Before create Service Account, User can modify your existing API policy
+Before create Service Account, User can modify your existing API policy.
 
 This will guarantee isolation your resource from other non power-scheduled items. Also prevent malfunction from mis configuration of power scheduling.
 
+To Create API for use case. follow directions below
+
+* API Policy for General Collector
+* API Policy for Advanced Collector 
+* API Policy for Power Scheduler
 
 
-## Collector 
+
+## General Collector 
 
 Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
 
 Otherwise, User can add more restrictions like regional and resource base. One of the useful example is to restrict its rights within region.
 
-In order to experience powerful function of SpaceONE collectors. Use the managed _**ReadOnly policy**_ is preferred. In case of internal regulations, create a policy below then attach when creating API user.
+In order to experience powerful function of SpaceONE collectors. Use the managed _**ReadOnly policy**_ is preferred. 
+
+In case of internal regulations, create a policy below then attach when creating API user.
 
 
 
-### Basic Policy
+### How To Create ReadOnly Policy in AWS
+
+
+
+### Policy 
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -137,12 +147,6 @@ In order to experience powerful function of SpaceONE collectors. Use the managed
 }
 ```
 {% endtab %}
-
-{% tab title="GCP" %}
-```
-
-```
-{% endtab %}
 {% endtabs %}
 
  
@@ -191,7 +195,7 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
             "Effect": "Allow",
             "Action": [
                 "ec2:StartInstances",
-                "ec2:StopInstances"
+                "ec2:StopInstances",
             ],
             "Resource": "arn:aws:ec2:{Region Code}:*:instance/*"
         }

@@ -38,7 +38,8 @@
 ## Identity
 
 * [Service Account](identity/service-account/README.md)
-  * [Service Account Policy Management](identity/service-account/service-account-policy-management.md)
+  * [\(AWS\) Service Account Policy Management](identity/service-account/service-account-policy-management.md)
+  * [\(Google Cloud\) Service Account Policy Management](identity/service-account/google-cloud-service-account-policy-management.md)
 * [User](identity/user.md)
 
 ## Plugin
