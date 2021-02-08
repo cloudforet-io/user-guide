@@ -51,7 +51,20 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
 {% tabs %}
 {% tab title="AWS" %}
 ```text
-
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances"
+            ],
+            "Resource": "arn:aws:ec2:{Region Code}:*:instance/*"
+        }
+    ]
+}
 ```
 {% endtab %}
 
