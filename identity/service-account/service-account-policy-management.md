@@ -290,13 +290,23 @@ Enter _**User name**_, Set access type to _**Programmatic access**_
 
 **Step 4. Set API Permission**
 
+ Add all policies below. They should included to guarantee successful action.
 
+* AmazonDynamoDBReadOnlyAccess 
+* AmazonEC2ReadOnlyAccess 
+* AmazonRDSReadOnlyAccess 
+* AutoScalingReadOnlyAccess
+* **Policy created in step 3**
+
+![](../../.gitbook/assets/aws_service_account_powerscheduler_set_api_permission.png)
 
 
 
 **Step 5. Review**
 
+Make sure all the permission from Step 4. included, Then click _**Create user**_
 
+![](../../.gitbook/assets/aws_service_account_powerscheduler_review.png)
 
 
 
@@ -307,14 +317,6 @@ IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and
 If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
 
 ![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
-
-
-
-
-
-\*\*\*\*
-
-
 
 
 
