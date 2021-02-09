@@ -27,11 +27,33 @@ In order to experience powerful function of SpaceONE collectors. Use the managed
 
 
 
-### How To Create ReadOnly Policy in AWS
+**Step 1. Log in AWS Console &gt; IAM** 
+
+Go to IAM &gt; Users &gt; Add user
+
+![](../../.gitbook/assets/aws_service_account_policy_iam_add_user.png)
+
+\*\*\*\*
+
+**Step 2. Set User Details**
+
+Enter _**User name**_, Set access type to _**Programmatic access**_
+
+![](../../.gitbook/assets/aws_service_account_set_user_details.png)
 
 
 
+**Step 3. Set API Permission**
 
+Set Permission to ReadOnlyAccess\(Managed Policy\)
+
+Click _**Attach existing policies directly**_ . Enter _**readonly**_ keyword in policy search bar.
+
+Select _**ReadOnlyAccess**_ managed policy as below.
+
+![](../../.gitbook/assets/aws_service_account_set_permissions.png)
+
+### 
 
 ### Policy Reference
 
