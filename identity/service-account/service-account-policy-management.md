@@ -215,11 +215,11 @@ Go to IAM &gt; Policies &gt; Create policy
 
 \*\*\*\*
 
-**Step 2. Modify Policy**
+**Step 2. Attach Policy Definitions**
 
-\*\*\*\*
+Move to JSON tab, attach policy definition below. Then click _**Review policy**_
 
-\*\*\*\*
+![](../../.gitbook/assets/aws_service_account_powerscheduler_attach_policy_definitions.png)
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -264,7 +264,15 @@ Go to IAM &gt; Policies &gt; Create policy
 
 
 
-**Step 2. Log in AWS Console &gt; IAM** 
+**Step 3. Review Policy** 
+
+Enter policy name and description, Then click _**Create policy**_
+
+![](../../.gitbook/assets/aws_service_account_powerscheduler_review_policy.png)
+
+
+
+**Step 4. Log in AWS Console &gt; IAM** 
 
 Go to IAM &gt; Users &gt; Add user
 
