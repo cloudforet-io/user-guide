@@ -53,7 +53,37 @@ Select _**ReadOnlyAccess**_ managed policy as below.
 
 ![](../../.gitbook/assets/aws_service_account_set_permissions.png)
 
-### 
+\*\*\*\*
+
+**Step 4. Add tags**
+
+_**You can skip this process**_ and move to next. 
+
+SpaceONE collector does not related to tags in IAM. 
+
+![](../../.gitbook/assets/aws_service_account_iam_add_tag.png)
+
+
+
+
+
+_**Step 5. Review**_
+
+Check the details you added. Then click _**Create users**_ right down of page
+
+![](../../.gitbook/assets/aws_service_account_iam_review.png)
+
+_**Step 6. Copy Key Pair**_
+
+IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
+
+If you skip to copy, there is no chance to have it again\(Do from step 1 again.\)
+
+![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
+
+
+
+
 
 ### Policy Reference
 
