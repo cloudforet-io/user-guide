@@ -12,9 +12,9 @@ This will guarantee isolation your resource from other non power-scheduled items
 
 To Create API for each use case. follow directions below
 
-* [API Policy for General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
-* [Power Scheduler](service-account-policy-management.md#powerscheduler)
-* [Personal Health Dashboard/Trusted Advisor](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
+* [General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
+* [Power Scheduler Service](service-account-policy-management.md#powerscheduler)
+* [Personal Health Dashboard/Trusted Advisor Collector](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
 
 ## General Collector 
 
@@ -76,7 +76,7 @@ _**Step 6. Copy Key Pair**_
 
 IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
 
-If you skip to copy, there is no chance to have it again\(Do from step 1 again.\)
+If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
 
 ![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
 
@@ -84,7 +84,7 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again.\
 
 
 
-### Policy Reference
+### To Create Policy Directly
 
 In case of internal regulations, create a policy below then attach when creating API user. 
 
@@ -201,17 +201,35 @@ In case of internal regulations, create a policy below then attach when creating
 
  
 
-## Advanced Collector 
-
-
-
-### PowerScheduler
+## PowerScheduler
 
 Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler**_ service are below.
 
 
 
+**Step 1. Log in AWS Console &gt; IAM** 
 
+
+
+
+
+**Step 2. Set User Detail** 
+
+\*\*\*\*
+
+\*\*\*\*
+
+**Step 3. Set API Permission**
+
+
+
+**Step 4. Review**
+
+
+
+**Step 5. Create Policy**
+
+\*\*\*\*
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -242,15 +260,27 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
 
 
 
+**Step 6. Attach Policy to User**
+
+\*\*\*\*
 
 
-### AWS Personal Health Dashboard/Trusted Advisor
+
+
+
+
+
+
+
+## AWS Personal Health Dashboard/Trusted Advisor
 
 To use aws advanced collector like AWS _**Personal Health Dashboard/Trusted Advisor**_ 
 
 User account support level should be over business and additional IAM policy need to be attached.
 
-Example of policy.
+
+
+
 
 ```text
 {
