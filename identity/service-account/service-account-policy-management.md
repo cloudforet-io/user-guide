@@ -328,7 +328,9 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
 
 To use aws advanced collector like AWS _**Personal Health Dashboard/Trusted Advisor**_ 
 
-User account support level should be over business and additional IAM policy need to be attached.
+User account support level should be over _**business**_ and additional IAM policy need to be attached.
+
+
 
 
 
