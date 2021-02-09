@@ -280,7 +280,7 @@ Go to IAM &gt; Users &gt; Add user
 
 
 
-**Step 3. Set User Detail** 
+**Step 5. Set User Detail** 
 
 Enter _**User name**_, Set access type to _**Programmatic access**_
 
@@ -288,7 +288,7 @@ Enter _**User name**_, Set access type to _**Programmatic access**_
 
 \*\*\*\*
 
-**Step 4. Set API Permission**
+**Step 6. Set API Permission**
 
  Add all policies below. They should included to guarantee successful action.
 
@@ -302,7 +302,7 @@ Enter _**User name**_, Set access type to _**Programmatic access**_
 
 
 
-**Step 5. Review**
+**Step 7. Review**
 
 Make sure all the permission from Step 4. included, Then click _**Create user**_
 
@@ -310,7 +310,7 @@ Make sure all the permission from Step 4. included, Then click _**Create user**_
 
 
 
-_**Step 6. Copy Key Pair**_
+_**Step 8. Copy Key Pair**_
 
 IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
 
@@ -332,9 +332,19 @@ User account support level should be over _**business**_ and additional IAM poli
 
 
 
+**Step 1. Create Policy**
 
+Go to IAM &gt; Policies &gt; Create policy
 
+![](../../.gitbook/assets/aws_service_account_iam_power_scheduler_create_policy.png)
 
+\*\*\*\*
+
+**Step 2. Attach Policy Definitions**
+
+Move to JSON tab, attach policy definition below. Then click _**Review policy**_
+
+![](../../.gitbook/assets/2021-02-09-6.44.48.png)
 
 ```text
 {
@@ -343,7 +353,19 @@ User account support level should be over _**business**_ and additional IAM poli
         {
             "Effect": "Allow",
             "Action": [
-                "support:*"
+                "support:DescribeAttachment",
+                "support:DescribeCaseAttributes",
+                "support:DescribeCases",
+                "support:DescribeCommunications",
+                "support:DescribeIssueTypes",
+                "support:DescribeServices",
+                "support:DescribeSeverityLevels",
+                "support:DescribeSupportLevel",
+                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeTrustedAdvisorChecks",
+                "support:DescribeTrustedAdvisorCheckSummaries",
+                "support:SearchForCases"
             ],
             "Resource": "*"
         }
@@ -351,7 +373,55 @@ User account support level should be over _**business**_ and additional IAM poli
 }
 ```
 
+**Step 3. Review Policy**
+
+Enter name and description. Then click _**Create policy.**_ 
+
+![](../../.gitbook/assets/2021-02-09-6.46.08.png)
+
  
+
+**Step 4. Log in AWS Console &gt; IAM** 
+
+Go to IAM &gt; Users &gt; Add user
+
+![](../../.gitbook/assets/aws_service_account_policy_iam_add_user.png)
+
+
+
+**Step 5. Set User Detail** 
+
+Enter _**User name**_, Set access type to _**Programmatic access**_
+
+![](../../.gitbook/assets/aws_service_account_set_user_details.png)
+
+\*\*\*\*
+
+**Step 6. Set API Permission**
+
+ Add all policies below. They should included to guarantee successful action.
+
+![](../../.gitbook/assets/aws_service_account_phd_set_api_permission%20%281%29.png)
+
+\*\*\*\*
+
+**Step 7. Review**
+
+Make sure all the permission from Step 4. included, Then click _**Create user**_
+
+![](../../.gitbook/assets/aws_service_account_powerscheduler_review.png)
+
+
+
+_**Step 8. Copy Key Pair**_
+
+IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
+
+If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
+
+![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
+
+
 
 
 
