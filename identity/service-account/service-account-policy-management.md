@@ -207,27 +207,17 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
 
 
 
-**Step 1. Log in AWS Console &gt; IAM** 
+**Step 1. Create Policy**
 
+Go to IAM &gt; Policies &gt; Create policy
 
-
-
-
-**Step 2. Set User Detail** 
+![](../../.gitbook/assets/aws_service_account_iam_power_scheduler_create_policy.png)
 
 \*\*\*\*
 
+**Step 2. Modify Policy**
+
 \*\*\*\*
-
-**Step 3. Set API Permission**
-
-
-
-**Step 4. Review**
-
-
-
-**Step 5. Create Policy**
 
 \*\*\*\*
 
@@ -241,26 +231,78 @@ Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler*
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
+                "dynamodb:UpdateGlobalTableSettings",
+                "dynamodb:TagResource",
+                "dynamodb:UpdateTable",
+                "dynamodb:UpdateGlobalTable",
+                "rds:StartDBCluster",
+                "rds:StopDBCluster",
+                "rds:StopDBInstance",
+                "rds:StartDBInstance",
+                "rds:AddTagsToResource",
+                "rds:RebootDBInstance",
+                "rds:RemoveTagsFromResource",
                 "ec2:StartInstances",
                 "ec2:StopInstances",
+                "ec2:RebootInstances",
+                "ec2:DeleteTags",
+                "ec2:CreateTags",
+                "autoscaling:SetDesiredCapacity",
+                "autoscaling:UpdateAutoScalingGroup",
+                "autoscaling:CreateOrUpdateTags",
+                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeTrustedAdvisorChecks"
             ],
-            "Resource": "arn:aws:ec2:{Region Code}:*:instance/*"
+            "Resource": "*"
         }
     ]
 }
-```
-{% endtab %}
-
-{% tab title="GCP" %}
-```text
-
 ```
 {% endtab %}
 {% endtabs %}
 
 
 
-**Step 6. Attach Policy to User**
+**Step 2. Log in AWS Console &gt; IAM** 
+
+Go to IAM &gt; Users &gt; Add user
+
+![](../../.gitbook/assets/aws_service_account_policy_iam_add_user.png)
+
+
+
+**Step 3. Set User Detail** 
+
+Enter _**User name**_, Set access type to _**Programmatic access**_
+
+![](../../.gitbook/assets/aws_service_account_set_user_details.png)
+
+\*\*\*\*
+
+**Step 4. Set API Permission**
+
+
+
+
+
+**Step 5. Review**
+
+
+
+
+
+_**Step 6. Copy Key Pair**_
+
+IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
+
+If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
+
+![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
+
+
+
+
 
 \*\*\*\*
 
