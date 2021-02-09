@@ -13,9 +13,8 @@ This will guarantee isolation your resource from other non power-scheduled items
 To Create API for each use case. follow directions below
 
 * [API Policy for General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
-* [API Policy for Advanced Collector ](service-account-policy-management.md#advanced-collector)
-  * [Power Scheduler](service-account-policy-management.md#powerscheduler)
-  * [Personal Health Dashboard/Trusted Advisor](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
+* [Power Scheduler](service-account-policy-management.md#powerscheduler)
+* [Personal Health Dashboard/Trusted Advisor](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
 
 ## General Collector 
 
@@ -87,7 +86,7 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again.\
 
 ### Policy Reference
 
-In case of internal regulations, create a policy below then attach when creating API user.
+In case of internal regulations, create a policy below then attach when creating API user. 
 
 {% tabs %}
 {% tab title="AWS" %}
@@ -149,8 +148,6 @@ In case of internal regulations, create a policy below then attach when creating
                 "es:Get*",
                 "es:ESHttpGet",
                 "es:ESHttpHead",
-                "fsx:Describe*",
-                "fsx:List*",
                 "health:Describe*",
                 "iam:Generate*",
                 "iam:Get*",
