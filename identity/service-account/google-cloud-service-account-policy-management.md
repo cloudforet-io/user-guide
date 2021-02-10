@@ -21,7 +21,7 @@ In case of internal regulations, create a policy below then attach when creating
 
 ## General Collector 
 
-Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
+Collectors require an authority of read permission and therefore we strongly recommend to limit collector's service account its permission to **read only access**. 
 
 Otherwise, User can add more restrictions like regional and resource base. One of the useful example is to restrict its rights within region.
 
