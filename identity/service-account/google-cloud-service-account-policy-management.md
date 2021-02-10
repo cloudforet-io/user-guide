@@ -63,7 +63,7 @@ Find a Service account that you created right before in previous step. Click Act
 
 Select Key Type and Click **`CREATE`** button. We suggest JSON Type  as recommended above.
 
-**STEP 6: Confirm Key**
+**STEP 6: Review**
 
 You will see Key ID on the list and its service account JSON on your local. 
 
