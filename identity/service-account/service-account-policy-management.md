@@ -18,6 +18,12 @@ To Create API for each use case. follow directions below.
 
 
 
+In case of internal regulations, create a policy below then attach when creating API user. 
+
+* [IAM Policy Superset](service-account-policy-management.md#iam-policy-superset)
+
+
+
 ## General Collector 
 
 Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
@@ -85,123 +91,6 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
 
 
 
-
-### To Create Policy Directly
-
-In case of internal regulations, create a policy below then attach when creating API user. 
-
-{% tabs %}
-{% tab title="AWS" %}
-```text
-
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Action": [
-                "acm:Describe*",
-                "acm:Get*",
-                "acm:List*",
-                "acm-pca:Describe*",
-                "acm-pca:Get*",
-                "acm-pca:List*",
-                "apigateway:GET",
-                "autoscaling:Describe*",
-                "autoscaling-plans:Describe*",
-                "autoscaling-plans:GetScalingPlanResourceForecastData",
-                "athena:List*",
-                "athena:Batch*",
-                "athena:Get*",
-                "cassandra:Select",
-                "cloudfront:Get*",
-                "cloudfront:List*",
-                "cloudwatch:Describe*",
-                "cloudwatch:Get*",
-                "cloudwatch:List*",
-                "connect:List*",
-                "connect:Describe*",
-                "connect:GetFederationToken",
-                "directconnect:Describe*",
-                "dynamodb:BatchGet*",
-                "dynamodb:Describe*",
-                "dynamodb:Get*",
-                "dynamodb:List*",
-                "dynamodb:Query",
-                "dynamodb:Scan",
-                "ec2:Describe*",
-                "ec2:Get*",
-                "ec2:SearchTransitGatewayRoutes",
-                "ec2messages:Get*",
-                "ecr:BatchCheck*",
-                "ecr:BatchGet*",
-                "ecr:Describe*",
-                "ecr:Get*",
-                "ecr:List*",
-                "ecs:Describe*",
-                "ecs:List*",
-                "eks:Describe*",
-                "eks:List*",
-                "elasticache:Describe*",
-                "elasticache:List*",
-                "elasticfilesystem:Describe*",
-                "elasticloadbalancing:Describe*",
-                "es:Describe*",
-                "es:List*",
-                "es:Get*",
-                "es:ESHttpGet",
-                "es:ESHttpHead",
-                "health:Describe*",
-                "iam:Generate*",
-                "iam:Get*",
-                "iam:List*",
-                "iam:Simulate*",
-                "kafka:Describe*",
-                "kafka:List*",
-                "kafka:Get*",
-                "lambda:List*",
-                "lambda:Get*",
-                "rds:Describe*",
-                "rds:List*",
-                "rds:Download*",
-                "redshift:Describe*",
-                "redshift:GetReservedNodeExchangeOfferings",
-                "redshift:View*",
-                "route53:Get*",
-                "route53:List*",
-                "route53:Test*",
-                "route53domains:Check*",
-                "route53domains:Get*",
-                "route53domains:List*",
-                "route53domains:View*",
-                "route53resolver:Get*",
-                "route53resolver:List*",
-                "s3:Get*",
-                "s3:List*",
-                "secretsmanager:List*",
-                "secretsmanager:Describe*",
-                "secretsmanager:GetResourcePolicy",
-                "sns:Get*",
-                "sns:List*",
-                "sns:Check*",
-                "sqs:Get*",
-                "sqs:List*",
-                "sqs:Receive*",
-                "storagegateway:Describe*",
-                "storagegateway:List*",
-                "tag:Get*",
-                "trustedadvisor:Describe*",
-                "workspaces:Describe*"
-            ],
-            "Effect": "Allow",
-            "Resource": "arn:aws:*:{aws region code}:*:*"
-        }
-    ]
-}
-```
-{% endtab %}
-{% endtabs %}
-
- 
 
 ## PowerScheduler
 
@@ -412,6 +301,117 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
 ![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
 
 
+
+## IAM Policy Superset
+
+
+
+```text
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "acm:Describe*",
+                "acm:Get*",
+                "acm:List*",
+                "acm-pca:Describe*",
+                "acm-pca:Get*",
+                "acm-pca:List*",
+                "apigateway:GET",
+                "autoscaling:Describe*",
+                "autoscaling-plans:Describe*",
+                "autoscaling-plans:GetScalingPlanResourceForecastData",
+                "athena:List*",
+                "athena:Batch*",
+                "athena:Get*",
+                "cassandra:Select",
+                "cloudfront:Get*",
+                "cloudfront:List*",
+                "cloudwatch:Describe*",
+                "cloudwatch:Get*",
+                "cloudwatch:List*",
+                "connect:List*",
+                "connect:Describe*",
+                "connect:GetFederationToken",
+                "directconnect:Describe*",
+                "dynamodb:BatchGet*",
+                "dynamodb:Describe*",
+                "dynamodb:Get*",
+                "dynamodb:List*",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "ec2:Describe*",
+                "ec2:Get*",
+                "ec2:SearchTransitGatewayRoutes",
+                "ec2messages:Get*",
+                "ecr:BatchCheck*",
+                "ecr:BatchGet*",
+                "ecr:Describe*",
+                "ecr:Get*",
+                "ecr:List*",
+                "ecs:Describe*",
+                "ecs:List*",
+                "eks:Describe*",
+                "eks:List*",
+                "elasticache:Describe*",
+                "elasticache:List*",
+                "elasticfilesystem:Describe*",
+                "elasticloadbalancing:Describe*",
+                "es:Describe*",
+                "es:List*",
+                "es:Get*",
+                "es:ESHttpGet",
+                "es:ESHttpHead",
+                "health:Describe*",
+                "iam:Generate*",
+                "iam:Get*",
+                "iam:List*",
+                "iam:Simulate*",
+                "kafka:Describe*",
+                "kafka:List*",
+                "kafka:Get*",
+                "lambda:List*",
+                "lambda:Get*",
+                "rds:Describe*",
+                "rds:List*",
+                "rds:Download*",
+                "redshift:Describe*",
+                "redshift:GetReservedNodeExchangeOfferings",
+                "redshift:View*",
+                "route53:Get*",
+                "route53:List*",
+                "route53:Test*",
+                "route53domains:Check*",
+                "route53domains:Get*",
+                "route53domains:List*",
+                "route53domains:View*",
+                "route53resolver:Get*",
+                "route53resolver:List*",
+                "s3:Get*",
+                "s3:List*",
+                "secretsmanager:List*",
+                "secretsmanager:Describe*",
+                "secretsmanager:GetResourcePolicy",
+                "sns:Get*",
+                "sns:List*",
+                "sns:Check*",
+                "sqs:Get*",
+                "sqs:List*",
+                "sqs:Receive*",
+                "storagegateway:Describe*",
+                "storagegateway:List*",
+                "tag:Get*",
+                "trustedadvisor:Describe*",
+                "workspaces:Describe*"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:*:{aws region code}:*:*"
+        }
+    ]
+}
+```
 
 
 
