@@ -13,10 +13,6 @@ Please, Set service account,  To Create API for each use case:
 * [General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
 * [Power Scheduler Service](service-account-policy-management.md#powerscheduler)
 
-In case of internal regulations, create a policy below then attach when creating API user. 
-
-* [Overall IAM Policy Superset](service-account-policy-management.md#overall-iam-policy-superset)
-
 ## General Collector 
 
 Collector requires appropriate authorities to collect cloud resources. We strongly recommend to limit collector's service account its permission to **read only access**. 
