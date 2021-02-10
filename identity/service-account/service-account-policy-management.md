@@ -110,8 +110,6 @@ Go to IAM &gt; Policies &gt; Create policy
 
 Move to JSON tab, attach policy definition below. Then click _**Review policy**_
 
-![](../../.gitbook/assets/aws_service_account_powerscheduler_attach_policy_definitions.png)
-
 {% tabs %}
 {% tab title="AWS" %}
 ```text
@@ -131,7 +129,7 @@ Move to JSON tab, attach policy definition below. Then click _**Review policy**_
                 "ec2:StopInstances",
                 "ec2:RebootInstances",
                 "autoscaling:SetDesiredCapacity",
-                "autoscaling:UpdateAutoScalingGroup
+                "autoscaling:UpdateAutoScalingGroup"
             ],
             "Resource": "*"
         }
@@ -147,9 +145,7 @@ Move to JSON tab, attach policy definition below. Then click _**Review policy**_
 
 Enter policy name and description, Then click _**Create policy**_
 
-![](../../.gitbook/assets/aws_service_account_powerscheduler_review_policy.png)
-
-
+![](../../.gitbook/assets/aws_service_account_powerscheduler_review_policy%20%281%29.png)
 
 **Step 4. Log in AWS Console &gt; IAM** 
 
