@@ -10,7 +10,7 @@ description: Details of API Security policy to use SpaceONE plugin
 
 Please, Set service account,  To Create API for each use case:
 
-* [General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
+* [General Collector](google-cloud-service-account-policy-management.md#general-collector)
 * [Power Scheduler Service](service-account-policy-management.md#powerscheduler)
 
 ## General Collector 
