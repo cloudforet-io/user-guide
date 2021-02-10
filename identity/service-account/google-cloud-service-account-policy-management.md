@@ -71,15 +71,15 @@ You will see Key ID on the list and its service account JSON on your local.
 
 _**SpaceONE**_'s _**Power Scheduler**_ requires edit permission to update following Cloud Services: 
 
-* Compute VM
-* Instance Group
-* Cloud SQL
+* **VM Instance**
+* **Instance Group**
+* **Cloud SQL**
 
 **Step 1. Create Role**
 
-Go to IAM &gt; Policies &gt; Create policy
+Go to IAM &gt; Role &gt; **+ Create Role**
 
-![](../../.gitbook/assets/aws_service_account_iam_power_scheduler_create_policy.png)
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-18.09.00.png)
 
 \*\*\*\*
 
