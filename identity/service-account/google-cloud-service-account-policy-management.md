@@ -33,23 +33,15 @@ Go to IAM &gt;  Service Account
 
 **Step 2. Set Service account details**
 
-Enter _**User name**_, Set access type to _**Programmatic access**_
+Enter _**Service account name**_, and _**Service account description**_
 
-![](../../.gitbook/assets/aws_service_account_set_user_details.png)
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.16.10.png)
 
+**Step 3. Grant Service account  to project**
 
+Set Permission to Viewer\(Role\): Read All Access and Click **`CONTINUE`**
 
-**Step 3. Set API Permission**
-
-Set Permission to ReadOnlyAccess\(Managed Policy\)
-
-Click _**Attach existing policies directly**_ . Enter _**readonly**_ keyword in policy search bar.
-
-Select _**ReadOnlyAccess**_ managed policy as below.
-
-![](../../.gitbook/assets/aws_service_account_set_permissions.png)
-
-\*\*\*\*
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.27.10.png)
 
 **Step 4. Add tags**
 
