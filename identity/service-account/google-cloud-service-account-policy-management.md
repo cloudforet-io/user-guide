@@ -83,41 +83,26 @@ Go to IAM &gt; Role &gt; **+ Create Role**
 
 \*\*\*\*
 
-**Step 2. Attach Policy Definitions**
+**Step 2. Add Permissions to Role**
 
-Move to JSON tab, attach policy definition below. Then click _**Review policy**_
+**Please, find appropriate permission within cloud services**
 
-{% tabs %}
-{% tab title="AWS" %}
-```text
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "rds:StartDBCluster",
-                "rds:StopDBCluster",
-                "rds:StartDBInstance",
-                "rds:StopDBInstance",
-                "rds:RebootDBInstance",
-                "ec2:StartInstances",
-                "ec2:StopInstances",
-                "ec2:RebootInstances",
-                "autoscaling:SetDesiredCapacity",
-                "autoscaling:UpdateAutoScalingGroup"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-```
-{% endtab %}
-{% endtabs %}
+* VM Instance 
+  * Start
+  * Stop
+  * Reset
+* Instance Group \(Manager\)
+  * Resize
+  * Autoscaler
+    * Update
+* Cloud SQL
+  * Update
 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-18.23.13.png)
 
+Click **`ADD`** button
 
+  
 **Step 3. Review Policy** 
 
 Enter policy name and description, Then click _**Create policy**_
