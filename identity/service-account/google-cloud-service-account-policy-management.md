@@ -103,55 +103,23 @@ Go to IAM &gt; Role &gt; **+ Create Role**
 Click **`ADD`** button
 
   
-**Step 3. Review Policy** 
+**STEP 3: Review Permission** 
 
-Enter policy name and description, Then click _**Create policy**_
+Review permissions in created role.
 
-![](../../.gitbook/assets/aws_service_account_powerscheduler_review_policy%20%281%29.png)
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-18.57.43.png)
 
-**Step 4. Log in AWS Console &gt; IAM** 
+**STEP 4: Set Created Role into Service Account** 
 
-Go to IAM &gt; Users &gt; Add user
+Drive to Menu IAM &gt; IAM 
 
-![](../../.gitbook/assets/aws_service_account_policy_iam_add_user.png)
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-19.02.52.png)
 
+Click pencil icon to edit and Add New Role that created in previous step. 
 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-19.05.18.png)
 
-**Step 5. Set User Detail** 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-19.05.26.png)
 
-Enter _**User name**_, Set access type to _**Programmatic access**_
-
-![](../../.gitbook/assets/aws_service_account_set_user_details.png)
-
-\*\*\*\*
-
-**Step 6. Set API Permission**
-
- Add all policies below. They should included to guarantee successful action.
-
-* AmazonDynamoDBReadOnlyAccess 
-* AmazonEC2ReadOnlyAccess 
-* AmazonRDSReadOnlyAccess 
-* AutoScalingReadOnlyAccess
-* **Policy created in step 3**
-
-![](../../.gitbook/assets/aws_service_account_powerscheduler_set_api_permission.png)
-
-
-
-**Step 7. Review**
-
-Make sure all the permission from Step 4. included, Then click _**Create user**_
-
-![](../../.gitbook/assets/aws_service_account_powerscheduler_review.png)
-
-
-
-_**Step 8. Copy Key Pair**_
-
-IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
-
-If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
-
-![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
+ Click **`Save`** button.
 
