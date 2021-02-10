@@ -22,8 +22,6 @@ In case of internal regulations, create a policy below then attach when creating
 
 * [Overall IAM Policy Superset](service-account-policy-management.md#overall-iam-policy-superset)
 
-
-
 ## General Collector 
 
 Collector do not need to have authority other than read permission. So we strongly recommend to restrict its permission to **read only access**. 
