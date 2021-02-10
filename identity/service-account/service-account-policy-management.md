@@ -10,11 +10,13 @@ Before create Service Account, User can modify your existing API policy.
 
 This will guarantee isolation your resource from other non power-scheduled items. Also prevent malfunction from mis configuration of power scheduling.
 
-To Create API for each use case. follow directions below
+To Create API for each use case. follow directions below.
 
 * [General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
 * [Power Scheduler Service](service-account-policy-management.md#powerscheduler)
 * [Personal Health Dashboard/Trusted Advisor Collector](service-account-policy-management.md#aws-personal-health-dashboard-trusted-advisor)
+
+
 
 ## General Collector 
 
@@ -231,28 +233,16 @@ Move to JSON tab, attach policy definition below. Then click _**Review policy**_
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
-                "dynamodb:UpdateGlobalTableSettings",
-                "dynamodb:TagResource",
-                "dynamodb:UpdateTable",
-                "dynamodb:UpdateGlobalTable",
                 "rds:StartDBCluster",
                 "rds:StopDBCluster",
-                "rds:StopDBInstance",
                 "rds:StartDBInstance",
-                "rds:AddTagsToResource",
+                "rds:StopDBInstance",
                 "rds:RebootDBInstance",
-                "rds:RemoveTagsFromResource",
                 "ec2:StartInstances",
                 "ec2:StopInstances",
                 "ec2:RebootInstances",
-                "ec2:DeleteTags",
-                "ec2:CreateTags",
                 "autoscaling:SetDesiredCapacity",
-                "autoscaling:UpdateAutoScalingGroup",
-                "autoscaling:CreateOrUpdateTags",
-                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
-                "support:DescribeTrustedAdvisorCheckResult",
-                "support:DescribeTrustedAdvisorChecks"
+                "autoscaling:UpdateAutoScalingGroup
             ],
             "Resource": "*"
         }
