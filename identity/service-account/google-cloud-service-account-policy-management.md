@@ -25,53 +25,51 @@ Otherwise, you can add more restrictions per resources or actions. One of the us
 
 
 
-**Step 1. Log in Google Cloud Console &gt; IAM** 
+**STEP 1. Log in Google Cloud Console &gt; IAM** 
 
-Go to IAM &gt;  Service Account
+Go to IAM &gt;  Service Account and Click **`+ CREATE SERVICE ACCOUNT`**
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.00.20.png)
 
-**Step 2. Set Service account details**
+**STEP 2. Set Service account details**
 
 Enter _**Service account name**_, and _**Service account description**_
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.16.10.png)
 
-**Step 3. Grant Service account  to project**
+**STEP 3: Grant Service account  to project**
 
 Set Permission to Viewer\(Role\): Read All Access and Click **`CONTINUE`**
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.27.10.png)
 
-**Step 4. Add tags**
+**STEP 4: Grant Users access to this service Account \(optional\)** 
 
-_**You can skip this process**_ and move to next. 
+_**You can skip this process**_ and move to next.    
+Set Service account users role and Service account admin role.
 
-SpaceONE collector does not related to tags in IAM. 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.36.25.png)
 
-![](../../.gitbook/assets/aws_service_account_iam_add_tag.png)
+Click **`DONE`** if everything is finished. 
 
+  
+**STEP 5: CREATE KEY**
 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.44.34.png)
 
+Find a Service account that you created right before in previous step. Click Action button and Select**`Create Key`**  
 
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-17.01.11.png)
 
-_**Step 5. Review**_
+Select Key Type and Click **`CREATE`** button. We suggest JSON Type  as recommended above.
 
-Check the details you added. Then click _**Create users**_ right down of page
+**STEP 6: Confirm Key**
 
-![](../../.gitbook/assets/aws_service_account_iam_review.png)
+You will see Key ID on the list and its service account JSON on your local. 
 
-_**Step 6. Copy Key Pair**_
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-17.05.55.png)
 
-IAM key pair created, _**Be sure to copy the Access key ID/Secret access key and keep it safely**_.
-
-If you skip to copy, there is no chance to have it again\(Do from step 1 again\).
-
-![](../../.gitbook/assets/aws_service_account_iam_add_user_copy_keypair.png)
-
-
-
-
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-17.07.16.png)
 
 ## PowerScheduler
 
