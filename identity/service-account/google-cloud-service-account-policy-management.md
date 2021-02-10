@@ -6,11 +6,9 @@ description: Details of API Security policy to use SpaceONE plugin
 
 ## Service Account Policy
 
-Before create Service Account, User can modify your existing API policy.
+**SpaceONE** highly recommends to set appropriate permissions to **Service Account** for each purpose. 
 
-This will guarantee isolation your resource from other non power-scheduled items. Also prevent malfunction from mis configuration of power scheduling.
-
-To Create API for each use case. follow directions below.
+Please, Set service account,  To Create API for each use case:
 
 * [General Collector](service-account-policy-management.md#how-to-create-readonly-policy-in-aws)
 * [Power Scheduler Service](service-account-policy-management.md#powerscheduler)
@@ -21,21 +19,17 @@ In case of internal regulations, create a policy below then attach when creating
 
 ## General Collector 
 
-Collectors require an authority of read permission and therefore we strongly recommend to limit collector's service account its permission to **read only access**. 
+Collector requires appropriate authorities to collect cloud resources. We strongly recommend to limit collector's service account its permission to **read only access**. 
 
-Otherwise, User can add more restrictions like regional and resource base. One of the useful example is to restrict its rights within region.
-
-In order to experience powerful function of SpaceONE collectors. Use the managed _**ReadOnly policy**_ is preferred. 
+Otherwise, you can add more restrictions per resources or actions. One of the useful example is to restrict its rights within region.
 
 
 
-**Step 1. Log in AWS Console &gt; IAM** 
+**Step 1. Log in Google Cloud Console &gt; IAM** 
 
 Go to IAM &gt; Users &gt; Add user
 
-![](../../.gitbook/assets/aws_service_account_policy_iam_add_user.png)
-
-\*\*\*\*
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-15.50.19.png)
 
 **Step 2. Set User Details**
 
