@@ -20,7 +20,7 @@ To Create API for each use case. follow directions below.
 
 In case of internal regulations, create a policy below then attach when creating API user. 
 
-* [IAM Policy Superset](service-account-policy-management.md#iam-policy-superset)
+* [Overall IAM Policy Superset](service-account-policy-management.md#overall-iam-policy-superset)
 
 
 
@@ -302,9 +302,11 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
 
 
 
-## IAM Policy Superset
+## Overall IAM Policy Superset
 
+If user can use managed policy, Refer to policy below. 
 
+_**Region Code**_ in Resource parameter need to be changed. _**AWS Region Code**_ or _**\***_  character is available.
 
 ```text
 
@@ -312,6 +314,9 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
     "Version": "2012-10-17",
     "Statement": [
         {
+            "Sid": "GeneralReadOnlyPolicyForCollectors",
+            "Effect": "Allow",
+            "Resource": "arn:aws:*:{aws region code}:*:*"
             "Action": [
                 "acm:Describe*",
                 "acm:Get*",
@@ -405,10 +410,50 @@ If you skip to copy, there is no chance to have it again\(Do from step 1 again\)
                 "tag:Get*",
                 "trustedadvisor:Describe*",
                 "workspaces:Describe*"
-            ],
+            ]
+        },
+        {
+            "Sid": "PowerSchedulerController",
             "Effect": "Allow",
-            "Resource": "arn:aws:*:{aws region code}:*:*"
-        }
+            "Resource": [
+                "arn:aws:ec2:ap-northeast-1:*:instance/*",
+                "arn:aws:rds:ap-northeast-1:*:db:*",
+                "arn:aws:rds:ap-northeast-1:*:cluster:*",
+                "arn:aws:autoscaling:ap-northeast-1:*:autoScalingGroup:*"
+            ],
+            "Action": [
+                "rds:StartDBCluster",
+                "rds:StopDBCluster",
+                "rds:StartDBInstance",
+                "rds:StopDBInstance",
+                "rds:RebootDBInstance",
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:RebootInstances",
+                "autoscaling:SetDesiredCapacity",
+                "autoscaling:UpdateAutoScalingGroup"
+            ]
+        },
+        {
+            "Sid": "PHDandTACollector",
+            "Effect": "Allow",
+            "Resource": "*",
+            "Action": [
+                "support:DescribeAttachment",
+                "support:DescribeCaseAttributes",
+                "support:DescribeCases",
+                "support:DescribeCommunications",
+                "support:DescribeIssueTypes",
+                "support:DescribeServices",
+                "support:DescribeSeverityLevels",
+                "support:DescribeSupportLevel",
+                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeTrustedAdvisorChecks",
+                "support:DescribeTrustedAdvisorCheckSummaries",
+                "support:SearchForCases"
+            ]
+        }        
     ]
 }
 ```
