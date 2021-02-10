@@ -69,7 +69,11 @@ You will see Key ID on the list and its service account JSON on your local.
 
 ## PowerScheduler
 
-Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler**_ service are below.
+_**SpaceONE**_'s _**Power Scheduler**_ requires edit permission to update following Cloud Services: 
+
+* Compute VM
+* Instance Group
+* Cloud SQL
 
 **Step 1. Create Role**
 
