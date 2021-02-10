@@ -416,10 +416,10 @@ _**Region Code**_ in Resource parameter need to be changed. _**AWS Region Code**
             "Sid": "PowerSchedulerController",
             "Effect": "Allow",
             "Resource": [
-                "arn:aws:ec2:ap-northeast-1:*:instance/*",
-                "arn:aws:rds:ap-northeast-1:*:db:*",
-                "arn:aws:rds:ap-northeast-1:*:cluster:*",
-                "arn:aws:autoscaling:ap-northeast-1:*:autoScalingGroup:*"
+                "arn:aws:ec2:{aws region code}:*:instance/*",
+                "arn:aws:rds:{aws region code}:*:db:*",
+                "arn:aws:rds:{aws region code}:*:cluster:*",
+                "arn:aws:autoscaling:{aws region code}:*:autoScalingGroup:*"
             ],
             "Action": [
                 "rds:StartDBCluster",
