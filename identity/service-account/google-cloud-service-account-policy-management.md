@@ -75,9 +75,7 @@ You will see Key ID on the list and its service account JSON on your local.
 
 Suggested IAM policy for each cloud provider to use _**SpaceONE Power Scheduler**_ service are below.
 
-
-
-**Step 1. Create Policy**
+**Step 1. Create Role**
 
 Go to IAM &gt; Policies &gt; Create policy
 
