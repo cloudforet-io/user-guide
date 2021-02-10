@@ -27,11 +27,11 @@ Otherwise, you can add more restrictions per resources or actions. One of the us
 
 **Step 1. Log in Google Cloud Console &gt; IAM** 
 
-Go to IAM &gt; Users &gt; Add user
+Go to IAM &gt;  Service Account
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-15.50.19.png)
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-16.00.20.png)
 
-**Step 2. Set User Details**
+**Step 2. Set Service account details**
 
 Enter _**User name**_, Set access type to _**Programmatic access**_
 
