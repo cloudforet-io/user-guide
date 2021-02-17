@@ -17,7 +17,7 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 * **Project-based management system -** _Create project groups/projects and assign all users that make you managing cloud resources and accounts._
   * \*\*\*\*[**Project Group**](project/project-group-management.md)\*\*\*\*
   * \*\*\*\*[**Project**](project/project-management.md) ****
-* **Use advanced feature -** _Try advanced skills and save cost._
+* **Use advanced feature** 
   * \*\*\*\*[**Power Scheduler**](advanced-topic/power-scheduler-quick-start.md)\*\*\*\*
   * \*\*\*\*[**Billing**](advanced-topic/billing-quick-start.md)\*\*\*\*
   * \*\*\*\*[**Metric Collector**](advanced-topic/metric-collector-quick-start.md) ****
