@@ -41,23 +41,15 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 
 
-
-
 **STEP 3:**  Click `+ New Scheduler`  button at the top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-6.49.07-pm.png)
 
 
 
-
-
 **STEP 4:**  Set the scheduler's name to create a scheduler. You can enter a string including letters and  `-` . Scheduler name is required and blank spaces are not allowed.
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-6.56.28-pm.png)
-
-### 
-
-
 
 ## Configure scheduler runtime
 
@@ -75,7 +67,7 @@ There are three types of scheduler mode.
 
 |  Mode | State | Description | Color |
 | :---: | :---: | :--- | :---: |
-| Repeated Schedule |  | Timer repeated by every weeks. Selected area became On, Otherwise\(Non selected\) became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
+| Repeated Schedule |  | Timer repeated by every week. Selected area became On, Otherwise\(Non selected\) became Off. | ![](../.gitbook/assets/image%20%288%29.png) |
 | One Time Schedule | ON | Created specified time range. Resource became On selected area. | ![](../.gitbook/assets/image%20%2816%29.png) |
 |  | OFF | Created specified time range. Resource became Off selected area. | ![](../.gitbook/assets/image%20%2855%29.png) |
 
@@ -102,31 +94,27 @@ Name Limit
 
 Limitation of Resource Group name is below.
 
-> * Total 128 character 
+> * Max 128 character 
 > * Start with character
 > * Character, Number, & Hyphen`-`  available
 
 
 
-Selecting resource type. Available types are below
-
-`[ALL] Server / [AWS] RDS / [AWS] Auto Scaling Group`
+Selecting resource type
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.18.56-pm.png)
 
 
 
-Entering all information, ㅅthen click save button below. 
+Entering all information, then click the save button below. 
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.19.18-pm.png)
 
-Scheduler _**creating success**_ message pops up. If all creation process is successful. 
-
-![Pop up](../.gitbook/assets/image%20%2811%29.png)
-
-![Describes created schedule](../.gitbook/assets/image%20%2824%29.png)
 
 
+Get _**creating success**_ message pops up when all creation process is done successfully. 
+
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ## 
 
