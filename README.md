@@ -9,8 +9,6 @@ description: SpaceONE is one cloud management platform for any cloud
 **SpaceONE,** our mission is accelerate the **Multi-Cloud** Native Technology for sustainable Ecosystem;   
 Cloud management platform that enables integrating all **Multi-Clouds** regardless of the platforms which boosts and maximizes your operational efficiency in management.
 
-_\*\*\*\*_
-
 ### _**Contents**_
 
 * **Getting started with Role you assigned -** _SpaceONE has different roles by accessibility and authority._
