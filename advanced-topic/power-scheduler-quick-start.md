@@ -78,7 +78,7 @@ There are three types of scheduler mode.
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.05.26-pm.png)
 
 > **Please, be advised**   
-> Without any setting, it recognizes scheduler as `Turn Off All`all off, which causes all resource to stop working.
+> Without any setting of Scheduler Time, it recognizes scheduler as `Turn Off All` which causes all resource to stop working immediately.
 
 ## Define Resource Group
 
