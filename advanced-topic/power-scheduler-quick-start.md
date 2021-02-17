@@ -4,6 +4,8 @@ description: Quick Guide for user easier to set up Power Scheduler
 
 # Power Scheduler Quick Start
 
+![](../.gitbook/assets/pw_img.png)
+
 ## How to Set up
 
 Start your Power Scheduler after completing the following steps: 

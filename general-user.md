@@ -83,7 +83,5 @@ All cloud resources under the Service Account that you registered above will be 
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-16.19.58.png)
 
-## User Guide Map
 
-![](.gitbook/assets/user_guide_map-2-.png)
 

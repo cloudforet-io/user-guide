@@ -4,7 +4,7 @@ description: One cloud management platform for any cloud
 
 # SpaceONE
 
-## Main Feature
+## Main Features
 
 #### 1. Multi-Cloud Management 
 

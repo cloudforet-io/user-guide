@@ -1,4 +1,4 @@
-# Welcome aboard SpaceONE
+# Welcome aboard to SpaceONE
 
 **SpaceONE,** our mission is accelerate the **Multi-Cloud** Native Technology for sustainable Ecosystem;   
 Cloud management platform that enables integrating all **Multi-Clouds** regardless of the platforms which boosts and maximizes your operational efficiency in management.

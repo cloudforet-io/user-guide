@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome aboard SpaceONE](README.md)
+* [Welcome aboard to SpaceONE](README.md)
 
 ## Introduction to SpaceONE
 
