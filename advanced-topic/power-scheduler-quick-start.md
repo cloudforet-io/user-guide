@@ -43,9 +43,9 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 
 
-**STEP 3:**  Click `+ 새 스케줄러 만들기` button at the top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
+**STEP 3:**  Click `+ New Scheduler`  button at the top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
 
-![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xB9CC;&#xB4E4;&#xAE30;](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-6.49.07-pm.png)
 
 
 
@@ -53,7 +53,7 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 **STEP 4:**  Set the scheduler's name to create a scheduler. You can enter a string including letters and  `-` . Scheduler name is required and blank spaces are not allowed.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-6.56.28-pm.png)
 
 ### 
 
@@ -61,11 +61,11 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 ## Configure scheduler runtime
 
-![set a time schedule to apply](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-6.59.50-pm.png)
 
 Set the time for applying a scheduler.   
   
-The calendar grid breaks the week down by day on the horizontal axis and has 24-hour basis segments in portrait orientation.  You can click`이번주` button to set the scheduled time for this week.  
+The calendar grid breaks the week down by day on the horizontal axis and has 24-hour basis segments in portrait orientation.  You can click `This week` button to set the scheduled time for this week.  
 
 You can move between month through  `< >` at the upper right of the graph. 
 
