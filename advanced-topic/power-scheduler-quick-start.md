@@ -90,9 +90,7 @@ By clicking **`+ Add Resource Group`**, user can move to **Create a resource gro
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.18.16-pm.png)
 
-Name Limit
-
-Limitation of Resource Group name is below.
+The Naming Rules of Resource Group is below.
 
 > * Max 128 character 
 > * Start with character
@@ -100,13 +98,13 @@ Limitation of Resource Group name is below.
 
 
 
-Selecting resource type
+Select resource type
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.18.56-pm.png)
 
 
 
-Entering all information, then click the save button below. 
+Enter all information, then click the save button below. 
 
 ![](../.gitbook/assets/screen-shot-2021-02-17-at-7.19.18-pm.png)
 
@@ -114,7 +112,7 @@ Entering all information, then click the save button below.
 
 Get _**creating success**_ message pops up when all creation process is done successfully. 
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.55.01-pm%20%281%29.png)
 
 ## 
 

@@ -4,6 +4,8 @@ description: Quick Guide for user easier to set up Billing Service
 
 # Billing Quick Start
 
+![](../.gitbook/assets/billing_img.png)
+
 ## How to Set up
 
 You can see billing service after completing following steps:
