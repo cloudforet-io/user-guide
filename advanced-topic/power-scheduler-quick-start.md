@@ -81,22 +81,22 @@ There are three types of scheduler mode.
 
 
 
-**STEP 1:** Click /drag  to select certain time segments to set time for the scheduler to run.
+**STEP 1:** Click&drag to select certain time segments to set time for the scheduler to run.
 
-![Scheduler calendar mouse Click / drag](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.05.26-pm.png)
 
 > **Please, be advised**   
-> Without any setting, it recognizes scheduler as `모두 끄기`all off, which causes all resource to stop working.
+> Without any setting, it recognizes scheduler as `Turn Off All`all off, which causes all resource to stop working.
 
 ## Define Resource Group
 
 Set the resource group for applying defined schedule  
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.10.32-pm.png)
 
-By clicking _**+ Add Group**_ Button. User can move to creating resource group. 
+By clicking **`+ Add Resource Group`**, user can move to **Create a resource group** page. 
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.18.16-pm.png)
 
 Name Limit
 
@@ -112,13 +112,13 @@ Selecting resource type. Available types are below
 
 `[ALL] Server / [AWS] RDS / [AWS] Auto Scaling Group`
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.18.56-pm.png)
 
 
 
-Entering all information, Then click save button below to save schedule. 
+Entering all information, ㅅthen click save button below. 
 
-![Save](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/screen-shot-2021-02-17-at-7.19.18-pm.png)
 
 Scheduler _**creating success**_ message pops up. If all creation process is successful. 
 
