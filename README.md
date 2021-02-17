@@ -82,5 +82,5 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 
 * **SpaceONE**  Github: [https://github.com/spaceone-dev](https://github.com/spaceone-dev) 
 * **SpaceONE**  Docker: [https://hub.docker.com/repositories/spaceone](https://hub.docker.com/repositories/spaceone) 
-* Email: support@spaceone.dev
+* E-mail: support@spaceone.dev
 
