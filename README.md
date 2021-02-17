@@ -1,7 +1,3 @@
----
-description: SpaceONE is one cloud management platform for any cloud
----
-
 # Welcome aboard SpaceONE
 
 ## Our Mission
@@ -9,9 +5,7 @@ description: SpaceONE is one cloud management platform for any cloud
 **SpaceONE,** our mission is accelerate the **Multi-Cloud** Native Technology for sustainable Ecosystem;   
 Cloud management platform that enables integrating all **Multi-Clouds** regardless of the platforms which boosts and maximizes your operational efficiency in management.
 
-![SpaceONE Landing Page](.gitbook/assets/dashboard-v1.5.2-1280x720%20%281%29.png)
-
-### _**Contents**_
+### **Contents**
 
 * **Getting started with the Role you assigned -** _SpaceONE has different roles by the authority._
   * \*\*\*\*[**General User**](general-user.md)\*\*\*\*
@@ -27,15 +21,14 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
   * \*\*\*\*[**Power Scheduler**](advanced-topic/power-scheduler-quick-start.md)\*\*\*\*
   * \*\*\*\*[**Billing**](advanced-topic/billing-quick-start.md)\*\*\*\*
   * \*\*\*\*[**Metric Collector**](advanced-topic/metric-collector-quick-start.md) ****
-* **Strong feature**
+* **Recommend strong feature**
   * \*\*\*\*[**Server**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/inventory/untitled)\*\*\*\*
   * \*\*\*\*[**Cloud Service**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/inventory/cloudservice-beta)\*\*\*\*
   * \*\*\*\*[**Collector**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/plugin/collector)\*\*\*\*
 
-  
 
 
-**Please, visit us via**
+Please, visit us via
 
 * **SpaceONE**  Github: [https://github.com/spaceone-dev](https://github.com/spaceone-dev) 
 * **SpaceONE**  Docker: [https://hub.docker.com/repositories/spaceone](https://hub.docker.com/repositories/spaceone) 

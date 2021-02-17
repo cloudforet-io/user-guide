@@ -11,27 +11,17 @@ description: >-
 The Dashboard is the first screen you will see when connecting to **`SpaceONE`** service.
 
   
-DashBoard allows you to view the status of the entire service being used by domain. 
+Dashboard allows you to view the status of the entire service being used by domain. 
 
-If you click an item, you can navigate to the corresponding service.
+When you click an item, you can navigate to the corresponding service.
 
-![SpaceONE Domain Dashboard](../.gitbook/assets/2020-08-03-5.00.05.png)
+![Dashboard v1.6.2](../.gitbook/assets/dashboard-v1.5.2-1280x720%20%281%29.png)
 
 
 
 You can use the navigation bar at the top of the screen to quickly navigate to each page.
 
-![](../.gitbook/assets/2020-07-31-3.03.43.png)
-
-
-
-## Summary \(삭제\)
-
-![](../.gitbook/assets/2020-07-31-3.07.43.png)
-
-도메인에서 사용중인 전체 Project, Server, Cloud Service 개수를 종합하여 보여 줍니다. 
-
-각각의 Summary를 클릭할 경우 대응되는 메뉴로 이동합니다. 
+![Navigation Bar](../.gitbook/assets/screen-shot-2021-02-17-at-5.14.34-pm.png)
 
 
 
@@ -71,11 +61,7 @@ You can view the changed number of servers and cloud services from midnight to t
 
 ![Daily updates](../.gitbook/assets/2020-08-03-5.31.12.png)
 
-## Collection \(삭제\)
 
-![](../.gitbook/assets/2020-07-31-3.15.02.png)
-
-1주일 간의 자원 수집 현황과 현재 진행 중인 Collector의 상태 볼 수 있습니다. 
 
 ## Cloud Services
 
