@@ -32,8 +32,6 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 
 
 
-
-
 {% hint style="success" %}
 **Getting started with Role you assigned  
 -** _SpaceONE has different roles by accessibility and authority._
