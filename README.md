@@ -9,6 +9,8 @@ description: SpaceONE is one cloud management platform for any cloud
 **SpaceONE,** our mission is accelerate the **Multi-Cloud** Native Technology for sustainable Ecosystem;   
 Cloud management platform that enables integrating all **Multi-Clouds** regardless of the platforms which boosts and maximizes your operational efficiency in management.
 
+![SpaceONE Landing Page ](.gitbook/assets/dashboard-v1.5.2-1280x720.png)
+
 ### _**Table of Contents**_
 
 * **Getting started with Role you assigned -** _SpaceONE has different roles by accessibility and authority._
@@ -40,6 +42,8 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 * \*\*\*\*[**Domain Admin**](domain-admin.md)\*\*\*\*
 * \*\*\*\*[**Root Account**](root-account.md)\*\*\*\*
 {% endhint %}
+
+
 
 {% hint style="success" %}
 **Set up IAM & manage users**

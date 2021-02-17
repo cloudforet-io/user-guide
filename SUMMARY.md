@@ -7,7 +7,7 @@
 * [SpaceONE](introduction-to-spaceone/spaceone.md)
 * [Key Differentiators](introduction-to-spaceone/key-differentiators.md)
 
-## Getting Started \(by your Role\) <a id="getting-started"></a>
+## Getting Started \(by Role\) <a id="getting-started"></a>
 
 ---
 
