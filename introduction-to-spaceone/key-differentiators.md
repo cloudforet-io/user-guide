@@ -6,7 +6,7 @@ description: Core technology of SpaceONE.
 
 ## Open Platform
 
-In order to provide effective and flexible support over various clouds, we aim for an open source strategy based cloud developer community.
+In order to provide effective and flexible support over various clouds, we aim for an open source based strategy cloud developer community.
 
 ![https://github.com/spaceone-dev](../.gitbook/assets/2020-07-31-3.18.54.png)
 

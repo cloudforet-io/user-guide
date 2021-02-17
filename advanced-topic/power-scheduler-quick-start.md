@@ -1,12 +1,12 @@
 ---
-description: Quick Guide for user easier to set up Power scheduler
+description: Quick Guide for user easier to set up Power Scheduler
 ---
 
 # Power Scheduler Quick Start
 
 ## How to Set up
 
-You can start your Power Scheduler after completing following steps: 
+Start your Power Scheduler after completing the following steps: 
 
 * [Prerequisites](power-scheduler-quick-start.md#prerequisites)
 * [Set up Basic Scheduler Info](power-scheduler-quick-start.md#set-up-basic-scheduler-info)
@@ -15,7 +15,7 @@ You can start your Power Scheduler after completing following steps:
 
 ## Prerequisites
 
-You can set up your IAM policy for power scheduler in SpaceONE with pre-defined credentials per cloud-provider to control over resources with safety and prevent other to access resources without permissions.
+You can set up your IAM policy for power scheduler in SpaceONE with pre-defined credentials per cloud-provider to control resources with safety and prevent others to access resources without permission.
 
 Please, assign corresponding access policies to SpaceONE from each provider's console as mentioned below, prior to create a Power Scheduler.
 
@@ -33,7 +33,7 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 
 
-**STEP 2:** Select a project to set up power scheduler on dashboard. 
+**STEP 2:** Select a project to set up Power Scheduler on the dashboard. 
 
 ![Select a Project on Dashboard](../.gitbook/assets/image%20%2871%29.png)
 
@@ -41,7 +41,7 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 
 
-**STEP 3:**  Click `+ 새 스케줄러 만들기` button at top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
+**STEP 3:**  Click `+ 새 스케줄러 만들기` button at the top left corner. It is automatically changed to the creation mode if there is no previously created scheduler in the project.
 
 ![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xB9CC;&#xB4E4;&#xAE30;](../.gitbook/assets/image%20%2822%29.png)
 
@@ -63,9 +63,9 @@ Please, assign corresponding access policies to SpaceONE from each provider's co
 
 Set the time for applying a scheduler.   
   
-Calendar grid breaks the week down by day on the horizontal axis and has 24 hour basis segments in portrait orientation.  You can click`이번주` button to set the schedule time for this week.  
+The calendar grid breaks the week down by day on the horizontal axis and has 24-hour basis segments in portrait orientation.  You can click`이번주` button to set the scheduled time for this week.  
 
-You can move between month through  `< >` at upper right of graph. 
+You can move between month through  `< >` at the upper right of the graph. 
 
 
 

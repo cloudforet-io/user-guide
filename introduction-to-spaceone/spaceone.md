@@ -6,23 +6,23 @@ description: One cloud management platform for any cloud
 
 ## Main Feature
 
-#### 1. Multi Cloud Management 
+#### 1. Multi-Cloud Management 
 
-* **IaaS Infra-integration :** Auto-discovery and sorting infrastructure information that scattered across various platform
-* **Resource Search :** Quick search that reflected on relevance over resources
-* **Resource Monitoring :** Instant connection for resources status that connected to infrastructure
+* **IaaS Infra-integration:** Auto-discovery and sorting infrastructure information that scattered across various platform
+* **Resource Search:** Quick search that reflected on relevance over resources
+* **Resource Monitoring:** Instant connection for resources status that connected to infrastructure
 
 #### 2. Cloud Orchestration
 
-* **Infrastructure as Code :** Code-based infrastructure configuration management
-* **Remote Command :** Batch command execution over multiple remote servers 
-* **Application Catalog :** Supports easy installation on applications such as Database and Middleware
+* **Infrastructure as Code:** Code-based infrastructure configuration management
+* **Remote Command:** Batch command execution over multiple remote servers 
+* **Application Catalog:** Supports easy installation on applications such as Database and Middleware
 
 #### **3. Infra. Analysis**
 
-* **Security Compliance :** Auto-detection and analysis on Cloud security vulnerabilities
-* **Cost Optimization :** Detection over unused resources and analyzing overinvested infrastructure
-* **Capacity Planning :** Infrastructure usage statistics and expansion plan establishment
+* **Security Compliance:** Auto-detection and analysis on Cloud security vulnerabilities
+* **Cost Optimization:** Detection over unused resources and analyzing overinvested infrastructure
+* **Capacity Planning:** Infrastructure usage statistics and expansion plan establishment
 
 ## SpaceONE Universe
 

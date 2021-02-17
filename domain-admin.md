@@ -15,14 +15,14 @@ description: >-
 
 ## Create Project Group
 
-All cloud resources **MUST** belong to a certain project for management purpose. You can grouping any projects with Project Group.   
-Domain Admin creates the project group based on company's management policy.
+All cloud resources **MUST** belong to a certain project for management purposese. You can grouping any projects with Project Group.   
+Domain Admin creates the project group based on the company's management policy.
 
 {% hint style="info" %}
 **Note&gt;** General User **\(Project Admin\)** creates projects only under project group with permission to manage cloud resources.   
 {% endhint %}
 
-**STEP 1:** Drive to menu **`Project`** at top bar and click **`+ Create Group button`** at top right corner of panel.
+**STEP 1:** Drive to menu **`Project`** at the top menu bar and click **`+ Create Group button`** of the panel.
 
 ![](.gitbook/assets/create_top_project_group.png)
 
@@ -30,23 +30,23 @@ Domain Admin creates the project group based on company's management policy.
 
 ![](.gitbook/assets/create_project_group_landingzone.png)
 
-**STEP 3:** Type project group name \(**sample case: Services**\) and Click Confirm.
+**STEP 3:** Type project group name \(**sample case: Services**\) and click Confirm.
 
 ![](.gitbook/assets/create_project_group_services.png)
 
-**STEP 4:** Type project group name \(**sample case: Business Support Systems**\) and Click Confirm.
+**STEP 4:** Type project group name \(**sample case: Business Support Systems**\) and click Confirm.
 
 ![](.gitbook/assets/create_project_group_businesssupportsystems.png)
 
-**STEP 5:** Check all 3 project groups has created a tree on left menu.
+**STEP 5:** Check all 3 project groups have created a tree on the left menu.
 
 ![](.gitbook/assets/show_project_page.png)
 
 ## Create User
 
-Create general user and assign the project groups to created user. General users can access only to the project group which they are belonged to.
+Create general users and assign the project groups to the created user. General users can access only the project group to which they are belonged to.
 
-**STEP 1:** Drive to menu **`Identity > User`** at top bar. 
+**STEP 1:** Drive to menu **`Identity > User`** at the top bar. 
 
 ![](.gitbook/assets/screen-shot-2021-02-04-at-14.16.22.png)
 
@@ -59,11 +59,11 @@ Create general user and assign the project groups to created user. General users
 
 ![](.gitbook/assets/create_user1%20%281%29.png)
 
-**STEP 4:** Drive to Project ****and Click **MEMBER** icons at right next to **`+ Create Project`** button.
+**STEP 4:** Drive to Project ****and click **MEMBER** icons at right next to **`+ Create Project`** button.
 
 ![](.gitbook/assets/screen-shot-2021-02-04-at-16.28.10.png)
 
-**STEP 5:** Click **`+ Add`** button and Select members to add on the project group on the list at pop up window.
+**STEP 5:** Click **`+ Add`** button and select members to add to the project group on the list at the pop-up window.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-10.11.22.png)
 
@@ -73,7 +73,7 @@ Create general user and assign the project groups to created user. General users
 
 \*\*\*\*
 
-**STEP 7:** Check all selected members has registered as project members.
+**STEP 7:** Check all selected members have registered as project members.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-10.17.46.png)
 
@@ -89,24 +89,24 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS EC2 Collector**
 
-**STEP 1:** Select **aws-ec2** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **AWS-ec2** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_ec2_plugin.png)
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS EC2 collector**.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**add tags** is optional\) and Click **`Confirm`** button to create **AWS EC2 collector**.
 
 ![](.gitbook/assets/create_aws_ec2_collector.png)
 
 ### **Create AWS Cloud Services Collector** 
 
-**STEP 1:** Select **aws-cloud-services** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select AWS**-cloud-services** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin.png)
 
 \*\*\*\*
 
   
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Cloud Service Collecto**r.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create **AWS Cloud Service Collecto**r.
 
 ![](.gitbook/assets/create_aws_cloud_services_collector.png)
 
@@ -114,11 +114,11 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS  Trusted Advisor Collector** 
 
-**STEP 1:** Select **aws-trusted-advisor** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **AWS-trusted-advisor** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Trusted Advisor collecto**r.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**add Tags** is optional\) and Click **`Confirm`** button to create **AWS Trusted Advisor collecto**r.
 
 ![](.gitbook/assets/create_aws_trusted_advisor_collector.png)
 
@@ -126,13 +126,13 @@ Create general user and assign the project groups to created user. General users
 
 ### **Create AWS Health Dashboard Collector** 
 
-**STEP 1:** Select **aws-personal-health-dashboard** plugin and Click **`+ Create`** Button. ****
+**STEP 1:** Select **AWS-personal-health-dashboard** plugin and Click **`+ Create`** Button. ****
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
 \*\*\*\*
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button to create a **AWS Health Dashboard collector**.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**add Tags** is optional\) and Click **`Confirm`** button to create **AWS Health Dashboard collector**.
 
 ![](.gitbook/assets/create_aws_personal_health_dashboard_collector.png)
 
@@ -144,7 +144,7 @@ Create general user and assign the project groups to created user. General users
 
 ![](.gitbook/assets/select_aws_cloud_services_plugin%20%281%29.png)
 
-**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**Add Tags** is Optional\) and Click **`Confirm`** button.
+**STEP 2:** Please, fill out all required fields and select drop downs for each steps \(**add Tags** is optional\) and click **`Confirm`** button.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-13.46.13.png)
 
@@ -156,11 +156,11 @@ Create general user and assign the project groups to created user. General users
 
 The schedule is to set the collection time so that the collectors run the jobs periodically to collect cloud resources.
 
-**STEP 1:** Click **Schedule** tab on half bottom\(detail\) page on selected collector.
+**STEP 1:** Click the **Schedule** tab on the bottom\(detail\) page of the selected collector.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-14.02.50.png)
 
-**STEP 2:**  Click **`+ Add`** button; Fill out Name and Time zone, and Select Schedule Frequency and then Click **`Confirm`** button once schedule setting is finished. 
+**STEP 2:**  Click **`+ Add`** button; Fill out Name and Time zone, and Select Schedule Frequency and then Click **`Confirm`** button once the schedule setting is finished. 
 
 {% hint style="info" %}
 1. Set '**Hourly schedule**' which runs everyday at selected hour 
@@ -170,7 +170,7 @@ The schedule is to set the collection time so that the collectors run the jobs p
 ![Add Schedule pop up](.gitbook/assets/add_schedule_to_collector.png)
 
   
-**STEP3:** Check whether collection schedule is registered on collector.
+**STEP3:** Check whether the collector schedule is registered on the collector.
 
 ![Schedule tab of collector ](.gitbook/assets/list_collector_schedules.png)
 

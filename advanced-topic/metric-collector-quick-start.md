@@ -8,7 +8,7 @@ description: >-
 
 ## How to Set up
 
-Collect monitoring metric data through following steps:
+Collect monitoring metric data through the following steps:
 
 * [Prerequisites](metric-collector-quick-start.md#prerequisites)
 * [Get API Key for SpaceONE Service Account](metric-collector-quick-start.md#get-api-key-for-spaceone-service-account)
@@ -18,15 +18,15 @@ Collect monitoring metric data through following steps:
 
 ## Prerequisites
 
-Monitoring Metric Collector requires SpaceOne Service Account to collect various vendor includes AWS, Google Cloud, Azure, etc. 
+Monitoring Metric Collector requires SpaceOne Service Account to collect various vendors includes AWS, Google Cloud, Azure, etc. 
 
 ## Get API Key for SpaceONE Service Account 
 
-Before adding  Service Account \(SpaceONE\), you needs API Key for SpaceONE. 
+Before adding  Service Account \(SpaceONE\), you need API Key for SpaceONE. 
 
 {% hint style="info" %}
 **We currently provide API-Key via administrator only.   
-Please, contact your domain administrator of SpaceONE If you don't have a API-Key for SpaceONE service account or send an e-mail for more support \(**_**support@spaceone.dev**_**\)**
+Please, contact your domain administrator of SpaceONE If you don't have an API-Key for SpaceONE service account or send an e-mail for more support \(**_**support@spaceone.dev**_**\)**
 {% endhint %}
 
 ## Register SpaceOne Service Account \(Ex. Metric Collector\)
@@ -59,7 +59,7 @@ All those fields are mandatory.
 ![Register Credentials screen](../.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
-Do NOT assign project for Monitoring Metric collector Service.
+**DO NOT assign a project for Monitoring Metric collector Service.**
 
 You can SKIP this step.
 {% endhint %}

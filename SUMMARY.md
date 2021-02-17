@@ -1,19 +1,19 @@
 # Table of contents
 
-* [SpaceONE](README.md)
+* [Welcome aboard SpaceONE](README.md)
 
 ## Introduction to SpaceONE
 
 * [SpaceONE](introduction-to-spaceone/spaceone.md)
 * [Key Differentiators](introduction-to-spaceone/key-differentiators.md)
 
-## Getting Started
+## Getting Started \(by your Role\) <a id="getting-started"></a>
 
 ---
 
-* [Root Account](root-account.md)
-* [Domain Admin](domain-admin.md)
 * [General User](general-user.md)
+* [Domain Admin](domain-admin.md)
+* [Root Account](root-account.md)
 
 ## ADVANCED TOPIC
 
