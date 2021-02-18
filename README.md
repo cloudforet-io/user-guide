@@ -3,6 +3,8 @@
 **SpaceONE,** our mission is accelerate the **Multi-Cloud** Native Technology for sustainable Ecosystem;   
 Cloud management platform that enables integrating all **Multi-Clouds** regardless of the platforms which boosts and maximizes your operational efficiency in management.
 
+![](.gitbook/assets/screen-shot-2021-02-18-at-9.37.23-am.png)
+
 ### **Contents**
 
 * **Getting started with the Role you assigned -** _SpaceONE has different roles by the authority._
