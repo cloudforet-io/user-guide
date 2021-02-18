@@ -1,8 +1,4 @@
----
-description: Multi-Cloud 를 통합 관리 할 수 있도록 하는 Cloud 관리 플랫폼 입니다
----
-
-# SpaceONE
+# 스페이스원에 오신것을 환영합니다
 
 ### SpaceONE's Mission
 
