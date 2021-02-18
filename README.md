@@ -13,7 +13,7 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
   * \*\*\*\*[**Root Account**](root-account.md) ****
 * **Set up IAM & manage users**
   * \*\*\*\*[**Service Account**](identity/service-account/)\*\*\*\*
-  * \*\*\*\*[**User**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/identity/user) ****
+  * \*\*\*\*[**User**](https://spaceone-dev.gitbook.io/user-guide/identity/user) ****
 * **Project-based management system -** _Create project groups/projects and assign all users that make you managing cloud resources and accounts._
   * \*\*\*\*[**Project Group**](project/project-group-management.md)\*\*\*\*
   * \*\*\*\*[**Project**](project/project-management.md) ****
