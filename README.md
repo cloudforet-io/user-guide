@@ -24,7 +24,7 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 * **Recommend strong feature**
   * \*\*\*\*[**Server**](https://spaceone-dev.gitbook.io/user-guide/inventory/untitled)\*\*\*\*
   * \*\*\*\*[**Cloud Service**](https://spaceone-dev.gitbook.io/user-guide/inventory/cloudservice-beta)\*\*\*\*
-  * **Collector**
+  * \*\*\*\*[**Collector**](https://spaceone-dev.gitbook.io/user-guide/plugin/collector)\*\*\*\*
 
 
 
