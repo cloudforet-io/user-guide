@@ -22,9 +22,9 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
   * \*\*\*\*[**Billing**](advanced-topic/billing-quick-start.md)\*\*\*\*
   * \*\*\*\*[**Metric Collector**](advanced-topic/metric-collector-quick-start.md) ****
 * **Recommend strong feature**
-  * \*\*\*\*[**Server**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/inventory/untitled)\*\*\*\*
-  * \*\*\*\*[**Cloud Service**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/inventory/cloudservice-beta)\*\*\*\*
-  * \*\*\*\*[**Collector**](https://app.gitbook.com/@spaceone-dev/s/user-guide/~/drafts/-MTj0zOorCoTYWTlBsvJ/v/master/plugin/collector)\*\*\*\*
+  * \*\*\*\*[**Server**](https://spaceone-dev.gitbook.io/user-guide/inventory/untitled)\*\*\*\*
+  * \*\*\*\*[**Cloud Service**](https://spaceone-dev.gitbook.io/user-guide/inventory/cloudservice-beta)\*\*\*\*
+  * **Collector**
 
 
 
