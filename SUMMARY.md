@@ -56,7 +56,3 @@
 
 * [Profile](etc/profile.md)
 
-## FAQ
-
-* [FAQ](faq/faq.md)
-
