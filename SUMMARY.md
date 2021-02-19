@@ -46,8 +46,6 @@
 
 * [Collector](plugin/collector.md)
 
-## Management
-
 ## Automation
 
 * [Power Scheduler](automation/power-scheduler.md)
