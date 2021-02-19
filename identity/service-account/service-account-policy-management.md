@@ -31,7 +31,7 @@ Service account에 credential을 입력하기 전, SpaceONE의 power scheduler �
 {% hint style="info" %}
 **각 Cloud provider의 console을 통해 정책을 생성하는 경우 어떻게 하나요?** 
 
-[다음 페이지의 절차](../../faq/faq.md#how-can-i-define-policies-for-power-scheduler-through-aws-console)를 통해 service account 정책을 설정할 수 있습니다. 
+[다음 페이지의 절차]()를 통해 service account 정책을 설정할 수 있습니다. 
 {% endhint %}
 
 
