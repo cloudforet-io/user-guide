@@ -2,24 +2,19 @@
 
 * [Welcome aboard to SpaceONE](README.md)
 
-## Introduction to SpaceONE
+## About SpaceONE <a id="introduction-to-spaceone"></a>
 
 * [SpaceONE](introduction-to-spaceone/spaceone.md)
 * [Key Differentiators](introduction-to-spaceone/key-differentiators.md)
 
-## Getting Started \(by Role\) <a id="getting-started"></a>
+## Getting Started
 
 ---
 
 * [General User](general-user.md)
-* [Domain Admin](domain-admin.md)
-* [Root Account](root-account.md)
-
-## ADVANCED TOPIC
-
-* [Power Scheduler Quick Start](advanced-topic/power-scheduler-quick-start.md)
-* [Billing Quick Start](advanced-topic/billing-quick-start.md)
-* [Metric Collector Quick Start](advanced-topic/metric-collector-quick-start.md)
+* [Power Scheduler Quick Start](power-scheduler-quick-start.md)
+* [Billing Quick Start](billing-quick-start.md)
+* [Metric Collector Quick Start](metric-collector-quick-start.md)
 
 ## Dashboard <a id="dashboard-1"></a>
 

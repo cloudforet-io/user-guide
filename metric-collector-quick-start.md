@@ -36,7 +36,7 @@ Register SpaceONE service account, at **Identity** &gt; **Service Account**
 Select **SpaceONE** on Service Provider, and then click +**Add** button.  
  ****
 
-![SpaceONE service account Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
+![SpaceONE service account Screen](.gitbook/assets/screen-shot-2020-12-30-at-13.16.21.png)
 
 Register SpaceONE Service Account with following steps,
 
@@ -44,7 +44,7 @@ Register SpaceONE Service Account with following steps,
 2. Set User ID
 3. Put Credentials \(API Key info\)
 
-![Adding a service account screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
+![Adding a service account screen](.gitbook/assets/screen-shot-2020-12-30-at-13.27.39.png)
 
 Configure credentials which has obtained from domain administrator after set service account name and user ID. 
 
@@ -56,7 +56,7 @@ You will get a three following items as credential inputs
 
 All those fields are mandatory. 
 
-![Register Credentials screen](../.gitbook/assets/image%20%2881%29.png)
+![Register Credentials screen](.gitbook/assets/image%20%2881%29.png)
 
 {% hint style="info" %}
 **DO NOT assign a project for Monitoring Metric collector Service.**
@@ -69,11 +69,11 @@ You can SKIP this step.
 You can check collected monitoring Metric data information at **Inventory** &gt; **Server** list.  
 **Note:** **Recommend Monitoring-metric-collector schedule is a once in day.** 
 
-![Inventory Server list summary Screen](../.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
+![Inventory Server list summary Screen](.gitbook/assets/screen-shot-2020-12-30-at-13.53.25.png)
 
 Monitoring metric's values will be updated once collector's job has finished.
 
-![Raw data Tab Screen](../.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
+![Raw data Tab Screen](.gitbook/assets/screen-shot-2020-12-30-at-14.41.37.png)
 
 Check all collected Monitoring data at **"Raw Data"**  tab within path of  _**Data -&gt; Monitoring**_ 
 

@@ -4,7 +4,7 @@ description: Quick Guide for user easier to set up Billing Service
 
 # Billing Quick Start
 
-![](../.gitbook/assets/billing_img.png)
+![](.gitbook/assets/billing_img.png)
 
 ## How to Set up
 
@@ -47,7 +47,7 @@ To register billing service account, you can do in Identity &gt; Service Account
 
 Select **Hyper Billing** Service Provider, then click **Add**
 
-![Register Billing ServiceAccount](../.gitbook/assets/image%20%2877%29.png)
+![Register Billing ServiceAccount](.gitbook/assets/image%20%2877%29.png)
 
 {% hint style="info" %}
 **If you have no "Hyper Billing" in the Service Providers, contact Domain Administrator of SpaceONE.**
@@ -59,13 +59,13 @@ Register Billing Service Account like following steps,
 2. Put Credentials \(API Key\)
 3. Select Project
 
-![1. name of service account](../.gitbook/assets/image%20%2879%29.png)
+![1. name of service account](.gitbook/assets/image%20%2879%29.png)
 
 After set name of service account, you have to configure Credentials which is received from Billing Service Provider. In this example you can get Credentials from Megazone Hyperbilling team.
 
 They will give you Credentials which are consisted with "Account", "Email" and "Key". Put the information correctly.
 
-![2. Credentials \(API Key\)](../.gitbook/assets/image%20%2874%29.png)
+![2. Credentials \(API Key\)](.gitbook/assets/image%20%2874%29.png)
 
 {% hint style="info" %}
 Assigning Project is mandatory for Billing Service.
@@ -73,7 +73,7 @@ Assigning Project is mandatory for Billing Service.
 DO NOT SKIP THIS STEP.
 {% endhint %}
 
-![3. Select Project](../.gitbook/assets/image%20%2875%29.png)
+![3. Select Project](.gitbook/assets/image%20%2875%29.png)
 
 If you have multiple billing account, repeat "Register Billing Service Account".
 
@@ -83,9 +83,9 @@ Everything is done. You can see billing information in the main dashboard and pr
 
 Consolidated Billing information in the main Dashboard. This is a summation-integral of all billing accounts. 
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](.gitbook/assets/image%20%2878%29.png)
 
 Each project page provides its own billing information if you register billing service account.
 
-![Billing per project](../.gitbook/assets/image%20%2873%29.png)
+![Billing per project](.gitbook/assets/image%20%2873%29.png)
 
