@@ -116,7 +116,7 @@ Get _**creating success**_ message pops up when all creation process is done suc
 
 ## Limitation & Restriction
 
-Some of the restrictions for power scheduler are [listed here](automation/power-scheduler.md#limitation-and-restrictions).
+Some type of resources are not controlled by power scheduler services. They are [listed here](automation/power-scheduler.md#limitation-and-restrictions).
 
 
 
