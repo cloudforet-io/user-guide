@@ -44,3 +44,9 @@
 
 * [Profile](etc/profile.md)
 
+## Reference Link
+
+---
+
+* [Admin Guide](https://spaceone-dev.gitbook.io/admin-guide/)
+
