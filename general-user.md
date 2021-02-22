@@ -4,7 +4,7 @@ description: >-
   group and registering a cloud account(service account) to created project.
 ---
 
-# Project & Service Account Quick Start
+# Basic Setup
 
 ## Sign-in
 

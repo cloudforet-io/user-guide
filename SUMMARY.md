@@ -11,7 +11,7 @@
 
 ---
 
-* [Project & Service Account Quick Start](general-user.md)
+* [Basic Setup](general-user.md)
 * [Power Scheduler Quick Start](power-scheduler-quick-start.md)
 
 ## Dashboard <a id="dashboard-1"></a>
