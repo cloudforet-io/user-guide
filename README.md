@@ -50,7 +50,7 @@ Learn about SpaceONE and its fundamental concepts
 
 Step by step guide for each user to user SpaceONE environment.
 
-* \*\*\*\*[**General User**](general-user.md)\*\*\*\*
+* \*\*\*\*[**Project & Service Account Quick Start**](general-user.md)\*\*\*\*
 * \*\*\*\*[**Power Scheduler Quick Start**](power-scheduler-quick-start.md)\*\*\*\*
 * \*\*\*\*[**Billing Quick Start**](billing-quick-start.md)\*\*\*\*
 * \*\*\*\*[**Metric Collector Quick Start**](metric-collector-quick-start.md)\*\*\*\*
