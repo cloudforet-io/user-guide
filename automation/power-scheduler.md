@@ -282,15 +282,15 @@ Some limitations for power scheduler service are existed, Most of them are inher
 Cloud resources which has conditions below can not managed by power scheduler service
 
 * AutoScalingGroup
-  * ASG controlled by _**EKS managed group.**_
+  * ASG controlled by _**EKS managed group**_
 * RDS Instance
-  * Instance that member of replication
-  * SQL DB using Multi-AZ
+  * Instance that member of _**replication**_
+  * SQL DB using _**Multi-AZ**_
 * RDS Aurora Instance
-  * Member of Aurora global databases
-  * Using parallel query feature
+  * Member of _**Aurora global database**_
+  * Cluster that using _**parallel query feature**_
 * Other case
-  * 
+  * Does not have stop/start functions
 
 
 
