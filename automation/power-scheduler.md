@@ -285,16 +285,12 @@ Cloud resources which has conditions below can not managed by power scheduler se
   * ASG controlled by _**EKS managed group**_
 * RDS Instance
   * Instance that member of _**replication**_
-  * SQL DB using _**Multi-AZ**_
+  * SQL Server DB using _**Multi-AZ**_
 * RDS Aurora Instance
   * Member of _**Aurora global database**_
   * Cluster that using _**parallel query feature**_
 * Reference
   * [AWS DB instance limitation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_StopInstance.html#USER_StopInstance.Limitations)
-
-
-
-
 
 
 
