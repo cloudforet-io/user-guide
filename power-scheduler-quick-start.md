@@ -114,9 +114,9 @@ Get _**creating success**_ message pops up when all creation process is done suc
 
 ![](.gitbook/assets/screen-shot-2021-02-17-at-7.55.01-pm%20%281%29.png)
 
-## 
+## Limitation & Restriction
 
-> ### " Happy Power Scheduling! "
+Some of the restrictions for power scheduler are [listed here](power-scheduler-quick-start.md#limitation-and-restriction).
 
 
 
