@@ -120,5 +120,3 @@ Some type of resources are not controlled by power scheduler services. They are 
 
 
 
-
-
