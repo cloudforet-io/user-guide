@@ -15,27 +15,19 @@ Visualize your all cloud resources in one view.
 
 {% page-ref page="dashboard-1/dashboard.md" %}
 
-### 
-
 ### Project
 
 Consolidate your multi cloud resources by projects.
 
-### 
-
 ### Cloud Resources 
 
 Discover & Classify your all cloud resources conveniently. 
-
-
 
 ### Account Management
 
 Managing credentials for cloud provider accounts.
 
 {% page-ref page="identity/service-account/" %}
-
-
 
 ### Automation
 
