@@ -7,29 +7,27 @@ Cloud management platform that enables integrating all **Multi-Clouds** regardle
 
 ![](.gitbook/assets/user_guide_home01.png)
 
-![](.gitbook/assets/screen-shot-2021-02-18-at-9.37.23-am.png)
-
-### Dashboard
+### 1. Dashboard
 
 Visualize your all cloud resources in one view.
 
 {% page-ref page="dashboard-1/dashboard.md" %}
 
-### Project
+### 2. Project
 
 Consolidate your multi cloud resources by projects.
 
-### Cloud Resources 
+### 3. Cloud Resources 
 
 Discover & Classify your all cloud resources conveniently. 
 
-### Account Management
+### 4. Account Management
 
 Managing credentials for cloud provider accounts.
 
 {% page-ref page="identity/service-account/" %}
 
-### Automation
+### 5. Automation
 
 Automate repetitive operational tasks, Optimize cloud resource costs.
 
@@ -41,7 +39,7 @@ Look up tasks and how to perform them using step by step guide.
 
 ### 
 
-### Understand the SpaceONE
+### Understand SpaceONE
 
 Learn about SpaceONE and its fundamental concepts
 
