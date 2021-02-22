@@ -289,8 +289,10 @@ Cloud resources which has conditions below can not managed by power scheduler se
 * RDS Aurora Instance
   * Member of _**Aurora global database**_
   * Cluster that using _**parallel query feature**_
-* Other case
-  * Does not have stop/start functions
+* Reference
+  * [AWS DB instance limitation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_StopInstance.html#USER_StopInstance.Limitations)
+
+
 
 
 
