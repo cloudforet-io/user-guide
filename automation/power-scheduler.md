@@ -269,5 +269,15 @@ By clicking _**Trash Can**_ ****button, Scheduler can be deleted.
 
 
 
+## Limitation & Restrictions
+
+Some limitations for power scheduler service are existed, Most of them are inherited from functionality of each cloud providers.
+
+### AWS
+
+* AutoScalingGroup controlled by EKS managed group can not 
+
+
+
 
 
