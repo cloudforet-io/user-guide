@@ -18,6 +18,10 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
 
 {% page-ref page="../identity/service-account/service-account-policy-management.md" %}
 
+{% page-ref page="../identity/service-account/google-cloud-service-account-policy-management.md" %}
+
+
+
 ## Power Scheduler Dashboard
 
 ![](../.gitbook/assets/image%20%2812%29.png)
