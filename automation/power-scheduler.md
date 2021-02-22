@@ -279,7 +279,18 @@ Some limitations for power scheduler service are existed, Most of them are inher
 
 ### AWS
 
-* AutoScalingGroup controlled by EKS managed group can not 
+Cloud resources which has conditions below can not managed by power scheduler service
+
+* AutoScalingGroup
+  * ASG controlled by _**EKS managed group.**_
+* RDS Instance
+  * Instance that member of replication
+  * SQL DB using Multi-AZ
+* RDS Aurora Instance
+  * Member of Aurora global databases
+  * Using parallel query feature
+* Other case
+  * 
 
 
 
