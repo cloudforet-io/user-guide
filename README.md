@@ -52,8 +52,8 @@ Step by step guide for each user to user SpaceONE environment.
 
 * \*\*\*\*[**Project & Service Account Quick Start**](general-user.md)\*\*\*\*
 * \*\*\*\*[**Power Scheduler Quick Start**](power-scheduler-quick-start.md)\*\*\*\*
-* \*\*\*\*[**Billing Quick Start**](billing-quick-start.md)\*\*\*\*
-* \*\*\*\*[**Metric Collector Quick Start**](metric-collector-quick-start.md)\*\*\*\*
+* \*\*\*\*[**Billing Quick Start**]()\*\*\*\*
+* \*\*\*\*[**Metric Collector Quick Start**]()\*\*\*\*
 
 
 

@@ -13,8 +13,6 @@
 
 * [Project & Service Account Quick Start](general-user.md)
 * [Power Scheduler Quick Start](power-scheduler-quick-start.md)
-* [Billing Quick Start](billing-quick-start.md)
-* [Metric Collector Quick Start](metric-collector-quick-start.md)
 
 ## Dashboard <a id="dashboard-1"></a>
 
