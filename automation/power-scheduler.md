@@ -24,7 +24,7 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
 
 ## Power Scheduler Dashboard
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 **Scheduler list by Projects**
 
@@ -108,7 +108,7 @@ Move to next/previous weeks by  `< >` buttons right upper side of table.
 
 **• Priority by Resource Group**
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 Scheduler is consist of several resource group. Each resource group has step defined by priority.
 
@@ -118,7 +118,7 @@ Create/Deleting _**Resource Group**_ is done by clicking _**Edit button &gt; + A
 
 **Resource Groups In Same Priority**
 
-\*\*\*\*
+![](../.gitbook/assets/11-power-scheduler-resource-group-01.png)
 
 There is sequence of changing status between resource groups in same priority.
 
@@ -128,7 +128,7 @@ Upper position resource group changes first, and Lower position goes second.
 
 _**Details of Resource Group**_
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/11-power-scheduler-resource-group-wizard.png)
 
 Detailed status resource group is done by clicking _**Name of Resource Group.**_
 
@@ -142,9 +142,7 @@ Detailed status resource group is done by clicking _**Name of Resource Group.**_
 
 ### Creating New Scheduler
 
-
-
-![&#xC0C8; &#xC2A4;&#xCF00;&#xC904;&#xB7EC; &#xC0DD;&#xC131; &#xD398;&#xC774;&#xC9C0;](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 By Clicking _**Creating New Scheduler**_ button, New scheduler editing screen appears. 
 
