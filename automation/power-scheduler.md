@@ -24,7 +24,7 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
 
 ## Power Scheduler Dashboard
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 **Scheduler list by Projects**
 
@@ -203,9 +203,14 @@ Informations to be specified are belows
       <td style="text-align:left">Resource Type</td>
       <td style="text-align:left">
         <p>Select resource type. Available list of resource group is belows.</p>
-        <p>
-          <img src="../.gitbook/assets/image (17).png" alt/>
-        </p>
+        <ul>
+          <li>[AWS] EC2</li>
+          <li>[AWS] RDS</li>
+          <li>[AWS] Auto Scaling Group</li>
+          <li>[Google] Compute Engine</li>
+          <li>[Google] Instance Group</li>
+          <li>[Google] Cloud SQL</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -219,11 +224,13 @@ Confirm the input information, then click _**save**_ button.
 
 ### Schedule Deletion
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 By clicking _**Trash Can**_ ****button, Scheduler can be deleted.
 
 ### Scheduler Edit
+
+![](../.gitbook/assets/image%20%2891%29.png)
 
 <table>
   <thead>
@@ -235,23 +242,14 @@ By clicking _**Trash Can**_ ****button, Scheduler can be deleted.
   <tbody>
     <tr>
       <td style="text-align:left">Scheduler Name</td>
-      <td style="text-align:left">
-        <p>By Clicking <em><b>Scheduler Edit</b></em> button right upper of page. Scheduler
-          name can be edited.</p>
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/image (38).png" alt/>
-        </p>
-      </td>
+      <td style="text-align:left">By Clicking <em><b>Scheduler Edit</b></em> button right upper of page. Scheduler
+        name can be edited.</td>
     </tr>
     <tr>
       <td style="text-align:left">Scheduler Calendar</td>
       <td style="text-align:left">
         <p>By clicking Edit button in calendar. One time schedule, Repeated time
           scheduled can be edited.</p>
-        <p>
-          <img src="../.gitbook/assets/image (66).png" alt/>
-        </p>
         <p></p>
       </td>
     </tr>
@@ -260,9 +258,6 @@ By clicking _**Trash Can**_ ****button, Scheduler can be deleted.
       <td style="text-align:left">
         <p><em><b>Resource Group</b></em> can be edited <em><b>edit</b></em> button
           below.</p>
-        <p>
-          <img src="../.gitbook/assets/image (33).png" alt/>
-        </p>
         <p></p>
       </td>
     </tr>
