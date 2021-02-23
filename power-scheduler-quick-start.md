@@ -104,13 +104,25 @@ Select resource type
 
 
 
+Then, Targeting resource is needed.
+
+Enter search keyword to grouping resources. By clicking search bar available search properties pops up. Default property is name.
+
+![](.gitbook/assets/2021-02-23-1.24.48.png)
+
+To apply search filter, You need to press _**Enter**_. Then filtered resources will be appeared.
+
+![](.gitbook/assets/image%20%2884%29.png)
+
 Enter all information, then click the save button below. 
 
 ![](.gitbook/assets/screen-shot-2021-02-17-at-7.19.18-pm.png)
 
-
-
 Get _**creating success**_ message pops up when all creation process is done successfully. 
+
+
+
+![](.gitbook/assets/2021-02-23-1.34.07.png)
 
 ![](.gitbook/assets/screen-shot-2021-02-17-at-7.55.01-pm%20%281%29.png)
 
