@@ -108,9 +108,11 @@ Then, Targeting resource is needed.
 
 Enter search keyword to grouping resources. By clicking search bar available search properties pops up. Default property is name.
 
+Supported search filter is listed here. Usually name or tag filter is preferred.
+
 ![](.gitbook/assets/2021-02-23-1.24.48.png)
 
-To apply search filter, You need to press _**Enter**_. Then filtered resources will be appeared.
+To apply search filter, You need to press _**Enter**_. Then filtered resources will be appeared. 
 
 ![](.gitbook/assets/image%20%2884%29.png)
 
