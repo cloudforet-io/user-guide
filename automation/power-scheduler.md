@@ -24,7 +24,7 @@ Before creating Power Scheduler modify your existing policy, For detailed proces
 
 ## Power Scheduler Dashboard
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 **Scheduler list by Projects**
 
@@ -34,11 +34,11 @@ User can see Overall status of power scheduling
 
 User can search status of power scheduling by project name.
 
-**Scheduling Dashboard** 
+**Scheduling Widget**
 
 Items of power scheduler information for each projects are below.
 
-![&#xC2A4;&#xCF00;&#xC904; Dashboard](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 <table>
   <thead>
@@ -96,7 +96,7 @@ In scheduler Calendar, User can manage this functions
 
 #### Scheduling Time
 
-![weekly calendar](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 User can see scheduler timetable. x-axis is date, y-axis is time to be controlled. By clicking _**This weeks**_ jump to power scheduling plan for this weeks.
 
@@ -108,7 +108,7 @@ Move to next/previous weeks by  `< >` buttons right upper side of table.
 
 **• Priority by Resource Group**
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 Scheduler is consist of several resource group. Each resource group has step defined by priority.
 
@@ -118,7 +118,7 @@ Create/Deleting _**Resource Group**_ is done by clicking _**Edit button &gt; + A
 
 **Resource Groups In Same Priority**
 
-![](../.gitbook/assets/image%20%2857%29.png)
+\*\*\*\*
 
 There is sequence of changing status between resource groups in same priority.
 
