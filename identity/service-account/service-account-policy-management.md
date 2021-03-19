@@ -2,7 +2,7 @@
 description: SpaceONE Power Scheduler 서비스 이용에 필요한 IAM 정책을 관리합니다.
 ---
 
-# Service Account Policy Management
+# \(AWS\) Service Account Policy Management
 
 ## Service Account 정책 관리
 
