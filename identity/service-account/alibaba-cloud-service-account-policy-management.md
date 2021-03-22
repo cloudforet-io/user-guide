@@ -10,7 +10,7 @@ description: Details of API Security policy to use SpaceONE plugin
 
 Please, Set service account, To Create API for each use case:
 
-* [General Collector](google-cloud-service-account-policy-management.md#general-collector)
+* [General Collector](alibaba-cloud-service-account-policy-management.md#general-collector)
 
 ## General Collector 
 
