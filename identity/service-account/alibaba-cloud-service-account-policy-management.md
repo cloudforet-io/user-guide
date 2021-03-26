@@ -16,7 +16,7 @@ Please, Set service account, To Create API for each use case:
 
 Collector requires appropriate authorities to collect cloud resources. We strongly recommend to limit collector's service account its permission to **read only access**. 
 
-Otherwise, you can add more restrictions per resources or actions. One of the useful example is to restrict its rights within region.
+Otherwise, you can add more restrictions per resources or actions. One of the useful example is to restrict its rights.
 
 **STEP 1. Log in Alibaba Cloud Console &gt; RAM** 
 
