@@ -31,10 +31,11 @@
 ## Identity
 
 * [Service Account](identity/service-account/README.md)
-  * [\(Oracle Cloud Infrastructure\) Service Account Policy Management](identity/service-account/oracle-cloud-infrastructure-service-account-policy-management.md)
-  * [\(Alibaba Cloud\) Service Account Policy Management](identity/service-account/alibaba-cloud-service-account-policy-management.md)
   * [\(AWS\) Service Account Policy Management](identity/service-account/service-account-policy-management.md)
   * [\(Google Cloud\) Service Account Policy Management](identity/service-account/google-cloud-service-account-policy-management.md)
+  * [\(Azure\) Access Control \(IAM\) Policy Management](identity/service-account/azure-access-control-iam-policy-management.md)
+  * [\(Oracle Cloud Infrastructure\) Service Account Policy Management](identity/service-account/oracle-cloud-infrastructure-service-account-policy-management.md)
+  * [\(Alibaba Cloud\) Service Account Policy Management](identity/service-account/alibaba-cloud-service-account-policy-management.md)
 
 ## Automation
 
