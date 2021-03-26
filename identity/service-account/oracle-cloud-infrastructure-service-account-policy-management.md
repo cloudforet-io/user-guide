@@ -10,7 +10,7 @@ description: Details of API Security policy to use SpaceONE plugin
 
 Please, Set service account,  To Create API for each use case
 
-
+* [General Collector](oracle-cloud-infrastructure-service-account-policy-management.md#general-collector)
 
 ## General Collector 
 
