@@ -1,5 +1,5 @@
 ---
-description: Details of API Security policy to use SpaceONE plugin
+description: Details of service account policies to use SpaceONE plugin
 ---
 
 # \(Alibaba Cloud\) Service Account Policy Management

@@ -24,6 +24,8 @@ This user guide tutorial assumes that a `subscription id` is already created.
 
 **STEP 1. Log in Azure Portal &gt; Resource groups** 
 
+Select the resource group for which the collector will collect resources.
+
 ![](../../.gitbook/assets/image%20%28104%29.png)
 
 **STEP 2. Click `Access control (IAM)` Navigation tab, and click `+Add` button.**
