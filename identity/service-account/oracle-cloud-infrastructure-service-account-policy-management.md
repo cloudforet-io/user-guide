@@ -2,11 +2,11 @@
 description: Details of API Security policy to use SpaceONE plugin
 ---
 
-# \(Oracle Cloud Infrastructure\) Service Account Policy Management
+# \(Oracle Cloud Infrastructure\) Identity and Access Management\(IAM\) Policy Management
 
-## Service Account Policy
+## IAM Policy
 
-**SpaceONE** highly recommends to set appropriate permissions to **Service Account** for each purpose. 
+**SpaceONE** highly recommends to set appropriate permissions to access your _**cloud resources**_ for each purpose. 
 
 Please, Set service account,  To Create API for each use case
 
@@ -58,7 +58,16 @@ Go to Identity &gt; Policies and Click  `Create Policy` Button.
 
 
 
-Enter _**Name**_ and _**Description**_ and _**Policies**_ by manually.
+Enter _**Name**_ and _**Description**_ and _**Policies**_ by manually. 
+
+Entering statements directly in the text box, ensure that you follow the [Policy Syntax](https://docs.oracle.com/en-us/iaas/Content/Identity/Concepts/policysyntax.htm#Policy_Syntax) rules.
+
+When using General Collector, the **following two policies are required**:
+
+```text
+Allow group {group_name} to inspect compartments in tenancy
+Allow group {group_name} to inspect tenancies in tenancy
+```
 
 ![](../../.gitbook/assets/create_policies.png)
 
