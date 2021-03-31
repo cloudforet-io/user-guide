@@ -27,7 +27,7 @@ Otherwise, you can add more restrictions per resources or actions. One of the us
 4. Specify the _**Logon Name**_ and _**Display Name**_ parameters.
 5. Click **`OK`** _****_and return to _Create User screen_.
 
-![](../../.gitbook/assets/alicloud_general_step2%20%281%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 
 **STEP 2. Create AccessKey pairs for RAM users**
 
@@ -41,7 +41,7 @@ You need AccessKey pairs to enter Alibaba Cloud Credentials in the SpaceOne. If 
    * The AccessKey Secret is displayed only once when you first create it. You cannot retrieve the AccessKey Secret if you forget it. We recommend that you save the AccessKey Secret for subsequent use.
    * If the AccessKey pair is disclosed or lost, you must create a new one. Currently, you can create a maximum of two AccessKey pairs.
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28105%29.png)
 
 **STEP 3-1: Authorize RAM users to access data as read-only. \(via console\)**
 
@@ -54,9 +54,7 @@ You need AccessKey pairs to enter Alibaba Cloud Credentials in the SpaceOne. If 
 6. Click `Complete`.
 7. You will return to _Create User screen_, and can check you _**AccessKey ID**_ and _**AccessKey Secret**_. Alibaba Cloud generates AccessKey Pair by default when you create a user. Click **`Copy`** to copy your authentication information. Go to step 5 if you miss this step.
 
-![](../../.gitbook/assets/image%20%28101%29.png)
-
-\*\*\*\*
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 **STEP 3-2: Authorize RAM users to access data as read-only. \(via API call\)**
 
@@ -73,9 +71,9 @@ Go to [RAM Console](https://ram.console.aliyun.com/) &gt; Identities &gt; Users 
 
 Click **`Create AccessKey`** in the _Authentication_ tap.
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%28106%29.png)
 
 You will receive _Create AccessKey popup_, and click **`Copy`** below the blue box to copy your _**AccessKey Pair**_ information. Click **`Close`** to close the popup window.
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 
