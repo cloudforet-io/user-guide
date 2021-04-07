@@ -74,6 +74,10 @@ You will see Key ID on the list and its service account JSON on your local.
 
 _**SpaceONE**_'s _**General Collector**_ requires permission to access for following services:
 
+{% hint style="info" %}
+**Google Cloud APIs are categorized as its types, and therefore must set up a Special Role that Collect to other than general cloud services.**  
+{% endhint %}
+
 * Cloud Storage
   * Object
     * list
