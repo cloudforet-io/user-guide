@@ -11,7 +11,7 @@ description: Details of API Security policy to use SpaceONE plugin
 Please, Set service account,  To Create API for each use case:
 
 * [General Collector](google-cloud-service-account-policy-management.md#general-collector)
-  * Special Roles 
+  * [Special Roles](google-cloud-service-account-policy-management.md#special-roles) 
 * [Power Scheduler Service](google-cloud-service-account-policy-management.md#powerscheduler)
 
 ## General Collector 
