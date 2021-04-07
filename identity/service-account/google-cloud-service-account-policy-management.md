@@ -11,6 +11,7 @@ description: Details of API Security policy to use SpaceONE plugin
 Please, Set service account,  To Create API for each use case:
 
 * [General Collector](google-cloud-service-account-policy-management.md#general-collector)
+  * Special Roles 
 * [Power Scheduler Service](google-cloud-service-account-policy-management.md#powerscheduler)
 
 ## General Collector 
@@ -66,6 +67,69 @@ You will see Key ID on the list and its service account JSON on your local.
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-17.05.55.png)
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-17.07.16.png)
+
+
+
+### Special Roles
+
+_**SpaceONE**_'s _**General Collector**_ requires permission to access for following services:
+
+* Cloud Storage
+  * Object
+    * list
+    * get
+    * getIAMPolicy
+  * Bucket
+    * list
+    * get
+    * getIAMPolicy
+* Big Query
+  * Resource Viewer
+  * Data Viewer
+
+**Step 1. Create Role**
+
+Go to IAM &gt; Role &gt; **+ Create Role**
+
+![](../../.gitbook/assets/screen-shot-2021-04-07-at-18.09.05.png)
+
+**Step 2. Add Permissions to Role**
+
+**Please, find appropriate permission within cloud services**
+
+![](../../.gitbook/assets/screen-shot-2021-04-07-at-18.18.42.png)
+
+* storage.buckets.get
+* storage.buckets.getIamPolicy
+* storage.buckets.list
+* storage.objects.get
+* storage.objects.getIamPolicy
+* storage.objects.list
+
+Click **`ADD`** button
+
+  
+**STEP 3: Review Permission** 
+
+Review permissions in created role.
+
+![](../../.gitbook/assets/screen-shot-2021-04-07-at-18.20.27.png)
+
+**STEP 4: Set Created Role into Service Account** 
+
+Drive to Menu IAM &gt; IAM 
+
+![](../../.gitbook/assets/screen-shot-2021-02-10-at-19.02.52.png)
+
+Click pencil icon to edit and Add New Role that created in previous step
+
+![](../../.gitbook/assets/screen-shot-2021-04-07-at-18.24.41.png)
+
+**STEP 5: Set BigQuery Permission into Service Account** 
+
+![](../../.gitbook/assets/screen-shot-2021-04-07-at-18.26.14.png)
+
+Click **`Save`** button.
 
 ## PowerScheduler
 
