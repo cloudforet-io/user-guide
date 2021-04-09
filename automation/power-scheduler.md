@@ -293,7 +293,7 @@ Cloud resources has a such a condition that does not support within power schedu
   * Compute Engine resources may **NOT** turn on/off if selected compute engines are instance of **Instance group**.
   * Categorizing **Instance group**'s compute engine and normal compute engine on the view will be available soon.  
 * Instance Group
-  * Google cloud support autoscaling only on Stateless Type of Instance Group.   
+  * Only **Stateless** type in Instance Groups are valid to turn on/off in power scheduler service because Google cloud support autoscaling only on **Stateless** Type in Instance Group.   
 
 
 
