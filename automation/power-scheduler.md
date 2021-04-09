@@ -294,7 +294,7 @@ Cloud resources has a such a condition that does not support within power schedu
   * Categorizing **Instance group**'s compute engine and normal compute engine on the view will be available soon.  
 * Instance Group
 
-  * Only **Stateless** type in Instance Group is valid to turn on/off in power scheduler service because Google Cloud supports autoscaling  on **Stateless** type only in Instance Group.  \(Refer to[ google.compute.instance\_group](https://cloud.google.com/compute/docs/instance-groups)\)
+  * Only **Stateless** type in Instance Group is valid to turn on/off in power scheduler service because Google Cloud supports autoscaling on **Stateless** type only in Instance Group.  \(Refer to[ google.compute.instance\_group](https://cloud.google.com/compute/docs/instance-groups)\)
 
 
 
