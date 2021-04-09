@@ -285,5 +285,15 @@ Cloud resources which has conditions below can not managed by power scheduler se
 * Reference
   * [AWS DB instance limitation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_StopInstance.html#USER_StopInstance.Limitations)
 
+### Google Cloud
+
+Cloud resources has a such a condition that does not support within power scheduler Service 
+
+* Compute Engine
+  * Compute Engine resources may **NOT** turn on/off if selected compute engines are instance of **Instance group**.
+  * Categorizing **Instance group**'s compute engine and normal compute engine on the view will be available soon.  
+* Instance Group
+  * Google cloud support autoscaling only on Stateless Type of Instance Group.   
+
 
 
