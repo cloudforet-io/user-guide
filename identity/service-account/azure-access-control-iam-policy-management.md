@@ -50,21 +50,18 @@ Select the resource group for which the collector will collect resources.
 The client `client_id` with object id `object_id` does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/read over scope `subscription_id` or the scope is invalid. If access was recently granted, please refresh your credentials
 {% endhint %}
 
-**STEP 1: Log in Azure Portal &gt; Subscriptions** 
+**STEP 1: Log in Azure Portal and Drive to &gt; Subscriptions** 
 
-![](../../.gitbook/assets/image%20%28113%29.png)
+![](../../.gitbook/assets/screen-shot-2021-04-15-at-18.55.14.png)
 
-**STEP 2: Click the subscription name that the resources are contained.**
+  
+**STEP 2: Click the subscription name where resources are located.**
 
-\*\*\*\*
+![](../../.gitbook/assets/image-1-.png)
 
-\*\*\*\*
+**STEP 3: Set Role** `(Microsoft.Resource/subscriptions..)` **at Access control tab** **as below**
 
-**STEP 3:** 
-
-
-
-
+![](../../.gitbook/assets/image-2-.png)
 
 
 
