@@ -40,5 +40,31 @@ Select the resource group for which the collector will collect resources.
 
 ![](../../.gitbook/assets/image%20%28103%29.png)
 
+## Troubleshooting
+
+### Authorization
+
+#### 1. \(AuthorizationFailed\) Client does not have authorization 
+
+{% hint style="warning" %}
+The client `client_id` with object id `object_id` does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/read over scope `subscription_id` or the scope is invalid. If access was recently granted, please refresh your credentials
+{% endhint %}
+
+**STEP 1: Log in Azure Portal &gt; Subscriptions** 
+
+![](../../.gitbook/assets/image%20%28113%29.png)
+
+**STEP 2: Click the subscription name that the resources are contained.**
+
+\*\*\*\*
+
+\*\*\*\*
+
+**STEP 3:** 
+
+
+
+
+
 
 
