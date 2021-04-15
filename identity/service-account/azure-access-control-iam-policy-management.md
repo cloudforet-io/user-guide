@@ -59,7 +59,7 @@ The client `client_id` with object id `object_id` does not have authorization to
 
 ![](../../.gitbook/assets/image-1-.png)
 
-**STEP 3: Set Role** `(Microsoft.Resource/subscriptions..)` **at Access control tab** **as below**
+**STEP 3: Set Role** `(Microsoft.Resource/subscriptions..)` on **Access control tab** **as below**
 
 ![](../../.gitbook/assets/image-2-.png)
 
