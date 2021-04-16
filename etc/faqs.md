@@ -32,8 +32,6 @@ Custom Role의 경우 사용자가 SpaceONE의 각 기능에 대한 권한을 �
 
 
 
-
-
 ## Statistics
 
 통계 데이터 관련 문의
