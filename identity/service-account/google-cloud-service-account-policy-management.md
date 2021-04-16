@@ -206,3 +206,29 @@ Click pencil icon to edit and Add New Role that created in previous step.
 
 ## Register Your Service Account into SpaceONE
 
+**Step 1: Please, Sign In into SpaceONE portal**
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-14.17.41.png)
+
+**Step 2: Drive to menu Service Account : `Identity` &gt; `Service Account` from Top Menu bar**
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-14.18.20.png)
+
+**Step 3: Select Provider Google &gt; Click `+ Add` Button**
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-14.36.04.png)
+
+**Step 4: Please, fill out all required fields as below with your Service Account JSON that you issued at** [**General Collector Step**](google-cloud-service-account-policy-management.md#general-collector)**.**
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-16.06.09.png)
+
+  
+**Step 5: Fill out Credentials Info or simply copy and paste JSON and Select Project that you want to map service account.**   
+
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-16.11.11.png)
+
+**Step 6: Click `Save` Button and Check if Service Account has register on the list.** 
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-16.14.44.png)
+
