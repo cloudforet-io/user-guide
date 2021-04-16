@@ -52,3 +52,7 @@
 * [Admin Guide](https://spaceone-dev.gitbook.io/admin-guide/)
 * [API Guide](https://spaceone-dev.gitbook.io/spaceone-apis/)
 
+## FAQ
+
+* [FAQs](faq/faqs.md)
+
