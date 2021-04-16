@@ -22,8 +22,8 @@ This user guide tutorial assumes that a `subscription id` is already created.
 
 There are two options for giving permission to Azure resources which SpaceONE is going to collect.
 
-* Grant `Reader role` to **resource group** where resources are located. If you give a role to resource group, _**SpaceONE**_ can only collect resources located in this resource group.
-* Grant `Reader role` to **subscription** where resources are located. If you give this role to subscription, SpaceONE can collect resources in  
+* Grant `Reader role` to **resource group** where resources are located. If you give a role to resource group, _SpaceONE_ can only collect resources located in this resource group.
+* Grant `Reader role` to **subscription** where resources are located. If you give a role to the subscription, SpaceONE can collect resources in all resource groups in this subscription.
 
 **Grant Roles to resource groups**
 
