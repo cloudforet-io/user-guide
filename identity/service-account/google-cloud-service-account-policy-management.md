@@ -19,7 +19,7 @@ description: Details of API Security policy to use SpaceONE plugin
 
 * \*\*\*\*[**General Collector**](google-cloud-service-account-policy-management.md#general-collector)\*\*\*\*
   * \*\*\*\*[**Special Roles**](google-cloud-service-account-policy-management.md#special-roles) ****
-* \*\*\*\*[**Power Controller**](../../automation/power-scheduler.md)\*\*\*\*
+* \*\*\*\*[**Power Controller**](google-cloud-service-account-policy-management.md#power-controller)\*\*\*\*
 * **Register Service Account into SpaceONE**
 
 ## General Collector 
