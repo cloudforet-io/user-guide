@@ -12,7 +12,7 @@ description: Details of API Security policy to use SpaceONE plugin
   * Google Compute VM Collector - **google-cloud compute**
   * Google Cloud Service Collector - **google-cloud-services**
   * Google power state Collector - **google-cloud-power-state**
-* **Power-scheduler** \(Post Action to Google Cloud resources to turn on/off/restart for following resources Compute VMs, Instance group, Cloud SQL\)
+* **Power-scheduler** \(Post Action to Google Cloud resources to turn on/off for following resources Compute VMs, Instance group, Cloud SQL\)
   * Google Cloud power Controller 
 
 **STEP 1. Please, Set service account**  to Create API for each use case:
