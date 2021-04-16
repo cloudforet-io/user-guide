@@ -20,7 +20,14 @@ Otherwise, you can add more restrictions per resource groups or actions. One of 
 
 This user guide tutorial assumes that a `subscription id` is already created.
 
-\*\*\*\*
+There are two options for giving permission to Azure resources which SpaceONE is going to collect.
+
+* Grant `Reader role` to **resource group** where resources are located. If you give a role to resource group, _**SpaceONE**_ can only collect resources located in this resource group.
+* Grant `Reader role` to **subscription** where resources are located. If you give this role to subscription, SpaceONE can collect resources in  
+
+**Grant Roles to resource groups**
+
+
 
 **STEP 1. Log in Azure Portal &gt; Resource groups** 
 
@@ -44,7 +51,7 @@ Select the resource group for which the collector will collect resources.
 
 ### Authorization
 
-If you get any kinds of error messages above, follow the troubleshooting steps below.
+Please, follow the steps on troubleshooting guide below if you face any of error messages above.
 
 #### 1. \(AuthorizationFailed\) Client does not have authorization 
 
