@@ -76,7 +76,23 @@ The client `client_id` with object id `object_id` does not have authorization to
 
 \*\*\*\*
 
-**STEP 4: Add role `Reader` assignment as below. Select the account entered in the service account of the** _**SpaceONE**_ **console.**
+**STEP 4: Add role assignment for followings as below**
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+* **Role**
+  * `Reader`
+* **Assign access to**
+  * `User, group, or service principal`
+* **Select**
+  * `App that has registered on Active directory` **at &gt; Azure ActiveDirectory &gt; Registered App**  
+
+
+    ![](../../.gitbook/assets/screen-shot-2021-04-16-at-12.45.27%20%281%29.png)
+
+{% hint style="info" %}
+**Note:**  Service Account name and Registered App name may be confused.   
+Please, Select Registered App as below \(Different Icons\).  
+****
+{% endhint %}
+
+![](../../.gitbook/assets/screen-shot-2021-04-16-at-12.38.16.png)
 
