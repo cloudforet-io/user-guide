@@ -15,11 +15,14 @@ description: Details of API Security policy to use SpaceONE plugin
 * **Power-scheduler** \(Post Action to Google Cloud resources to turn on/off/restart for following resources Compute VMs, Instance group, Cloud SQL\)
   * Google Cloud power Controller 
 
-**Please, Set service account**  to Create API for each use case:
+**STEP 1. Please, Set service account**  to Create API for each use case:
 
 * \*\*\*\*[**General Collector**](google-cloud-service-account-policy-management.md#general-collector)\*\*\*\*
   * \*\*\*\*[**Special Roles**](google-cloud-service-account-policy-management.md#special-roles) ****
 * \*\*\*\*[**Power Controller**](google-cloud-service-account-policy-management.md#power-controller)\*\*\*\*
+
+**STEP 2. Register Your Service Account into SpaceONE** 
+
 * **Register Service Account into SpaceONE**
 
 ## General Collector 
@@ -198,4 +201,8 @@ Click pencil icon to edit and Add New Role that created in previous step.
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-19.05.26.png)
 
  Click **`Save`** button.
+
+
+
+## Register Your Service Account into SpaceONE
 
