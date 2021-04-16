@@ -23,7 +23,7 @@ description: Details of API Security policy to use SpaceONE plugin
 
 **STEP 2. Register Your Service Account into SpaceONE** 
 
-* **Register Service Account into SpaceONE**
+* \*\*\*\*[**Register Service Account into SpaceONE**](google-cloud-service-account-policy-management.md#register-your-service-account-into-spaceone)\*\*\*\*
 
 ## General Collector 
 
