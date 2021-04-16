@@ -8,11 +8,19 @@ description: Details of API Security policy to use SpaceONE plugin
 
 **SpaceONE** highly recommends to set appropriate permissions to **Service Account** for each purpose. 
 
-Please, Set service account,  To Create API for each use case:
+* **General Collector** \(Retrieve Google Cloud Resources into **SpaceONE** Inventory\)
+  * Google Compute VM Collector - **google-cloud compute**
+  * Google Cloud Service Collector - **google-cloud-services**
+  * Google power state Collector - **google-cloud-power-state**
+* **Power-scheduler** \(Post Action to Google Cloud resources to turn on/off/restart for following resources Compute VMs, Instance group, Cloud SQL\)
+  * Google Cloud power Controller 
 
-* [General Collector](google-cloud-service-account-policy-management.md#general-collector)
-  * [Special Roles](google-cloud-service-account-policy-management.md#special-roles) 
-* [Power Scheduler Service](google-cloud-service-account-policy-management.md#powerscheduler)
+**Please, Set service account**  to Create API for each use case:
+
+* \*\*\*\*[**General Collector**](google-cloud-service-account-policy-management.md#general-collector)\*\*\*\*
+  * \*\*\*\*[**Special Roles**](google-cloud-service-account-policy-management.md#special-roles) ****
+* \*\*\*\*[**Power Controller**](../../automation/power-scheduler.md)\*\*\*\*
+* **Register Service Account into SpaceONE**
 
 ## General Collector 
 
@@ -135,7 +143,7 @@ Click pencil icon to edit and Add New Role that created in previous step
 
 Click **`Save`** button.
 
-## PowerScheduler
+## Power Controller
 
 _**SpaceONE**_'s _**Power Scheduler**_ requires edit permission to update following Cloud Services: 
 
