@@ -25,9 +25,11 @@ There are two options for giving permission to Azure resources which SpaceONE is
 * Grant `Reader role` to **resource group** where resources are located. If you give a role to resource group, _SpaceONE_ can only collect resources located in this resource group.
 * Grant `Reader role` to **subscription** where resources are located. If you give a role to the subscription, SpaceONE can collect resources in all resource groups in this subscription.
 
+If you want to know more about Azure's access control policies, visit the link below.
+
+[https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
+
 **Grant Roles to resource groups**
-
-
 
 **STEP 1. Log in Azure Portal &gt; Resource groups** 
 
