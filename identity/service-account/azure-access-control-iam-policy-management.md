@@ -44,6 +44,8 @@ Select the resource group for which the collector will collect resources.
 
 ### Authorization
 
+If you get any kinds of error messages above, follow the troubleshooting steps below.
+
 #### 1. \(AuthorizationFailed\) Client does not have authorization 
 
 {% hint style="warning" %}
@@ -57,11 +59,15 @@ The client `client_id` with object id `object_id` does not have authorization to
   
 **STEP 2: Click the subscription name where resources are located.**
 
-![](../../.gitbook/assets/image-1-.png)
+![](../../.gitbook/assets/image%20%28114%29.png)
 
-**STEP 3: Set Role** `(Microsoft.Resource/subscriptions..)` **on Access control tab** **as below**
+**STEP 3: Click `+Add role assignment` button.**
 
 ![](../../.gitbook/assets/image-2-.png)
 
+\*\*\*\*
 
+**STEP 4: Add role `Reader` assignment as below. Select the account entered in the service account of the** _**SpaceONE**_ **console.**
+
+![](../../.gitbook/assets/image%20%28115%29.png)
 
