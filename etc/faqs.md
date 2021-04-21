@@ -40,7 +40,29 @@ Custom Role의 경우 사용자가 SpaceONE의 각 기능에 대한 권한을 �
 
 매일 01:00\(UTC\)에 도메인별/프로젝트 별로 사용량에 대한 통계를 수집해서, 저장합니다. Cloud Resource에 대한 데이터만 통계 수집으로 저장하고, Billing 데이터의 경우 별도 적재없이, 실시간으로 외부 Billing Data Source에 적재된 데이터를 보여줍니다. 
 
-#### 
+
+
+## Plugin
+
+Collector의 플러그인 관리
+
+#### Q. Collector의 플러그인 버전 관리는 어떻게 하나요? 
+
+Collector 플러그인의 경우 회사 내 관리자가 Self로 변경하실 수 있는 기능을 제공합니다. \(Plugin &gt; Collector 선택 &gt; Edit\)
+
+SpaceONE은 내부적으로 두 가지 버전을 가지고 있습니다. 첫번째는 SpaceONE Core 서비스에 대한 버전이고, 두번째는 각 Plugin에 대한 버전입니다. Core 서비스에 대한 버전은 Console Login 화면 왼쪽 하단에 기록 되어있습니다. Inventory Plugin에 대한 버전은 Collector 리스트에서 조회하실 수 있습니다. 
+
+Core 서비스와 Plugin 버전에 대해 검증된 호환성 리스트를 매 Release Note에 안내 드리고 있습니다. Release Note 리스트는 아래 링크를 참고해주세요. 
+
+{% embed url="https://www.spaceone.org/release-note" %}
+
+{% embed url="https://github.com/spaceone-dev/spaceone/tree/master/release\_notes" %}
+
+
+
+
+
+
 
 
 
