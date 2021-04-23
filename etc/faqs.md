@@ -6,6 +6,8 @@ description: 스페이스원에 대해 자주 문의되는 사항들을 정리 �
 
 
 
+
+
 ## Identity 
 
 Project/인증/권한관련 문의
@@ -44,7 +46,7 @@ Custom Role의 경우 사용자가 SpaceONE의 각 기능에 대한 권한을 �
 
 ## Plugin
 
-Collector의 플러그인 관리
+SpaceONE의 플러그인 관리
 
 #### Q. Collector의 플러그인 버전 관리는 어떻게 하나요? 
 
@@ -59,6 +61,57 @@ Core 서비스와 Plugin 버전에 대해 검증된 호환성 리스트를 매 R
 {% embed url="https://github.com/spaceone-dev/spaceone/tree/master/release\_notes" %}
 
 
+
+####  Q. SpaceONE의 전체 플러그인 리스트를 알고 싶습니다. 
+
+SpaceONE의 MicroService Architecture를 지향하고 있으며, 각각의 Core 모듈들이 독립적으로 동작하고 있습니다. 그리고 각 Core 모듈들이 타 시스템과 연동이 필요할때 Plugin을 사용합니다. 
+
+아래는 SpaceONE을 구성하는 Core Service와 각 서비스별 지원하는 Plugin 리스트 입니다. 
+
+| Core Service | Provider | Plugin Name |
+| :--- | :--- | :--- |
+| identity | keycloak | plugin-keycloak-oidc |
+| identity | Google | google-oauth2 |
+| inventory | aws | aws-ec2 |
+| inventory | aws | aws-cloud-service |
+| inventory | aws | aws-power-state |
+| inventory | aws | aws-personal-health-dashboard |
+| inventory | aws | aws-trusted-advisor |
+| inventory | google cloud | google-cloud-compute |
+| inventory | google cloud | google-cloud-services |
+| inventory | google cloud | google-cloud-services |
+| inventory | azure | azure-vm |
+| inventory | azure | azure-cloud-services |
+| inventory | azure | azure-power-state |
+| inventory | oracle | oracle-cloud-services |
+| inventory | alibaba | alibaba-cloud-ecs |
+| inventory | spaceone | monitoring-metric-collector |
+| monitoring | aws | aws-cloudwatch |
+| monitoring | google cloud | google-cloud-stackdriver |
+| monitoring | azure | azure-monitor |
+| power\_scheduler | aws | aws-power-scheduler-controller |
+| power\_scheduler | google cloud | google-cloud-power-controller |
+| billing | hyperbilling | aws-hyperbilling |
+
+    
+
+
+
+
+
+## General
+
+ 일반적인 문의사항에 대해 답변 드립니다. 
+
+
+
+#### Q. SpaceONE의 기능 로드맵을 어디서 확인할 수 있을까요? 
+
+SpaceONE의 기능 Release Plan은 Github을 통해 실시간으로 오픈되어 관리되고 있습니다. 아래 링크를 확인 부탁 드리겠습니다. 
+
+[https://github.com/spaceone-dev/spaceone/projects/1](https://github.com/spaceone-dev/spaceone/projects/1)
+
+ 
 
 
 
