@@ -305,8 +305,12 @@ Cloud resources has a such a condition that does not support within power schedu
 * **Results on Action:** 
   * * recommend size is given by Google Cloud from their own statistic
   * **ON :** Scale up to recommend size\(count\) of Instance group and autoscaling mode is on \(Keep scale in/out itself by recommend size if autoscaling mode is on\). 
-  * **OFF :** NO matter autoscaling mode is on or off, diminish Instance Group to 1 Instance and autoscaling mode is off.            
+  * **OFF :** No matter autoscaling mode is on or off, diminish Instance Group to 1 Instance and autoscaling mode is off.
 {% endhint %}
+
+* Action Cycle & status  
+
+![](../.gitbook/assets/screen-shot-2021-04-26-at-20.59.27.png)
 
 
 
