@@ -297,5 +297,16 @@ Cloud resources has a such a condition that does not support within power schedu
   * Only **Stateless** type in Instance Group is valid to turn on/off in power scheduler service because Google Cloud supports autoscaling on **Stateless** type only in Instance Group.  \(Refer to[ google.compute.instance\_group](https://cloud.google.com/compute/docs/instance-groups)\)
   * Minimum number of Instance in Instance group is 1 when instance group scales in\(autoscaling\) except certain type \(Unmanaged Instance Group\). 
 
+{% hint style="info" %}
+**Please, be advised that "Instance Group" is working for action Start/Stop as followings**:
+
+* **Valid type:** 
+  * **Stateless** \(**Managed**\) as mentioned above.
+* **Results on Action:** 
+  * * recommend size is given by Google Cloud from their own statistic
+  * **ON :** Scale up to recommend size\(count\) of Instance group and autoscaling mode is on \(Keep scale in/out itself by recommend size if autoscaling mode is on\). 
+  * **OFF :** NO matter autoscaling mode is on or off, diminish Instance Group to 1 Instance and autoscaling mode is off.            
+{% endhint %}
+
 
 
