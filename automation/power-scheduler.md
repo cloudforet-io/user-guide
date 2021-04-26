@@ -303,7 +303,7 @@ Cloud resources has a such a condition that does not support within power schedu
 * **Valid type:** 
   * **Stateless** \(**Managed**\) as mentioned above.
 * **Results on Action:** 
-  * * recommend size is given by Google Cloud from their own statistic
+  * * Recommend size is given by Google Cloud from their own statistic
   * **ON :** Scale up to recommend size\(count\) of Instance group and autoscaling mode is on \(Keep scale in/out itself by recommend size if autoscaling mode is on\). 
   * **OFF :** No matter autoscaling mode is on or off, diminish Instance Group to 1 Instance and autoscaling mode is off.
 {% endhint %}
