@@ -2,10 +2,10 @@
 
 * [스페이스원에 오신것을 환영합니다](README.md)
 
-## Introduction to SpaceONE
+## ABOUT SpaceONE
 
-* [SpaceONE](introduction-to-spaceone/spaceone.md)
-* [Key Differentiators](introduction-to-spaceone/key-differentiators.md)
+* [SpaceONE](about-spaceone/spaceone.md)
+* [Key Differentiators](about-spaceone/key-differentiators.md)
 
 ## Getting Started
 
