@@ -11,13 +11,14 @@
 
 ---
 
+* [Basic Setup](basic-setup.md)
+* [Power Scheduler Quick Start](power-scheduler-quick-start-1.md)
 * [Root Account](root-account.md)
 * [Domain Admin](domain-admin.md)
 * [General User](general-user.md)
 
 ## ADVANCED TOPIC
 
-* [Power Scheduler Quick Start](advanced-topic/power-scheduler-quick-start.md)
 * [Billing Quick Start](advanced-topic/billing-quick-start.md)
 * [Metric Collector Quick Start](advanced-topic/metric-collector-quick-start.md)
 
@@ -60,7 +61,6 @@
 ## ETC
 
 * [Profile](etc/profile.md)
-* [FAQs](etc/faqs.md)
 * [Domain 관리자 전용기능](etc/administrator.md)
 
 ## REFERENCE LINK
