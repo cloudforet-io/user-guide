@@ -63,3 +63,12 @@
 * [FAQs](etc/faqs.md)
 * [Domain 관리자 전용기능](etc/administrator.md)
 
+## REFERENCE LINK
+
+* [Admin Guide](reference-link/admin-guide.md)
+* [API Guide](reference-link/api-guide.md)
+
+## FAQ
+
+* [FAQs](faq/faqs.md)
+
