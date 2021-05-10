@@ -68,15 +68,15 @@ Account id 혹은 Assume Role, Access Key 항목을 입력하는데 어려움이
 
 ## 자원 수집
 
-**STEP 1:** Drive to menu **`Plugin > Collector`**  at the top menu bar. 
+**STEP 1:** 메뉴바 상단의 **`Plugin > Collector`**  로 이동하세요.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-16.04.34.png)
 
-**STEP 2:**  Select collector and  Select collect data from drop down option on Action. 
+**STEP 2:**  Collector를 선택 하고 Action 버튼 안의 Collect Data 버튼을 클릭 하세요.
 
 ![](.gitbook/assets/collect_data.png)
 
-**STEP 3:**  Click **`Confirm`** button on **Collect Data** pop-up window.
+**STEP 3:  Collect Data** 팝업 화면에서 **`Confirm`** 버튼을 클릭 하세요.
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-16.19.58.png)
 
