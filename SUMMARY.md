@@ -14,6 +14,11 @@
 * [Basic Setup](general-user.md)
 * [Power Scheduler Quick Start](power-scheduler-quick-start.md)
 
+## ADVANCED TOPIC
+
+* [Excel Export](advanced-topic/excel-export.md)
+* [Custom Table](advanced-topic/custom-table.md)
+
 ## Dashboard <a id="dashboard-1"></a>
 
 * [Domain Dashboard](dashboard-1/dashboard.md)
