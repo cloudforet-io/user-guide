@@ -26,7 +26,7 @@ description: >-
 
 \*\*\*\*
 
-**STEP 2:** Name **`Group`** at top bar and click **`+ Confirm`** button as below.
+**STEP 2:** Name **`Group`** at top bar and click **`Confirm`** button as below.
 
 ![](.gitbook/assets/create_project_group_spaceone.png)
 
@@ -62,7 +62,7 @@ Please, Click links at Help for AWS Users panel if you have any issue to get Acc
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-15.54.03.png)
 
-**STEP 3:** Please, select a project that you want to map with your service account. \(Optional\).   
+**STEP 3:** Please, select a project that you want to map with your service account.   
 We highly recommend mapping a project with Service Account for cloud resource management purposes.
 
 ![](.gitbook/assets/attach_account_to_project.png)
