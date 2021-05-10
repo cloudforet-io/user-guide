@@ -17,7 +17,7 @@ description: 표시하고 싶은 테이블의 필드를 관리합니다.
 ![](../.gitbook/assets/01_server_page.png)
 
 {% hint style="info" %}
-현재 필드 개인화가 지원되는 테이블 아래와 같습니다.
+현재 필드 개인화가 지원되는 테이블은 아래와 같습니다.
 
 * Inventory &gt; Server - Main Table
 * Inventory &gt; Cloud Service Detail - Main Table 
