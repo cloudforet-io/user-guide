@@ -16,8 +16,6 @@
 
 ## ADVANCED TOPIC
 
-* [Billing Quick Start](advanced-topic/billing-quick-start.md)
-* [Metric Collector Quick Start](advanced-topic/metric-collector-quick-start.md)
 * [Search](advanced-topic/search.md)
 * [Excel Export](advanced-topic/excel-export.md)
 * [Custom Table](advanced-topic/custom-table.md)
