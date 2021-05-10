@@ -16,7 +16,6 @@
 
 ## ADVANCED TOPIC
 
-* [Search](advanced-topic/search.md)
 * [Excel Export](advanced-topic/excel-export.md)
 * [Custom Table](advanced-topic/custom-table.md)
 
@@ -59,7 +58,6 @@
 ## ETC
 
 * [Profile](etc/profile.md)
-* [Domain 관리자 전용기능](etc/administrator.md)
 
 ## REFERENCE LINK
 
