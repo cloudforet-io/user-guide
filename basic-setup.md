@@ -42,32 +42,31 @@ description: >-
 
 ![](.gitbook/assets/list_spaceone_projects.png)
 
-## Register Service Account
+## Service Account를 등록 
 
-Service accounts must be registered to run collectors which getting cloud resources from public clouds.
+Collector를 통해 Public Cloud에 속한 클라우드 자원들의 정보를 가져오기 위해서는 Service Account가 반드시 등록되어 있어야 합니다. 
 
   
-**STEP 1:** Drive to menu **`Identity > Service Account`** from the top bar and Click AWS from the provider panel on the left side menu.  
-Click **`+ Add`** button to add AWS service account. 
+**STEP 1:**  상단 바에 있는 **`Identity > Service Account`** 로 가서 좌측 메뉴에 있는 AWS를 클릭 합니다. AWS Service Account를 추가 하기 위해 **`+ Add`** 버튼을 클릭 합니다.
 
 ![](.gitbook/assets/select_service_account_as_aws.png)
 
-**STEP 2:** Fill out the name of Service Account and Account ID on base information fields. Please, fill out your **AWS Access Key** and **AWS Secret Key** as well. 
+**STEP 2:** 기본 입력 사항에 적혀있는 Service Account ****의 이름과 Account ID를 입력 합니다. 그 이후에 Credentials 항목에 속한 **AWS Access Key** 와 **AWS Secret Key** 또한 입력 합니다. 
 
 {% hint style="info" %}
-Please, Click links at Help for AWS Users panel if you have any issue to get Account id, Assume role, and AWS access key. 
+Account id 혹은 Assume Role, Access Key 항목을 입력하는데 어려움이 있을 경우 Help의 링크를 클릭하여 상세내역을 확인 합니다. 
 {% endhint %}
 
 ![](.gitbook/assets/screen-shot-2021-02-05-at-15.54.03.png)
 
-**STEP 3:** Please, select a project that you want to map with your service account. \(Optional\).   
-We highly recommend mapping a project with Service Account for cloud resource management purposes.
+**STEP 3:** Service Account 를 연결 하고자 하는 프로젝트를 선택해 주세요.  
+하나의 Cloud 자원 관리를 효율적으로 하기 위해 Service Account에 프로젝트를 반드시 연결 하는것을 권장 합니다. 
 
 ![](.gitbook/assets/attach_account_to_project.png)
 
-All cloud resources under the Service Account that you registered above will be shown on the selected project and  I**nventory** menu.
+위의 Service Account에 등록한 모든 클라우드 자원들은 프로젝트와 inventory 메뉴에서 조회가 가능합니다. 
 
-## Collect Resources
+## 자원 수집
 
 **STEP 1:** Drive to menu **`Plugin > Collector`**  at the top menu bar. 
 
