@@ -50,7 +50,7 @@ SpaceONE 내에서 위와 같은 Excel 모양 버튼을 클릭하면 해당하�
 
 ![](../.gitbook/assets/cloud_service_excel.png)
 
-Cloud service 메인 페이지에서 Export를 할 시에, 첫 Sheet에는 요약 정보가 들어가고 그 다음 Sheet부터는 각각의 Cloud Service에 대한 Detail 정보가 들어갑니다.
+예를 들어,Cloud service 메인 페이지에서 Export를 할 시에첫 Sheet에는 요약 정보가 들어가고 그 다음 Sheet부터는 각각의 Cloud Service에 대한 Detail 정보가 들어갑니다.
 
 
 
