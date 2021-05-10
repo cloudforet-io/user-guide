@@ -13,8 +13,6 @@
 
 * [Basic Setup](basic-setup.md)
 * [Power Scheduler Quick Start](power-scheduler-quick-start-1.md)
-* [Root Account](root-account.md)
-* [Domain Admin](domain-admin.md)
 * [General User](general-user.md)
 
 ## ADVANCED TOPIC
