@@ -16,7 +16,9 @@ description: 표시하고 싶은 테이블의 필드를 관리합니다.
 
 ![](../.gitbook/assets/01_server_page.png)
 
-필드 개인화 모달에서 
+필드 개인화 모달에서 원하는 필드를 선택합니다.
+
+
 
 {% hint style="info" %}
 현재 필드 개인화가 지원되는 테이블은 아래와 같습니다.
