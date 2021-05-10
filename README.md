@@ -1,14 +1,14 @@
 # 스페이스원에 오신것을 환영합니다
 
-### SpaceONE's Mission
+## Introduction
 
-스페이스원은 **Multi-Cloud** 를 통합 관리하고, 지속 가능한 Multi-Cloud Native Ecosystem을 구축하는 것을 목표로 합니다. 
-
-클라우드 관리 플랫폼의 대표주자로서, Multi-cloud 자원을 통합/관리해 최상의 운영 효율성 전략을 세울 수 있도록 합니다.  
+**SpaceONE 은 Cloud Native 기술을 기반으로 한** 
 
 
 
-![](.gitbook/assets/gitbook_so.png)
+![](.gitbook/assets/userguide_img_2.png)
+
+
 
 
 
