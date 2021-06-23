@@ -46,6 +46,7 @@
 
 * [Alert Manager](monitoring/alert-manager/README.md)
   * [WebHook Settings](monitoring/alert-manager/webhook-settings/README.md)
+    * [AWS SNS](monitoring/alert-manager/webhook-settings/aws-sns.md)
     * [Grafana](monitoring/alert-manager/webhook-settings/grafana.md)
 
 ## Automation
