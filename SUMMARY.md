@@ -44,7 +44,8 @@
 
 ## Monitoring
 
-* [Alert Manager](monitoring/alert-manager.md)
+* [Alert Manager](monitoring/alert-manager/README.md)
+  * [WebHook Settings](monitoring/alert-manager/webhook-settings.md)
 
 ## Automation
 
