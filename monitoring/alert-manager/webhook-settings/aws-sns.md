@@ -15,9 +15,19 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 ### Set up a Topic on AWS SNS
 
+**Step 1. Log in AWS Console &gt; SNS &gt; Topics**
 
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.54.56.png)
 
-### 
+**`Project`**  p
+
+**Step 2. Click `Create topic`**  **Button**
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.57.52.png)
+
+**Step 3. Select `Standard`**  **options and Give name for new topic as below**
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-14.02.27.png)
 
 ### Set up a Subscription on AWS SNS
 
