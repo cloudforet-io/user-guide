@@ -17,3 +17,21 @@ description: Set up a Webhook for Alert Manager
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-28-at-10.37.24.png)
 
+## Adding Webhook \(Get Webhook URL\)
+
+To set up a **Webhook** for alert and notification requires appropriate url to retrieve from monitoring systems such as AWS SNS, Grafana, etc. 
+
+**STEP 1. Log in SpaceONE Portal &gt; Project &gt; Alert tab**
+
+Go to Project's Alert Tab and Click **`Activate Alert`**  button and then you will see Activate Alert Success 
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-10.45.04.png)
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-10.46.16.png)
+
+**STEP 2. Alert &gt; Webhook &gt; `+ Add`**
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-11.17.17.png)
+
+
+
