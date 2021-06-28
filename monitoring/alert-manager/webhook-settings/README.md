@@ -42,5 +42,5 @@ Latest version automatically will be selected if you Click version drop-down.**
 
 **STEP 4. Check registered Webhooks on the list.**
 
-![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.39.57.png)
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.40.53.png)
 
