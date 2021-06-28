@@ -29,6 +29,8 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-28-at-14.02.27.png)
 
+**Step 2. Click `Create topic`**  **Button**
+
 ### Set up a Subscription on AWS SNS
 
 
