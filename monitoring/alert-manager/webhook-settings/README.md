@@ -33,5 +33,14 @@ Go to Project's Alert Tab and Click **`Activate Alert`**  button and then you wi
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-28-at-11.17.17.png)
 
+**STEP 3. Name Webhook, Select Type of Webhook&Version and Click  `Confirm` Button**
 
+{% hint style="info" %}
+**Please, Select latest Version of Webhook  
+Latest version automatically will be selected if you Click version drop-down.**   
+{% endhint %}
+
+**STEP 4. Check registered Webhooks on the list.**
+
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.39.57.png)
 
