@@ -2,12 +2,11 @@
 
 ## Set up a Webhook at Grafana
 
-**To** Connect **SpaceONE's** Alert Manager**,** Set up Grafana's Notification Channels.   
-**`Project`**  p
+**To** Connect **SpaceONE's** Alert Manager**,** Set up Grafana's Notification Channels. 
 
 Please, Set Alerting Channel for following Steps
 
-* Set up a Notification Channel on Grafana
+* [Set up a Notification Channel](grafana.md#set-up-a-notification-channels) 
 
 ### Set up a Notification Channels
 
