@@ -38,3 +38,7 @@ Please,** type ****URL ****as **HTTP  like`http://monitoring-webhook.dev.spaceon
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-15.34.10.png)
 
+**Step 5. Click Save button and Check Notification Channel has successfully created.** 
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-15.36.35.png)
+
