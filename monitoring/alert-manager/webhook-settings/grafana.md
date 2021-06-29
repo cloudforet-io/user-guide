@@ -22,7 +22,7 @@ Please, Set Alerting Channel for following Steps
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-15.08.49.png)
 
-**Step 4. Type name, URL and Select Type of Channel as webhook** 
+**Step 4. Type name,** [**Webhook URL\(from SapceONE\)**](./#webhook-list) **and Select Type of Channel as webhook** 
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-15.23.34.png)
 
