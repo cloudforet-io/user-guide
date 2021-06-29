@@ -10,8 +10,8 @@ To ****Connect **SpaceONE's Alert Manager,** Set up AWS SNS's Topic and its Subs
 
 Please, Set SNS Topic and its Subscription for following Steps
 
-* Set up a Topic on AWS SNS
-* Set up a Subscription on AWS SNS
+* [Set up a Topic on AWS SNS](aws-sns.md#set-up-a-topic-on-aws-sns)
+* [Set up a Subscription on AWS SNS](aws-sns.md#set-up-a-subscription-on-aws-sns)
 
 ### Set up a Topic on AWS SNS
 
