@@ -43,5 +43,6 @@ Once Topic has created, as above. Please, set subscription.
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57.png)
 
+**Step 2. Click `Create subscription`** **button to** **Create subscription**   
 
 
