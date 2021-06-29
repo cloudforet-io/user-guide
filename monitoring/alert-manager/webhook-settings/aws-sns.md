@@ -31,8 +31,6 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.41.33.png)
 
-![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57%20%281%29.png)
-
 ### Set up a Subscription on AWS SNS
 
 Once Topic has created, as above. Please, set subscription. 
@@ -44,7 +42,7 @@ Once Topic has created, as above. Please, set subscription.
 **Step 2.  Type or select each required fields and Click `Create subscription`** **button to** **Create subscription**
 
 * Protocol : HTTPS
-* Endpoint : Webhook URL that you create from [SpaceONE](./)
+* Endpoint : Webhook URL that you create from [**SpaceONE**](./#webhook-list)\*\*\*\*
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-13.32.56.png)
 
