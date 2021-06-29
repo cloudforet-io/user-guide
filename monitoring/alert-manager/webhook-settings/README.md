@@ -51,8 +51,8 @@ Latest version automatically will be selected if you click version drop-down.**
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-16.11.37.png)
 
 {% hint style="info" %}
-
+All **Webhook URLs** that Created through **SpaceONE** is **HTTPS** but **HTTP** works as well**.   
+  
+Please,** type ****URL ****as **HTTP  like if you need to set url as HTTP `http://monitoring-webhook.dev.spaceone.dev/monitoring/v1/webhook/...`**
 {% endhint %}
-
-
 
