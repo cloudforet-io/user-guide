@@ -19,8 +19,6 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.54.56.png)
 
-**`Project`**  p
-
 **Step 2. Click `Create topic`**  **Button**
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-28-at-13.57.52.png)
