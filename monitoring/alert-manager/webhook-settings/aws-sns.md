@@ -39,10 +39,29 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 Once Topic has created, as above. Please, set subscription. 
 
-**Step 1. Log in AWS Console &gt; SNS &gt; Topics &gt; Select Topic that you would like to set up a subscription.** 
+**Step 1. Log in AWS Console &gt; SNS &gt; Topics &gt; Select Topic that you would like to set up a subscription and then Click  `Create subscription`**
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57.png)
 
-**Step 2. Click `Create subscription`** **button to** **Create subscription**   
+**Step 2.  Type or select each required field and Click `Create subscription`** **button to** **Create subscription**
 
+* Protocol : HTTPS
+* Endpoint : Webhook URL that you create from [SpaceONE](./)
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-13.32.56.png)
+
+**Step 3.  Check created subscription under  AWS Console &gt; SNS &gt; Topics &gt; AWS-SNS \(Created Topic\)** 
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-14.03.08.png)
+
+  
+**Step 4. Check Status has changed after create a new subscription from `Pending confirmation`** to  **`Confirmed`** as below  
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-14.07.24.png)
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-14.14.36.png)
+
+**Step 5. You are ready to get SNS message through Webhook once status updated as `Confirmed`**
+
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-14.16.38.png)
 
