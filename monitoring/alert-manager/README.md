@@ -4,7 +4,11 @@
 
 Alert manager provides alert management, notifications, and further more.
 
-In Alert Manager page, User can  set a Notification Service, Alert managements, etc based on Monitoring features. and will be extended its management features periodically through **SpaceONE**' Release Schedule. 
+In Alert Manager page, User can  set a Notification Service, Alert managements, etc based on Monitoring features.
+
+{% hint style="success" %}
+Additional features on **Alert Manager** will be extended periodically through **SpaceONE**' Release Schedule. 
+{% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2021-06-29-at-14.19.51.png)
 
