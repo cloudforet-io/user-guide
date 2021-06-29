@@ -33,13 +33,15 @@ Please, Set SNS Topic and its Subscription for following Steps
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.41.33.png)
 
-![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57.png)
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57%20%281%29.png)
 
 ### Set up a Subscription on AWS SNS
 
+Once Topic has created, as above. Please, set subscription. 
 
+**Step 1. Log in AWS Console &gt; SNS &gt; Topics &gt; Select Topic that you would like to set up a subscription.** 
 
-
+![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57.png)
 
 
 
