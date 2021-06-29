@@ -6,7 +6,7 @@ description: Set up a Topic and Subscription at AWS SNS Service
 
 ## Set up a SNS topic and Subscription
 
-**To** Connect **SpaceONE's Alert Manager,** Set up AWS SNS's Topic and its Subscriptions
+To ****Connect **SpaceONE's Alert Manager,** Set up AWS SNS's Topic and its Subscriptions
 
 Please, Set SNS Topic and its Subscription for following Steps
 
@@ -41,7 +41,7 @@ Once Topic has created, as above. Please, set subscription.
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-11.48.57.png)
 
-**Step 2.  Type or select each required field and Click `Create subscription`** **button to** **Create subscription**
+**Step 2.  Type or select each required fields and Click `Create subscription`** **button to** **Create subscription**
 
 * Protocol : HTTPS
 * Endpoint : Webhook URL that you create from [SpaceONE](./)
