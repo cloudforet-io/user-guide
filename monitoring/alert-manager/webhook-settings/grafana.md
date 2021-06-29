@@ -6,7 +6,7 @@
 
 Please, Set Alerting Channel for following Steps
 
-* [Set up a Notification Channel](grafana.md#set-up-a-notification-channels) 
+* [**Set up a Notification Channel**](grafana.md#set-up-a-notification-channels) ****
 
 ### Set up a Notification Channels
 
