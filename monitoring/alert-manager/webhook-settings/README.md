@@ -50,5 +50,9 @@ Latest version automatically will be selected if you click version drop-down.**
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-29-at-16.11.37.png)
 
+{% hint style="info" %}
+
+{% endhint %}
+
 
 
